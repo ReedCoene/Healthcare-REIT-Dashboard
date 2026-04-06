@@ -454,6 +454,112 @@ function renderWeeklyReport(data) {
     </div>` : ''}`;
 }
 
+// ── Today's Brief ─────────────────────────────────────────────
+function renderBrief(data) {
+  const stocks  = Object.values(data.stocks);
+  const news    = data.news || [];
+  const sorted  = [...stocks].sort((a, b) => b.pct_change - a.pct_change);
+  const advancing = stocks.filter(s => s.pct_change > 0).length;
+  const declining = stocks.filter(s => s.pct_change < 0).length;
+
+  // Sentiment line
+  const majority = advancing > declining ? 'up' : advancing < declining ? 'down' : 'flat';
+  const sentimentText = majority === 'up'
+    ? `${advancing} of ${stocks.length} healthcare REITs advanced today`
+    : majority === 'down'
+    ? `${declining} of ${stocks.length} healthcare REITs declined today`
+    : `Healthcare REITs were mixed today`;
+  const sentimentCls = majority === 'up' ? 'up' : majority === 'down' ? 'down' : 'flat';
+
+  // Top movers (top 2 gainers + top loser if notable)
+  const gainers = sorted.filter(s => s.pct_change > 0).slice(0, 2);
+  const losers  = sorted.filter(s => s.pct_change < 0).reverse().slice(0, 2);
+  const movers  = [...gainers, ...losers].slice(0, 4);
+
+  // Key signals — earnings, dividends, analyst ratings
+  const signals = news.filter(n => n.is_signal).slice(0, 5);
+
+  // Macro headlines — broad/sector only
+  const macro = news.filter(n => !n.ticker && n.category !== 'reit' && n.is_signal).slice(0, 3);
+
+  const moverCards = movers.map(s => {
+    const { text, cls } = fmtChange(s.pct_change);
+    return `
+      <div class="brief-mover">
+        <div class="brief-mover-left">
+          <span class="brief-ticker">${s.ticker}</span>
+          <span class="brief-name">${s.name}</span>
+        </div>
+        <div class="brief-mover-right">
+          <span class="brief-price">${fmtPrice(s.price)}</span>
+          <span class="pct-pill ${cls}">${text}</span>
+        </div>
+      </div>`;
+  }).join('');
+
+  const signalItems = signals.map(n => {
+    const link = n.link
+      ? `<a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>`
+      : n.title;
+    const label = n.ticker || n.source || '—';
+    return `
+      <div class="brief-item">
+        <span class="brief-item-tag">${label}</span>
+        <span class="brief-item-text">${link}</span>
+      </div>`;
+  }).join('');
+
+  const macroItems = macro.map(n => {
+    const link = n.link
+      ? `<a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>`
+      : n.title;
+    return `
+      <div class="brief-item">
+        <span class="brief-item-tag broad">${n.source}</span>
+        <span class="brief-item-text">${link}</span>
+      </div>`;
+  }).join('');
+
+  document.getElementById('todaysBrief').innerHTML = `
+    <div class="brief-wrap">
+
+      <div class="brief-hero">
+        <div class="brief-date">${data.market_date || '—'}</div>
+        <h2 class="brief-headline">
+          <span class="${sentimentCls}">${sentimentText}.</span>
+        </h2>
+        <div class="brief-breadth">
+          <span class="up">${advancing} up</span>
+          <span class="brief-sep">·</span>
+          <span class="down">${declining} down</span>
+          <span class="brief-sep">·</span>
+          <span class="flat">${stocks.length - advancing - declining} flat</span>
+        </div>
+      </div>
+
+      <div class="brief-sections">
+
+        <div class="brief-section">
+          <div class="brief-section-label">Biggest Movers</div>
+          <div class="brief-movers">${moverCards || '<p class="empty-msg">No data.</p>'}</div>
+        </div>
+
+        ${signals.length ? `
+        <div class="brief-section">
+          <div class="brief-section-label">Key Signals</div>
+          <div class="brief-list">${signalItems}</div>
+        </div>` : ''}
+
+        ${macro.length ? `
+        <div class="brief-section">
+          <div class="brief-section-label">Healthcare &amp; Policy</div>
+          <div class="brief-list">${macroItems}</div>
+        </div>` : ''}
+
+      </div>
+    </div>`;
+}
+
 // ── Bootstrap ────────────────────────────────────────────────
 async function init() {
   try {
@@ -468,6 +574,7 @@ async function init() {
       });
 
     renderAlert(data.stocks);
+    renderBrief(data);
 
     // CTRE tab
     renderCTRESummary(data);

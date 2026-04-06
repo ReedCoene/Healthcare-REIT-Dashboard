@@ -663,6 +663,127 @@ a:hover { color: var(--t1); text-decoration: underline; }
 .weekly-empty-sub  { font-size: 11px; color: var(--t4); }
 
 /* ════════════════════════════════════
+   TODAY'S BRIEF
+════════════════════════════════════ */
+.brief-wrap { max-width: 720px; margin: 0 auto; padding: 8px 0 40px; }
+
+.brief-hero {
+  padding: 40px 0 36px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 40px;
+}
+.brief-date {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--blue-h);
+  margin-bottom: 14px;
+}
+.brief-headline {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.8px;
+  color: var(--t1);
+  margin-bottom: 16px;
+}
+.brief-breadth {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.brief-sep { color: var(--t4); font-weight: 400; }
+
+.brief-sections { display: flex; flex-direction: column; gap: 40px; }
+
+.brief-section-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--t4);
+  margin-bottom: 16px;
+}
+
+/* Movers */
+.brief-movers { display: flex; flex-direction: column; gap: 2px; }
+.brief-mover {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  background: var(--s1);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  transition: border-color 0.12s;
+}
+.brief-mover:hover { border-color: var(--border-h); }
+.brief-mover-left  { display: flex; align-items: center; gap: 12px; }
+.brief-mover-right { display: flex; align-items: center; gap: 12px; }
+.brief-ticker {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--t1);
+  min-width: 52px;
+}
+.brief-name  { font-size: 13px; color: var(--t3); }
+.brief-price {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--t1);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.3px;
+}
+
+/* Signal / macro list */
+.brief-list { display: flex; flex-direction: column; gap: 2px; }
+.brief-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 20px;
+  background: var(--s1);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  transition: border-color 0.12s;
+}
+.brief-item:hover { border-color: var(--border-h); }
+.brief-item-tag {
+  font-size: 9px;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  background: var(--blue-bg);
+  color: var(--blue-h);
+  border: 1px solid var(--blue-ring);
+  border-radius: var(--r-pill);
+  padding: 3px 9px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.brief-item-tag.broad {
+  background: rgba(155,138,251,0.12);
+  color: var(--purple);
+  border-color: rgba(155,138,251,0.25);
+}
+.brief-item-text {
+  font-size: 13px;
+  color: var(--t2);
+  line-height: 1.55;
+}
+.brief-item-text a { color: var(--t2); }
+.brief-item-text a:hover { color: var(--t1); }
+
+/* ════════════════════════════════════
    UTILITIES
 ════════════════════════════════════ */
 .up   { color: var(--up); }
