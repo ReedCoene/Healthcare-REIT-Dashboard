@@ -1,214 +1,320 @@
-// ── Config ──────────────────────────────────────────────────
-const TRACKED = new Set(['CTRE', 'OHI', 'NHI']);
-const BIG_MOVE_THRESHOLD = 2.5; // % — triggers alert banner
+// ── Config ───────────────────────────────────────────────────
+const TRACKED    = new Set(['CTRE', 'OHI', 'NHI']);
+const BIG_MOVE   = 2.5;
 
-// ── Helpers ─────────────────────────────────────────────────
-function fmtPrice(v) {
-  if (v == null) return '—';
-  return '$' + Number(v).toFixed(2);
-}
-
-function fmtChange(pct) {
+// ── Formatters ───────────────────────────────────────────────
+const fmtPrice = v => v != null ? '$' + Number(v).toFixed(2) : '—';
+const fmtYield = v => (v && v > 0) ? Number(v).toFixed(2) + '%' : '—';
+const fmtCap   = v => {
+  if (!v) return '—';
+  if (v >= 1e12) return '$' + (v/1e12).toFixed(1) + 'T';
+  if (v >= 1e9)  return '$' + (v/1e9).toFixed(1) + 'B';
+  if (v >= 1e6)  return '$' + (v/1e6).toFixed(0) + 'M';
+  return '$' + v;
+};
+const fmtChange = pct => {
   if (pct == null) return { text: '—', cls: 'flat' };
   const sign = pct > 0 ? '+' : '';
-  const cls  = pct > 0 ? 'up' : pct < 0 ? 'down' : 'flat';
-  return { text: `${sign}${Number(pct).toFixed(2)}%`, cls };
-}
+  return { text: `${sign}${Number(pct).toFixed(2)}%`, cls: pct > 0 ? 'up' : pct < 0 ? 'down' : 'flat' };
+};
+const timeSince = str => {
+  if (!str) return '';
+  const d = new Date(str);
+  if (isNaN(d)) return str;
+  const s = (Date.now() - d) / 1000;
+  if (s < 3600)  return Math.round(s/60) + 'm ago';
+  if (s < 86400) return Math.round(s/3600) + 'h ago';
+  return Math.round(s/86400) + 'd ago';
+};
+const rangeBar = s => {
+  const { price: p, fifty_two_week_low: lo, fifty_two_week_high: hi } = s;
+  if (!lo || !hi || hi === lo) return '<span class="flat">—</span>';
+  const pct = Math.max(0, Math.min(100, ((p - lo) / (hi - lo)) * 100));
+  return `<div class="range-bar-wrap">
+    <span>${fmtPrice(lo)}</span>
+    <div class="range-bar-track"><div class="range-bar-fill" style="width:${pct.toFixed(1)}%"></div></div>
+    <span>${fmtPrice(hi)}</span>
+  </div>`;
+};
 
-function fmtCap(v) {
-  if (!v) return '—';
-  if (v >= 1e12) return '$' + (v / 1e12).toFixed(1) + 'T';
-  if (v >= 1e9)  return '$' + (v / 1e9).toFixed(1) + 'B';
-  if (v >= 1e6)  return '$' + (v / 1e6).toFixed(0) + 'M';
-  return '$' + v;
-}
-
-function fmtYield(v) {
-  if (v == null || v === 0) return '—';
-  return Number(v).toFixed(2) + '%';
-}
-
-function rangeBar(stock) {
-  const { price, fifty_two_week_low: low, fifty_two_week_high: high } = stock;
-  if (!low || !high || high === low) return '<span class="flat">—</span>';
-  const pct = Math.max(0, Math.min(100, ((price - low) / (high - low)) * 100));
-  return `
-    <div class="range-bar-wrap">
-      <span>${fmtPrice(low)}</span>
-      <div class="range-bar-track">
-        <div class="range-bar-fill" style="width:${pct.toFixed(1)}%"></div>
-      </div>
-      <span>${fmtPrice(high)}</span>
-    </div>`;
-}
-
-function timeSince(dateStr) {
-  if (!dateStr) return '';
-  const d = new Date(dateStr);
-  if (isNaN(d)) return dateStr;
-  const diff = (Date.now() - d.getTime()) / 1000;
-  if (diff < 3600)  return Math.round(diff / 60) + 'm ago';
-  if (diff < 86400) return Math.round(diff / 3600) + 'h ago';
-  return Math.round(diff / 86400) + 'd ago';
-}
-
-// ── Render: Alert Banner ─────────────────────────────────────
-function renderAlert(stocks) {
-  const big = Object.values(stocks)
-    .filter(s => Math.abs(s.pct_change) >= BIG_MOVE_THRESHOLD)
-    .sort((a, b) => Math.abs(b.pct_change) - Math.abs(a.pct_change));
-
-  const banner = document.getElementById('alertBanner');
-  if (!big.length) { banner.classList.add('hidden'); return; }
-
-  const parts = big.map(s => {
-    const { text } = fmtChange(s.pct_change);
-    return `<strong>${s.ticker}</strong> ${text}`;
-  });
-  banner.innerHTML = `<strong>Notable moves today:</strong> ${parts.join(' &nbsp;&bull;&nbsp; ')}`;
-  banner.classList.remove('hidden');
-}
-
-// ── Render: Movers ───────────────────────────────────────────
-function renderMovers(data) {
-  const container = document.getElementById('moversRow');
-  const all = Object.values(data.stocks).sort((a, b) => b.pct_change - a.pct_change);
-  const gainers = all.slice(0, 3);
-  const losers  = all.slice(-3).reverse();
-  const cards   = [...gainers, ...losers];
-
-  container.innerHTML = cards.map(s => {
-    const isGain    = s.pct_change >= 0;
-    const cls       = isGain ? 'gain' : 'loss';
-    const { text }  = fmtChange(s.pct_change);
-    const colorCls  = isGain ? 'up' : 'down';
-    const tracked   = TRACKED.has(s.ticker) ? '<div class="tracked-dot" title="Tracked position"></div>' : '';
-    return `
-      <div class="mover-card ${cls}">
-        ${tracked}
-        <div class="mover-ticker">${s.ticker}</div>
-        <div class="mover-company">${s.name}</div>
-        <div class="mover-price">${fmtPrice(s.price)}</div>
-        <div class="mover-change ${colorCls}">${text}</div>
-      </div>`;
-  }).join('');
-}
-
-// ── Render: Table ────────────────────────────────────────────
-let currentSort = { col: 'pct_change', dir: 'desc' };
-
-function renderTable(stocks) {
-  const sorted = Object.values(stocks).sort((a, b) => {
-    const dir = currentSort.dir === 'asc' ? 1 : -1;
-    const va = a[currentSort.col] ?? -Infinity;
-    const vb = b[currentSort.col] ?? -Infinity;
-    return (va < vb ? -1 : va > vb ? 1 : 0) * dir;
-  });
-
-  const tbody = document.getElementById('tableBody');
-  tbody.innerHTML = sorted.map(s => {
-    const ch       = fmtChange(s.pct_change);
-    const tracked  = TRACKED.has(s.ticker);
-    const rowCls   = tracked ? 'tracked-row' : '';
-    const trackedBadge = tracked ? '<span class="tracked-badge">TRACKED</span>' : '';
-    return `
-      <tr class="${rowCls}">
-        <td>
-          <div class="ticker-cell">
-            <span class="ticker-tag">${s.ticker}</span>
-            ${trackedBadge}
-          </div>
-        </td>
-        <td class="company-name">${s.name}</td>
-        <td class="col-num">${fmtPrice(s.price)}</td>
-        <td class="col-num ${ch.cls}">${ch.text}</td>
-        <td class="col-num">${fmtCap(s.market_cap)}</td>
-        <td class="col-num">${fmtYield(s.dividend_yield)}</td>
-        <td class="col-range">${rangeBar(s)}</td>
-      </tr>`;
-  }).join('');
-
-  // Update sort header indicators
-  document.querySelectorAll('.reit-table th.sortable').forEach(th => {
-    th.classList.remove('sorted-asc', 'sorted-desc');
-    if (th.dataset.col === currentSort.col) {
-      th.classList.add(currentSort.dir === 'asc' ? 'sorted-asc' : 'sorted-desc');
-    }
-  });
-}
-
-function attachTableSort() {
-  document.querySelectorAll('.reit-table th.sortable').forEach(th => {
-    th.addEventListener('click', () => {
-      const col = th.dataset.col;
-      if (currentSort.col === col) {
-        currentSort.dir = currentSort.dir === 'asc' ? 'desc' : 'asc';
-      } else {
-        currentSort = { col, dir: 'desc' };
-      }
-      renderTable(window._reitData.stocks);
+// ── Tabs ─────────────────────────────────────────────────────
+function initTabs() {
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.add('hidden'));
+      btn.classList.add('active');
+      document.getElementById('tab-' + btn.dataset.tab).classList.remove('hidden');
     });
   });
 }
 
-// ── Render: Signal News ──────────────────────────────────────
-function renderSignals(news) {
-  const container = document.getElementById('signalNews');
-  const signals   = news.filter(n => n.is_signal);
+// ── Alert Banner ─────────────────────────────────────────────
+function renderAlert(stocks) {
+  const big = Object.values(stocks)
+    .filter(s => Math.abs(s.pct_change) >= BIG_MOVE)
+    .sort((a, b) => Math.abs(b.pct_change) - Math.abs(a.pct_change));
+  const el = document.getElementById('alertBanner');
+  if (!big.length) { el.classList.add('hidden'); return; }
+  const parts = big.map(s => {
+    const { text } = fmtChange(s.pct_change);
+    return `<strong>${s.ticker}</strong> ${text}`;
+  });
+  el.innerHTML = `<strong>Notable moves today:</strong> ${parts.join(' &nbsp;&bull;&nbsp; ')}`;
+  el.classList.remove('hidden');
+}
 
-  if (!signals.length) {
-    container.innerHTML = '<p class="empty-msg">No major signals today.</p>';
-    return;
-  }
+// ── Overview: Sector Stats ────────────────────────────────────
+function renderSectorStats(stocks) {
+  const arr = Object.values(stocks);
+  const totalCap  = arr.reduce((s, x) => s + (x.market_cap || 0), 0);
+  const avgYield  = arr.filter(x => x.dividend_yield > 0).reduce((s, x) => s + x.dividend_yield, 0)
+                  / arr.filter(x => x.dividend_yield > 0).length;
+  const advancing = arr.filter(x => x.pct_change > 0).length;
+  const declining = arr.filter(x => x.pct_change < 0).length;
 
-  container.innerHTML = signals.slice(0, 12).map(n => `
+  document.getElementById('sectorStats').innerHTML = `
+    <div class="stat-card">
+      <div class="stat-label">Sector Market Cap</div>
+      <div class="stat-value">${fmtCap(totalCap)}</div>
+      <div class="stat-sub">${arr.length} REITs tracked</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Avg. Dividend Yield</div>
+      <div class="stat-value">${avgYield.toFixed(2)}%</div>
+      <div class="stat-sub">across coverage universe</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Advancing Today</div>
+      <div class="stat-value up">${advancing}</div>
+      <div class="stat-sub">of ${arr.length} REITs higher</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Declining Today</div>
+      <div class="stat-value down">${declining}</div>
+      <div class="stat-sub">of ${arr.length} REITs lower</div>
+    </div>`;
+}
+
+// ── Overview: Movers ─────────────────────────────────────────
+function renderMovers(stocks) {
+  const sorted  = Object.values(stocks).sort((a, b) => b.pct_change - a.pct_change);
+  const gainers = sorted.slice(0, 3);
+  const losers  = sorted.slice(-3).reverse();
+  document.getElementById('moversRow').innerHTML = [...gainers, ...losers].map(s => {
+    const isGain = s.pct_change >= 0;
+    const { text } = fmtChange(s.pct_change);
+    const dot = TRACKED.has(s.ticker) ? '<div class="tracked-dot" title="Tracked position"></div>' : '';
+    return `<div class="mover-card ${isGain ? 'gain' : 'loss'}">
+      ${dot}
+      <div class="mover-ticker">${s.ticker}</div>
+      <div class="mover-company">${s.name}</div>
+      <div class="mover-price">${fmtPrice(s.price)}</div>
+      <div class="mover-change ${isGain ? 'up' : 'down'}">${text}</div>
+    </div>`;
+  }).join('');
+}
+
+// ── Overview: Signals ─────────────────────────────────────────
+function renderOverviewSignals(news) {
+  const signals = news.filter(n => n.is_signal).slice(0, 6);
+  const el = document.getElementById('overviewSignals');
+  if (!signals.length) { el.innerHTML = '<p class="empty-msg">No major signals today.</p>'; return; }
+  el.innerHTML = signals.map(n => `
     <div class="signal-card">
-      <div class="signal-meta">
-        <span class="signal-ticker">${n.ticker}</span>
-        <span class="signal-date">${timeSince(n.published)}</span>
+      <div class="card-meta">
+        <span class="card-source signal-src">${n.ticker || n.source || '—'}</span>
+        <span class="card-date">${timeSince(n.published)}</span>
       </div>
-      <div class="signal-title">
-        ${n.link ? `<a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>` : n.title}
-      </div>
+      <div class="card-title">${n.link ? `<a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>` : n.title}</div>
     </div>`).join('');
 }
 
-// ── Render: All News ─────────────────────────────────────────
-let currentFilter = 'ALL';
+// ── CTRE Tab ─────────────────────────────────────────────────
+function renderCTRE(data) {
+  const s  = data.stocks['CTRE'];
+  const cd = data.ctre_details || {};
+  const { text, cls } = fmtChange(s.pct_change);
 
-function renderNews(news, filter) {
-  const container = document.getElementById('allNews');
-  const filtered  = filter === 'ALL' ? news : news.filter(n => n.ticker === filter);
-
-  if (!filtered.length) {
-    container.innerHTML = '<p class="empty-msg">No news for this company.</p>';
-    return;
-  }
-
-  container.innerHTML = filtered.slice(0, 30).map(n => `
-    <div class="news-card">
-      <div class="news-meta">
-        <span class="news-ticker-tag">${n.ticker}</span>
-        <span class="news-date">${timeSince(n.published)}</span>
+  // Hero
+  document.getElementById('ctreHero').innerHTML = `
+    <div class="ctre-hero">
+      <div class="ctre-hero-left">
+        <h2>CareTrust REIT &nbsp;&mdash;&nbsp; NYSE: CTRE</h2>
+        <div class="ctre-price">${fmtPrice(s.price)}</div>
+        <div class="ctre-change-pill ${cls}">${text} today</div>
       </div>
-      <div class="news-title">
-        ${n.link ? `<a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>` : n.title}
+      <div class="ctre-metrics">
+        <div class="ctre-metric-item">
+          <div class="ctre-metric-label">Market Cap</div>
+          <div class="ctre-metric-value">${fmtCap(s.market_cap)}</div>
+        </div>
+        <div class="ctre-metric-item">
+          <div class="ctre-metric-label">Div. Yield</div>
+          <div class="ctre-metric-value">${fmtYield(s.dividend_yield)}</div>
+        </div>
+        <div class="ctre-metric-item">
+          <div class="ctre-metric-label">52W High</div>
+          <div class="ctre-metric-value">${fmtPrice(s.fifty_two_week_high)}</div>
+        </div>
+        <div class="ctre-metric-item">
+          <div class="ctre-metric-label">52W Low</div>
+          <div class="ctre-metric-value">${fmtPrice(s.fifty_two_week_low)}</div>
+        </div>
       </div>
+    </div>`;
+
+  // Thesis
+  const points = cd.thesis_points || [];
+  document.getElementById('ctreThesis').innerHTML = `
+    <div class="panel">
+      <h3>Investment Thesis</h3>
+      <ul class="thesis-list">${points.map(p => `<li>${p}</li>`).join('')}</ul>
+    </div>`;
+
+  // Key Dates
+  const dates = cd.key_dates || [];
+  document.getElementById('ctreDates').innerHTML = `
+    <div class="panel">
+      <h3>Key Dates</h3>
+      <ul class="dates-list">${dates.map(d => `
+        <li class="date-item">
+          <div class="date-event">${d.event}</div>
+          <div class="date-when">${d.date}</div>
+          <div class="date-note">${d.note}</div>
+        </li>`).join('')}</ul>
+    </div>`;
+
+  // Analyst Coverage
+  const analysts = cd.analyst_coverage || [];
+  document.getElementById('ctreAnalysts').innerHTML = `
+    <div class="panel">
+      <h3>Analyst Coverage</h3>
+      <table class="analyst-table">
+        <thead><tr><th>Firm</th><th>Rating</th><th>Target</th><th>Date</th></tr></thead>
+        <tbody>${analysts.map(a => {
+          const ratingCls = 'rating-' + a.rating.toLowerCase().replace(' ', '');
+          return `<tr>
+            <td>${a.firm}</td>
+            <td class="${ratingCls}">${a.rating}</td>
+            <td>$${a.target}</td>
+            <td style="color:var(--muted)">${a.date}</td>
+          </tr>`;
+        }).join('')}</tbody>
+      </table>
+    </div>`;
+
+  // CTRE News
+  const ctreNews = (data.news || []).filter(n => n.ticker === 'CTRE');
+  const ctreEl   = document.getElementById('ctreNews');
+  if (!ctreNews.length) { ctreEl.innerHTML = '<p class="empty-msg">No recent news.</p>'; return; }
+  ctreEl.innerHTML = ctreNews.map(n => `
+    <div class="news-card" style="margin-bottom:8px">
+      <div class="card-meta">
+        <span class="card-source ${n.is_signal ? 'signal-src' : ''}">CTRE</span>
+        <span class="card-date">${timeSince(n.published)}</span>
+      </div>
+      <div class="card-title">${n.link ? `<a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>` : n.title}</div>
     </div>`).join('');
 }
 
-function populateFilter(stocks) {
+// ── Coverage Table ────────────────────────────────────────────
+let sortState = { col: 'pct_change', dir: 'desc' };
+function renderTable(stocks) {
+  const rows = Object.values(stocks).sort((a, b) => {
+    const dir = sortState.dir === 'asc' ? 1 : -1;
+    const va  = a[sortState.col] ?? -Infinity;
+    const vb  = b[sortState.col] ?? -Infinity;
+    return (va < vb ? -1 : va > vb ? 1 : 0) * dir;
+  });
+  document.getElementById('tableBody').innerHTML = rows.map(s => {
+    const ch      = fmtChange(s.pct_change);
+    const tracked = TRACKED.has(s.ticker);
+    return `<tr class="${tracked ? 'tracked-row' : ''}">
+      <td><div class="ticker-cell">
+        <span class="ticker-tag">${s.ticker}</span>
+        ${tracked ? '<span class="tracked-badge">TRACKED</span>' : ''}
+      </div></td>
+      <td class="company-name">${s.name}</td>
+      <td class="col-num">${fmtPrice(s.price)}</td>
+      <td class="col-num ${ch.cls}">${ch.text}</td>
+      <td class="col-num">${fmtCap(s.market_cap)}</td>
+      <td class="col-num">${fmtYield(s.dividend_yield)}</td>
+      <td class="col-range">${rangeBar(s)}</td>
+    </tr>`;
+  }).join('');
+
+  document.querySelectorAll('.reit-table th.sortable').forEach(th => {
+    th.classList.remove('sorted-asc', 'sorted-desc');
+    if (th.dataset.col === sortState.col)
+      th.classList.add(sortState.dir === 'asc' ? 'sorted-asc' : 'sorted-desc');
+  });
+}
+function attachTableSort() {
+  document.querySelectorAll('.reit-table th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      sortState = { col, dir: sortState.col === col && sortState.dir === 'desc' ? 'asc' : 'desc' };
+      renderTable(window._data.stocks);
+    });
+  });
+}
+
+// ── News Tab ─────────────────────────────────────────────────
+let newsCat    = 'all';
+let newsCompany = 'ALL';
+
+function renderNewsTab(news) {
+  let filtered = news;
+  if (newsCat === 'reit')   filtered = filtered.filter(n => n.category === 'reit');
+  if (newsCat === 'broad')  filtered = filtered.filter(n => n.category === 'broad');
+  if (newsCat === 'signal') filtered = filtered.filter(n => n.is_signal);
+  if (newsCompany !== 'ALL') filtered = filtered.filter(n => n.ticker === newsCompany);
+
+  const el = document.getElementById('newsGrid');
+  if (!filtered.length) { el.innerHTML = '<p class="empty-msg">No news for this filter.</p>'; return; }
+
+  const isBroad = n => n.category === 'broad';
+  el.innerHTML = `<div class="news-grid-layout">` +
+    filtered.slice(0, 40).map(n => {
+      const broad    = isBroad(n);
+      const srcLabel = broad ? (n.source || 'Industry') : (n.ticker || '—');
+      const srcCls   = broad ? 'broad' : (n.is_signal ? 'signal-src' : '');
+      return `<div class="news-card ${broad ? 'broad-card' : ''}" style="margin-bottom:0">
+        <div class="card-meta">
+          <span class="card-source ${srcCls}">${srcLabel}</span>
+          <span class="card-date">${timeSince(n.published)}</span>
+        </div>
+        <div class="card-title">${n.link ? `<a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>` : n.title}</div>
+      </div>`;
+    }).join('') + `</div>`;
+}
+
+function populateCompanyFilter(stocks) {
   const sel = document.getElementById('newsFilter');
-  const tickers = Object.keys(stocks).sort();
-  tickers.forEach(t => {
+  Object.keys(stocks).sort().forEach(t => {
     const opt = document.createElement('option');
     opt.value = t;
     opt.textContent = `${t} — ${stocks[t].name}`;
     sel.appendChild(opt);
   });
   sel.addEventListener('change', () => {
-    currentFilter = sel.value;
-    renderNews(window._reitData.news, currentFilter);
+    newsCompany = sel.value;
+    renderNewsTab(window._data.news || []);
+  });
+}
+
+function initNewsFilters(news) {
+  document.querySelectorAll('.cat-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      newsCat = btn.dataset.cat;
+      // show/hide company dropdown — only relevant for REIT news
+      document.getElementById('newsFilter').style.display =
+        (newsCat === 'broad') ? 'none' : '';
+      renderNewsTab(news);
+    });
   });
 }
 
@@ -217,24 +323,28 @@ async function init() {
   try {
     const res  = await fetch('data/market_data.json?t=' + Date.now());
     const data = await res.json();
-    window._reitData = data;
+    window._data = data;
 
     document.getElementById('marketDate').textContent  = data.market_date || '—';
     document.getElementById('lastUpdated').textContent =
-      'Last updated: ' + new Date(data.last_updated).toLocaleString('en-US', {
+      'Updated: ' + new Date(data.last_updated).toLocaleString('en-US', {
         month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short'
       });
 
     renderAlert(data.stocks);
-    renderMovers(data);
+    renderSectorStats(data.stocks);
+    renderMovers(data.stocks);
+    renderOverviewSignals(data.news || []);
+    renderCTRE(data);
     renderTable(data.stocks);
     attachTableSort();
-    populateFilter(data.stocks);
-    renderSignals(data.news || []);
-    renderNews(data.news || [], 'ALL');
+    populateCompanyFilter(data.stocks);
+    initNewsFilters(data.news || []);
+    renderNewsTab(data.news || []);
+    initTabs();
 
   } catch (err) {
-    console.error('Failed to load market data:', err);
+    console.error(err);
     document.getElementById('lastUpdated').textContent = 'Error loading data.';
   }
 }

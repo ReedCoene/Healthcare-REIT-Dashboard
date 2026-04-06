@@ -16,74 +16,90 @@
       </div>
       <div class="header-right">
         <p class="market-date" id="marketDate">—</p>
-        <p class="last-updated" id="lastUpdated">Loading data&hellip;</p>
+        <p class="last-updated" id="lastUpdated">Loading&hellip;</p>
       </div>
     </header>
 
     <div id="alertBanner" class="alert-banner hidden"></div>
 
-    <!-- Top Movers -->
-    <section class="section">
-      <div class="section-header">
-        <h2>Today's Biggest Movers</h2>
-      </div>
-      <div class="movers-row" id="moversRow">
-        <div class="loading-msg">Loading market data&hellip;</div>
-      </div>
-    </section>
+    <nav class="tab-nav">
+      <button class="tab-btn active" data-tab="overview">Overview</button>
+      <button class="tab-btn" data-tab="ctre">CTRE <span class="tab-badge">Portfolio</span></button>
+      <button class="tab-btn" data-tab="coverage">All REITs</button>
+      <button class="tab-btn" data-tab="news">News</button>
+    </nav>
 
-    <!-- Full Coverage Table -->
-    <section class="section">
-      <div class="section-header">
-        <h2>Coverage Universe</h2>
-        <span class="section-note">All Healthcare REITs &gt; $500M Market Cap</span>
+    <!-- OVERVIEW TAB -->
+    <div id="tab-overview" class="tab-panel">
+      <div class="stats-row" id="sectorStats"></div>
+      <div class="section">
+        <div class="section-header"><h2>Today's Biggest Movers</h2></div>
+        <div class="movers-row" id="moversRow"><div class="loading-msg">Loading&hellip;</div></div>
       </div>
-      <div class="table-scroll">
-        <table class="reit-table" id="reitTable">
-          <thead>
-            <tr>
-              <th class="col-ticker">Ticker</th>
-              <th class="col-name">Company</th>
-              <th class="col-num sortable" data-col="price">Price</th>
-              <th class="col-num sortable" data-col="pct_change">Day %</th>
-              <th class="col-num sortable" data-col="market_cap">Mkt Cap</th>
-              <th class="col-num sortable" data-col="dividend_yield">Yield</th>
-              <th class="col-range">52W Range</th>
-            </tr>
-          </thead>
-          <tbody id="tableBody">
-            <tr><td colspan="7" class="loading-msg">Loading&hellip;</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <!-- News Grid -->
-    <div class="news-grid">
-
-      <!-- Signals Column -->
-      <section class="section signals-col">
+      <div class="section">
         <div class="section-header">
-          <h2>Signals <span class="badge">Earnings · Dividends · Ratings</span></h2>
+          <h2>Key Signals <span class="badge">Earnings &middot; Dividends &middot; Ratings</span></h2>
         </div>
-        <div id="signalNews">
-          <div class="loading-msg">Loading signals&hellip;</div>
-        </div>
-      </section>
+        <div id="overviewSignals"></div>
+      </div>
+    </div>
 
-      <!-- News Feed Column -->
-      <section class="section news-col">
+    <!-- CTRE TAB -->
+    <div id="tab-ctre" class="tab-panel hidden">
+      <div id="ctreHero"></div>
+      <div class="ctre-grid">
+        <div class="section" id="ctreThesis"></div>
+        <div class="section" id="ctreDates"></div>
+        <div class="section" id="ctreAnalysts"></div>
+      </div>
+      <div class="section">
+        <div class="section-header"><h2>CTRE News</h2></div>
+        <div id="ctreNews"></div>
+      </div>
+    </div>
+
+    <!-- ALL REITs TAB -->
+    <div id="tab-coverage" class="tab-panel hidden">
+      <div class="section">
         <div class="section-header">
-          <h2>News Feed</h2>
+          <h2>Coverage Universe</h2>
+          <span class="section-note">Healthcare REITs &gt; $500M Market Cap &mdash; click column headers to sort</span>
+        </div>
+        <div class="table-scroll">
+          <table class="reit-table" id="reitTable">
+            <thead>
+              <tr>
+                <th class="col-ticker">Ticker</th>
+                <th class="col-name">Company</th>
+                <th class="col-num sortable" data-col="price">Price</th>
+                <th class="col-num sortable" data-col="pct_change">Day %</th>
+                <th class="col-num sortable" data-col="market_cap">Mkt Cap</th>
+                <th class="col-num sortable" data-col="dividend_yield">Yield</th>
+                <th class="col-range">52W Range</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody"><tr><td colspan="7" class="loading-msg">Loading&hellip;</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEWS TAB -->
+    <div id="tab-news" class="tab-panel hidden">
+      <div class="section">
+        <div class="news-controls">
+          <div class="cat-filters" id="catFilters">
+            <button class="cat-btn active" data-cat="all">All</button>
+            <button class="cat-btn" data-cat="reit">REIT News</button>
+            <button class="cat-btn" data-cat="broad">Healthcare Industry</button>
+            <button class="cat-btn" data-cat="signal">Signals Only</button>
+          </div>
           <select id="newsFilter" class="filter-select">
             <option value="ALL">All Companies</option>
           </select>
         </div>
-        <div id="allNews">
-          <div class="loading-msg">Loading news&hellip;</div>
-        </div>
-      </section>
-
+        <div id="newsGrid"></div>
+      </div>
     </div>
 
     <footer class="footer">

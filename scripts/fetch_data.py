@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 import feedparser
 import yfinance as yf
 
-# ── Coverage universe (>$500M market cap healthcare REITs) ────
+# ── Coverage universe ─────────────────────────────────────────
 REITS = {
     "WELL":  "Welltower",
     "VTR":   "Ventas",
@@ -28,139 +28,191 @@ REITS = {
     "UHT":   "Universal Health Realty",
 }
 
-# Keywords that mark a news item as a meaningful signal
+# ── Broad healthcare news RSS feeds ──────────────────────────
+BROAD_FEEDS = [
+    {"source": "Reuters Health",       "url": "https://feeds.reuters.com/reuters/healthNews",                    "category": "broad"},
+    {"source": "Becker's Hospital",    "url": "https://www.beckershospitalreview.com/rss/articles",              "category": "broad"},
+    {"source": "Skilled Nursing News", "url": "https://skillednursingnews.com/feed/",                            "category": "sector"},
+    {"source": "McKnight's Senior",    "url": "https://www.mcknightsseniorliving.com/feed/",                     "category": "sector"},
+    {"source": "Modern Healthcare",    "url": "https://www.modernhealthcare.com/section/rss",                    "category": "broad"},
+    {"source": "STAT News",            "url": "https://www.statnews.com/feed/",                                  "category": "broad"},
+    {"source": "CMS Newsroom",         "url": "https://www.cms.gov/newsroom/rss",                                "category": "broad"},
+    {"source": "Nareit",               "url": "https://www.reit.com/rss.xml",                                    "category": "sector"},
+]
+
+# Keywords that flag a news item as a meaningful signal
 SIGNAL_KEYWORDS = [
     "earnings", "ffo", "dividend", "acquisition", "merger", "guidance",
     "upgrade", "downgrade", "price target", "initiates", "raises", "cuts",
     "cms", "medicare", "medicaid", "occupancy", "beat", "miss",
     "offering", "investment", "tenant", "operator", "rating", "coverage",
-    "quarter", "annual", "guidance", "outlook", "forecast",
+    "quarter", "annual", "outlook", "forecast", "staffing", "reimbursement",
 ]
 
 
+# ── Price fetch ───────────────────────────────────────────────
 def fetch_prices() -> dict:
-    """Fetch price + fundamentals for all tickers via yfinance."""
     results = {}
-    tickers_str = " ".join(REITS.keys())
-
     try:
-        batch = yf.Tickers(tickers_str)
+        batch = yf.Tickers(" ".join(REITS.keys()))
     except Exception as e:
-        print(f"Batch fetch failed, falling back to individual: {e}", file=sys.stderr)
+        print(f"Batch init failed: {e}", file=sys.stderr)
         batch = None
 
     for ticker, name in REITS.items():
         try:
             stock = batch.tickers[ticker] if batch else yf.Ticker(ticker)
             info  = stock.info or {}
-            hist  = stock.history(period="5d")
+            hist  = stock.history(period="5d").dropna(subset=["Close"])
 
-            # Find last two trading days with data
-            hist = hist.dropna(subset=["Close"])
             if len(hist) >= 2:
-                prev_close = float(hist["Close"].iloc[-2])
-                curr_close = float(hist["Close"].iloc[-1])
+                prev  = float(hist["Close"].iloc[-2])
+                curr  = float(hist["Close"].iloc[-1])
             elif len(hist) == 1:
-                curr_close = float(hist["Close"].iloc[-1])
-                prev_close = curr_close
+                curr  = float(hist["Close"].iloc[-1])
+                prev  = curr
             else:
-                print(f"No price history for {ticker}", file=sys.stderr)
+                print(f"  No history: {ticker}", file=sys.stderr)
                 continue
 
-            pct_change = ((curr_close - prev_close) / prev_close) * 100 if prev_close else 0
-
+            pct = ((curr - prev) / prev * 100) if prev else 0
             results[ticker] = {
-                "name":               name,
-                "ticker":             ticker,
-                "price":              round(curr_close, 2),
-                "prev_close":         round(prev_close, 2),
-                "pct_change":         round(pct_change, 2),
-                "market_cap":         info.get("marketCap") or 0,
-                "dividend_yield":     round((info.get("dividendYield") or 0) * 100, 2),
+                "name":                name,
+                "ticker":              ticker,
+                "price":               round(curr, 2),
+                "prev_close":          round(prev, 2),
+                "pct_change":          round(pct, 2),
+                "market_cap":          info.get("marketCap") or 0,
+                "dividend_yield":      round((info.get("dividendYield") or 0) * 100, 2),
                 "fifty_two_week_high": info.get("fiftyTwoWeekHigh") or 0,
                 "fifty_two_week_low":  info.get("fiftyTwoWeekLow") or 0,
             }
-            print(f"  {ticker}: ${curr_close:.2f} ({pct_change:+.2f}%)")
-
+            print(f"  {ticker}: ${curr:.2f} ({pct:+.2f}%)")
         except Exception as e:
             print(f"  ERROR {ticker}: {e}", file=sys.stderr)
 
     return results
 
 
-def fetch_news() -> list:
-    """Aggregate recent news via Yahoo Finance RSS for each ticker."""
-    all_news = []
-
+# ── REIT-specific news (Yahoo Finance RSS per ticker) ─────────
+def fetch_reit_news() -> list:
+    items = []
     for ticker, name in REITS.items():
         url = f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={ticker}&region=US&lang=en-US"
         try:
             feed = feedparser.parse(url)
             for entry in feed.entries[:4]:
-                published = ""
-                if hasattr(entry, "published"):
-                    published = entry.published
-                elif hasattr(entry, "updated"):
-                    published = entry.updated
-
                 summary = entry.get("summary", "") or ""
-                all_news.append({
+                items.append({
                     "ticker":    ticker,
                     "company":   name,
+                    "source":    ticker,
+                    "category":  "reit",
                     "title":     entry.get("title", "").strip(),
                     "link":      entry.get("link", ""),
-                    "published": published,
+                    "published": entry.get("published", entry.get("updated", "")),
                     "summary":   summary[:300] + ("…" if len(summary) > 300 else ""),
-                    "is_signal": False,  # tagged below
+                    "is_signal": False,
                 })
         except Exception as e:
             print(f"  News ERROR {ticker}: {e}", file=sys.stderr)
+    return items
 
-    # Tag signals
-    for item in all_news:
-        text = (item["title"] + " " + item["summary"]).lower()
+
+# ── Broad healthcare news (industry RSS feeds) ────────────────
+def fetch_broad_news() -> list:
+    items = []
+    for feed_cfg in BROAD_FEEDS:
+        try:
+            feed = feedparser.parse(feed_cfg["url"])
+            for entry in feed.entries[:5]:
+                summary = entry.get("summary", "") or ""
+                items.append({
+                    "ticker":    None,
+                    "company":   None,
+                    "source":    feed_cfg["source"],
+                    "category":  feed_cfg["category"],
+                    "title":     entry.get("title", "").strip(),
+                    "link":      entry.get("link", ""),
+                    "published": entry.get("published", entry.get("updated", "")),
+                    "summary":   summary[:300] + ("…" if len(summary) > 300 else ""),
+                    "is_signal": False,
+                })
+            print(f"  {feed_cfg['source']}: {min(5, len(feed.entries))} items")
+        except Exception as e:
+            print(f"  Feed ERROR {feed_cfg['source']}: {e}", file=sys.stderr)
+    return items
+
+
+# ── Tag signals ───────────────────────────────────────────────
+def tag_signals(items: list) -> list:
+    for item in items:
+        text = (item["title"] + " " + item.get("summary", "")).lower()
         item["is_signal"] = any(kw in text for kw in SIGNAL_KEYWORDS)
-
-    return all_news
-
-
-def compute_movers(stocks: dict) -> tuple[list, list]:
-    ranked = sorted(stocks.values(), key=lambda s: s["pct_change"], reverse=True)
-    return ranked[:3], ranked[-3:]
+    return items
 
 
+# ── CTRE static details (update manually each quarter) ───────
+CTRE_DETAILS = {
+    "key_dates": [
+        {"event": "Dividend Payment",  "date": "April 15, 2026",        "note": "$0.39/share — 16.4% hike vs prior quarter"},
+        {"event": "Annual Meeting",    "date": "April 29, 2026",         "note": "Director elections, Deloitte auditor ratification"},
+        {"event": "Q1 2026 Earnings",  "date": "Est. early May 2026",    "note": "Watch: deployment pace, FAD/FFO guidance"},
+    ],
+    "analyst_coverage": [
+        {"firm": "Mizuho",    "rating": "Outperform", "target": 42, "date": "Apr 2026"},
+        {"firm": "JPMorgan",  "rating": "Overweight",  "target": 40, "date": "Mar 2026"},
+    ],
+    "thesis_points": [
+        "Aggressive capital deployer — $1.8B+ invested in 2025, $142M deal announced in early 2026",
+        "16% dividend hike signals management confidence in pipeline accretion and cash flow visibility",
+        "Pure-play SNF/AL focus benefits from CMS 3.2% net rate increase (FY2026) and rising occupancy (~79% → 81%)",
+        "SNF staffing mandate rollback removes a major structural headwind for operators",
+        "Mizuho Outperform initiation ($42 PT) expands analyst coverage and adds buy-side visibility",
+        "Risks: capital deployment pace slowing, Medicare Advantage expansion pressuring operator margins, interest rate sensitivity",
+    ],
+}
+
+
+# ── Main ──────────────────────────────────────────────────────
 def main():
-    print("=== Healthcare REIT Data Fetch ===")
+    print("=== Healthcare REIT Dashboard Data Fetch ===")
     print(f"Run time: {datetime.now(timezone.utc).isoformat()}\n")
 
     print("Fetching prices...")
     stocks = fetch_prices()
     if not stocks:
-        print("ERROR: No price data fetched. Aborting.", file=sys.stderr)
+        print("ERROR: No price data. Aborting.", file=sys.stderr)
         sys.exit(1)
 
-    print("\nFetching news...")
-    news = fetch_news()
+    print("\nFetching REIT news...")
+    reit_news = fetch_reit_news()
 
-    top_gainers, top_losers = compute_movers(stocks)
+    print("\nFetching broad healthcare news...")
+    broad_news = fetch_broad_news()
+
+    all_news = tag_signals(reit_news + broad_news)
+
+    sorted_stocks = sorted(stocks.values(), key=lambda s: s["pct_change"], reverse=True)
 
     payload = {
-        "last_updated": datetime.now(timezone.utc).isoformat(),
-        "market_date":  datetime.now().strftime("%B %d, %Y"),
-        "stocks":       stocks,
-        "top_gainers":  top_gainers,
-        "top_losers":   top_losers,
-        "news":         news,
+        "last_updated":  datetime.now(timezone.utc).isoformat(),
+        "market_date":   datetime.now().strftime("%B %d, %Y"),
+        "stocks":        stocks,
+        "top_gainers":   sorted_stocks[:3],
+        "top_losers":    sorted_stocks[-3:],
+        "news":          all_news,
+        "ctre_details":  CTRE_DETAILS,
     }
 
-    out_path = os.path.join(os.path.dirname(__file__), "..", "data", "market_data.json")
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    with open(out_path, "w") as f:
+    out = os.path.join(os.path.dirname(__file__), "..", "data", "market_data.json")
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    with open(out, "w") as f:
         json.dump(payload, f, indent=2)
 
-    print(f"\nDone. {len(stocks)} stocks, {len(news)} news items, "
-          f"{sum(1 for n in news if n['is_signal'])} signals.")
-    print(f"Written to {os.path.abspath(out_path)}")
+    signals = sum(1 for n in all_news if n["is_signal"])
+    print(f"\nDone. {len(stocks)} stocks | {len(reit_news)} REIT news | "
+          f"{len(broad_news)} industry news | {signals} signals")
 
 
 if __name__ == "__main__":
