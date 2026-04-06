@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-06T21:54:54.654637+00:00",
+  "last_updated": "2026-04-06T21:58:29.040978+00:00",
   "market_date": "April 06, 2026",
   "stocks": {
     "WELL": {
@@ -9,7 +9,7 @@
       "prev_close": 202.33,
       "pct_change": -0.7,
       "market_cap": 140185452544,
-      "dividend_yield": 146.0,
+      "dividend_yield": 1.46,
       "fifty_two_week_high": 216.43,
       "fifty_two_week_low": 130.29
     },
@@ -20,7 +20,7 @@
       "prev_close": 83.27,
       "pct_change": -0.38,
       "market_cap": 39398363136,
-      "dividend_yield": 250.0,
+      "dividend_yield": 2.5,
       "fifty_two_week_high": 88.37,
       "fifty_two_week_low": 60.15
     },
@@ -31,7 +31,7 @@
       "prev_close": 16.52,
       "pct_change": 0.91,
       "market_cap": 11589927936,
-      "dividend_yield": 739.0,
+      "dividend_yield": 7.39,
       "fifty_two_week_high": 19.68,
       "fifty_two_week_low": 15.71
     },
@@ -42,7 +42,7 @@
       "prev_close": 48.09,
       "pct_change": -1.98,
       "market_cap": 8863665152,
-      "dividend_yield": 208.0,
+      "dividend_yield": 2.08,
       "fifty_two_week_high": 54.67,
       "fifty_two_week_low": 26.48
     },
@@ -53,7 +53,7 @@
       "prev_close": 43.23,
       "pct_change": -0.42,
       "market_cap": 7460580864,
-      "dividend_yield": 944.0,
+      "dividend_yield": 9.44,
       "fifty_two_week_high": 88.24,
       "fifty_two_week_low": 41.44
     },
@@ -64,7 +64,7 @@
       "prev_close": 38.32,
       "pct_change": -2.37,
       "market_cap": 8351304704,
-      "dividend_yield": 407.0,
+      "dividend_yield": 4.07,
       "fifty_two_week_high": 41.72,
       "fifty_two_week_low": 25.82
     },
@@ -75,7 +75,7 @@
       "prev_close": 17.4,
       "pct_change": -0.63,
       "market_cap": 6153211904,
-      "dividend_yield": 592.0,
+      "dividend_yield": 5.92,
       "fifty_two_week_high": 18.97,
       "fifty_two_week_low": 14.09
     },
@@ -86,7 +86,7 @@
       "prev_close": 19.86,
       "pct_change": -0.7,
       "market_cap": 4972313088,
-      "dividend_yield": 604.0,
+      "dividend_yield": 6.04,
       "fifty_two_week_high": 21.07,
       "fifty_two_week_low": 15.75
     },
@@ -108,7 +108,7 @@
       "prev_close": 83.16,
       "pct_change": -0.18,
       "market_cap": 4022598912,
-      "dividend_yield": 440.0,
+      "dividend_yield": 4.4,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 66.41
     },
@@ -119,7 +119,7 @@
       "prev_close": 45.0,
       "pct_change": -0.22,
       "market_cap": 13639721984,
-      "dividend_yield": 596.0,
+      "dividend_yield": 5.96,
       "fifty_two_week_high": 49.14,
       "fifty_two_week_low": 35.04
     },
@@ -130,7 +130,7 @@
       "prev_close": 38.41,
       "pct_change": -0.78,
       "market_cap": 1848706944,
-      "dividend_yield": 594.0,
+      "dividend_yield": 5.94,
       "fifty_two_week_high": 40.8,
       "fifty_two_week_low": 31.7
     },
@@ -141,7 +141,7 @@
       "prev_close": 6.92,
       "pct_change": 0.94,
       "market_cap": 1691215360,
-      "dividend_yield": 58.0,
+      "dividend_yield": 30,
       "fifty_two_week_high": 7.66,
       "fifty_two_week_low": 2.0
     },
@@ -152,7 +152,7 @@
       "prev_close": 23.74,
       "pct_change": 0.0,
       "market_cap": 1311549312,
-      "dividend_yield": 674.0,
+      "dividend_yield": 6.74,
       "fifty_two_week_high": 26.88,
       "fifty_two_week_low": 21.94
     },
@@ -163,7 +163,7 @@
       "prev_close": 16.08,
       "pct_change": -0.25,
       "market_cap": 458291584,
-      "dividend_yield": 1178.0,
+      "dividend_yield": 11.78,
       "fifty_two_week_high": 18.22,
       "fifty_two_week_low": 13.23
     },
@@ -174,7 +174,7 @@
       "prev_close": 40.82,
       "pct_change": 0.64,
       "market_cap": 569970368,
-      "dividend_yield": 730.0,
+      "dividend_yield": 7.3,
       "fifty_two_week_high": 44.7,
       "fifty_two_week_low": 35.26
     }
@@ -187,7 +187,7 @@
       "prev_close": 6.92,
       "pct_change": 0.94,
       "market_cap": 1691215360,
-      "dividend_yield": 58.0,
+      "dividend_yield": 30,
       "fifty_two_week_high": 7.66,
       "fifty_two_week_low": 2.0
     },
@@ -198,7 +198,7 @@
       "prev_close": 16.52,
       "pct_change": 0.91,
       "market_cap": 11589927936,
-      "dividend_yield": 739.0,
+      "dividend_yield": 7.39,
       "fifty_two_week_high": 19.68,
       "fifty_two_week_low": 15.71
     },
@@ -209,7 +209,7 @@
       "prev_close": 40.82,
       "pct_change": 0.64,
       "market_cap": 569970368,
-      "dividend_yield": 730.0,
+      "dividend_yield": 7.3,
       "fifty_two_week_high": 44.7,
       "fifty_two_week_low": 35.26
     }
@@ -222,7 +222,7 @@
       "prev_close": 48.09,
       "pct_change": -1.98,
       "market_cap": 8863665152,
-      "dividend_yield": 208.0,
+      "dividend_yield": 2.08,
       "fifty_two_week_high": 54.67,
       "fifty_two_week_low": 26.48
     },
@@ -244,7 +244,7 @@
       "prev_close": 38.32,
       "pct_change": -2.37,
       "market_cap": 8351304704,
-      "dividend_yield": 407.0,
+      "dividend_yield": 4.07,
       "fifty_two_week_high": 41.72,
       "fifty_two_week_low": 25.82
     }
