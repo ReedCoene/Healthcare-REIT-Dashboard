@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-06T21:58:29.040978+00:00",
+  "last_updated": "2026-04-06T23:08:03.438202+00:00",
   "market_date": "April 06, 2026",
   "stocks": {
     "WELL": {
@@ -959,6 +959,17 @@
       "company": null,
       "source": "Skilled Nursing News",
       "category": "sector",
+      "title": "Clock Is Ticking: CMS LEAD Applications Due May 17 for Nursing Homes, but Complexity Demands Careful Review",
+      "link": "https://skillednursingnews.com/2026/04/clock-is-ticking-cms-lead-applications-due-may-17-for-nursing-homes-but-complexity-demands-careful-review/",
+      "published": "Mon, 06 Apr 2026 22:00:00 +0000",
+      "summary": "<p>The Centers for Medicare and Medicaid Services (CMS) recently opened applications for the Long-Term Enhanced ACO Design model (LEAD) and posted more guidance for prospective participants. The highly anticipated model replaces ACO REACH, which will be discontinued at the end of this year. While LE\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
       "title": "Hospitals Allegedly Retained $500M Meant for Nursing Homes, State Audit Finds",
       "link": "https://skillednursingnews.com/2026/04/hospitals-allegedly-retained-500m-meant-for-nursing-homes-state-audit-finds/",
       "published": "Mon, 06 Apr 2026 21:51:49 +0000",
@@ -997,17 +1008,6 @@
       "published": "Thu, 02 Apr 2026 18:38:41 +0000",
       "summary": "<p>Skilled Nursing News&#8217; parent company, WTWH Media, has acquired HealthLeaders, a media and events platform serving hospital and health system executives \u2013 a move that expands the company&#8217;s health care portfolio and strengthens its ability to connect decisionmakers across an increasingl\u2026",
       "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "Drug Pricing Law Worsens Access Crisis for Nursing Homes, Long-Term Care Pharmacies Amid Huge Reimbursement Gap",
-      "link": "https://skillednursingnews.com/2026/04/drug-pricing-law-worsens-access-crisis-for-nursing-homes-long-term-care-pharmacies-amid-huge-reimbursement-gap/",
-      "published": "Wed, 01 Apr 2026 22:00:00 +0000",
-      "summary": "<p>With reimbursement for brand name drugs sharply decreasing under the Inflation Reduction Act, long-term care pharmacies are having to make difficult decisions that will have a lasting impact on nursing home residents.\u00a0 The law disrupts long-term care pharmacies\u2019 business model, capping payments f\u2026",
-      "is_signal": true
     },
     {
       "ticker": null,
