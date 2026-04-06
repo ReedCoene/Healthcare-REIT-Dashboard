@@ -163,12 +163,27 @@ def fetch_newsapi() -> list:
         print("  NEWS_API_KEY not set — skipping WSJ/Bloomberg pull")
         return []
 
+    # Queries are already healthcare-scoped; secondary filter below
+    # catches any stray off-topic articles that slip through
     queries = [
         "healthcare REIT skilled nursing",
         "senior housing real estate investment",
         "CMS Medicare Medicaid skilled nursing facility",
         "CareTrust REIT OR Omega Healthcare OR Welltower OR Ventas",
     ]
+
+    # Article must contain at least one of these to be kept
+    HEALTHCARE_TERMS = [
+        "health", "hospital", "medical", "medicare", "medicaid", "nursing",
+        "senior", "patient", "clinical", "pharma", "biotech", "drug", "therapy",
+        "care", "reit", "assisted living", "post-acute", "cms", "fda", "insurance",
+        "physician", "provider", "wellness", "aging", "dementia", "alzheimer",
+    ]
+
+    def is_healthcare_relevant(art: dict) -> bool:
+        text = ((art.get("title") or "") + " " + (art.get("description") or "")).lower()
+        return any(term in text for term in HEALTHCARE_TERMS)
+
     items = []
     seen  = set()
 
@@ -188,7 +203,7 @@ def fetch_newsapi() -> list:
             resp.raise_for_status()
             for art in resp.json().get("articles", []):
                 url = art.get("url", "")
-                if url in seen:
+                if url in seen or not is_healthcare_relevant(art):
                     continue
                 seen.add(url)
                 source_name = art.get("source", {}).get("name", "News")
