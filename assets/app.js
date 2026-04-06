@@ -1,5 +1,5 @@
 // ── Config ───────────────────────────────────────────────────
-const TRACKED  = new Set(['CTRE', 'OHI', 'NHI']);
+const TRACKED  = new Set(['CTRE']);
 const BIG_MOVE = 2.5;
 
 // ── Formatters ───────────────────────────────────────────────
