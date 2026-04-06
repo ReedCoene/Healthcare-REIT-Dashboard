@@ -28,6 +28,8 @@ jobs:
 
       - name: Fetch market data
         run: python scripts/fetch_data.py
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
 
       - name: Commit updated data
         run: |

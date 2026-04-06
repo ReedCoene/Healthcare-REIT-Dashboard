@@ -10,7 +10,10 @@ import sys
 from datetime import datetime, timezone
 
 import feedparser
+import requests
 import yfinance as yf
+
+NEWS_API_KEY = os.environ.get("NEWS_API_KEY")  # set as GitHub Actions secret
 
 # ── Coverage universe ─────────────────────────────────────────
 REITS = {
@@ -38,6 +41,8 @@ BROAD_FEEDS = [
     {"source": "STAT News",            "url": "https://www.statnews.com/feed/",                                  "category": "broad"},
     {"source": "CMS Newsroom",         "url": "https://www.cms.gov/newsroom/rss",                                "category": "broad"},
     {"source": "Nareit",               "url": "https://www.reit.com/rss.xml",                                    "category": "sector"},
+    {"source": "MarketWatch Health",   "url": "https://feeds.content.dowjones.io/public/rss/mw_healthcare",     "category": "broad"},
+    {"source": "MarketWatch RE",       "url": "https://feeds.content.dowjones.io/public/rss/mw_realestate",     "category": "broad"},
 ]
 
 # Keywords that flag a news item as a meaningful signal
@@ -152,6 +157,59 @@ def tag_signals(items: list) -> list:
     return items
 
 
+# ── NewsAPI (WSJ, Bloomberg, Reuters by keyword) ─────────────
+def fetch_newsapi() -> list:
+    if not NEWS_API_KEY:
+        print("  NEWS_API_KEY not set — skipping WSJ/Bloomberg pull")
+        return []
+
+    queries = [
+        "healthcare REIT skilled nursing",
+        "senior housing real estate investment",
+        "CMS Medicare Medicaid skilled nursing facility",
+        "CareTrust REIT OR Omega Healthcare OR Welltower OR Ventas",
+    ]
+    items = []
+    seen  = set()
+
+    for q in queries:
+        try:
+            resp = requests.get(
+                "https://newsapi.org/v2/everything",
+                params={
+                    "q":        q,
+                    "language": "en",
+                    "sortBy":   "publishedAt",
+                    "pageSize": 10,
+                    "apiKey":   NEWS_API_KEY,
+                },
+                timeout=10,
+            )
+            resp.raise_for_status()
+            for art in resp.json().get("articles", []):
+                url = art.get("url", "")
+                if url in seen:
+                    continue
+                seen.add(url)
+                source_name = art.get("source", {}).get("name", "News")
+                items.append({
+                    "ticker":    None,
+                    "company":   None,
+                    "source":    source_name,
+                    "category":  "broad",
+                    "title":     (art.get("title") or "").strip(),
+                    "link":      url,
+                    "published": art.get("publishedAt", ""),
+                    "summary":   (art.get("description") or "")[:300],
+                    "is_signal": False,
+                })
+        except Exception as e:
+            print(f"  NewsAPI ERROR ({q[:30]}…): {e}", file=sys.stderr)
+
+    print(f"  NewsAPI: {len(items)} articles across {len(queries)} queries")
+    return items
+
+
 # ── CTRE static details (update manually each quarter) ───────
 CTRE_DETAILS = {
     "key_dates": [
@@ -191,7 +249,10 @@ def main():
     print("\nFetching broad healthcare news...")
     broad_news = fetch_broad_news()
 
-    all_news = tag_signals(reit_news + broad_news)
+    print("\nFetching NewsAPI (WSJ/Bloomberg)...")
+    api_news = fetch_newsapi()
+
+    all_news = tag_signals(reit_news + broad_news + api_news)
 
     sorted_stocks = sorted(stocks.values(), key=lambda s: s["pct_change"], reverse=True)
 
@@ -212,7 +273,7 @@ def main():
 
     signals = sum(1 for n in all_news if n["is_signal"])
     print(f"\nDone. {len(stocks)} stocks | {len(reit_news)} REIT news | "
-          f"{len(broad_news)} industry news | {signals} signals")
+          f"{len(broad_news)} industry news | {len(api_news)} NewsAPI | {signals} signals")
 
 
 if __name__ == "__main__":
