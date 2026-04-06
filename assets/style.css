@@ -52,6 +52,25 @@
   --font-mono:    'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
+/* ── Light mode overrides ── */
+body.light {
+  --bg:      #ffffff;
+  --s1:      #f4f6fa;
+  --s2:      #eaecf2;
+  --s3:      #dde0ea;
+  --s4:      #c8ccd8;
+  --t1:      #0a0b0d;
+  --t2:      #2e3340;
+  --t3:      #6b7280;
+  --t4:      #9ca3af;
+  --border:  rgba(0,0,0,0.10);
+  --border-h:rgba(0,0,0,0.20);
+  --blue-bg: rgba(0,82,255,0.08);
+  --up-bg:   rgba(0,192,135,0.08);
+  --dn-bg:   rgba(246,70,93,0.08);
+  --warn-bg: rgba(240,180,41,0.08);
+}
+
 /* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body {
@@ -68,6 +87,25 @@ a:hover { color: var(--t1); text-decoration: underline; }
 
 /* ── Page ── */
 .page { max-width: 1440px; margin: 0 auto; padding: 0 28px 80px; }
+
+/* ════════════════════════════════════
+   THEME TOGGLE
+════════════════════════════════════ */
+.theme-toggle {
+  background: var(--s1);
+  border: 1px solid var(--border);
+  border-radius: var(--r-pill);
+  width: 36px; height: 36px;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  color: var(--t3);
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  flex-shrink: 0;
+}
+.theme-toggle:hover { color: var(--t1); border-color: var(--border-h); }
+.icon-moon { display: none; }
+body.light .icon-sun  { display: none; }
+body.light .icon-moon { display: block; }
 
 /* ════════════════════════════════════
    HEADER

@@ -1,3 +1,14 @@
+// ── Theme ────────────────────────────────────────────────────
+function initTheme() {
+  const saved = localStorage.getItem('theme');
+  if (saved === 'light') document.body.classList.add('light');
+  document.getElementById('themeToggle').addEventListener('click', () => {
+    document.body.classList.toggle('light');
+    localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark');
+  });
+}
+initTheme();
+
 // ── Config ───────────────────────────────────────────────────
 const TRACKED  = new Set(['CTRE']);
 const BIG_MOVE = 2.5;
