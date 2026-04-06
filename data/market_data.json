@@ -2,18 +2,54 @@
   "last_updated": "2026-04-05T21:30:00Z",
   "market_date": "April 5, 2026",
   "stocks": {
-    "WELL":  { "name": "Welltower",                  "ticker": "WELL",  "price": 136.42, "prev_close": 140.18, "pct_change": -2.68, "market_cap": 72400000000, "dividend_yield": 1.99, "fifty_two_week_high": 155.40, "fifty_two_week_low": 108.20 },
-    "VTR":   { "name": "Ventas",                     "ticker": "VTR",   "price": 68.14,  "prev_close": 70.05,  "pct_change": -2.73, "market_cap": 28200000000, "dividend_yield": 3.22, "fifty_two_week_high": 75.80,  "fifty_two_week_low": 48.30  },
-    "DOC":   { "name": "Healthpeak Properties",      "ticker": "DOC",   "price": 19.88,  "prev_close": 20.41,  "pct_change": -2.60, "market_cap": 11600000000, "dividend_yield": 6.04, "fifty_two_week_high": 23.10,  "fifty_two_week_low": 15.40  },
-    "OHI":   { "name": "Omega Healthcare Investors", "ticker": "OHI",   "price": 38.72,  "prev_close": 38.45,  "pct_change":  0.70, "market_cap":  9800000000, "dividend_yield": 6.70, "fifty_two_week_high": 44.20,  "fifty_two_week_low": 30.10  },
-    "CTRE":  { "name": "CareTrust REIT",             "ticker": "CTRE",  "price": 31.14,  "prev_close": 30.74,  "pct_change":  1.30, "market_cap":  5100000000, "dividend_yield": 5.01, "fifty_two_week_high": 38.20,  "fifty_two_week_low": 22.80  },
-    "NHI":   { "name": "National Health Investors",  "ticker": "NHI",   "price": 80.86,  "prev_close": 82.10,  "pct_change": -1.51, "market_cap":  3200000000, "dividend_yield": 4.56, "fifty_two_week_high": 91.40,  "fifty_two_week_low": 62.30  },
-    "SBRA":  { "name": "Sabra Health Care REIT",     "ticker": "SBRA",  "price": 17.82,  "prev_close": 17.65,  "pct_change":  0.96, "market_cap":  3900000000, "dividend_yield": 6.73, "fifty_two_week_high": 21.40,  "fifty_two_week_low": 13.80  },
-    "HR":    { "name": "Healthcare Realty Trust",    "ticker": "HR",    "price": 14.55,  "prev_close": 14.92,  "pct_change": -2.48, "market_cap":  5200000000, "dividend_yield": 8.25, "fifty_two_week_high": 18.30,  "fifty_two_week_low": 11.20  },
-    "LTC":   { "name": "LTC Properties",             "ticker": "LTC",   "price": 36.48,  "prev_close": 36.22,  "pct_change":  0.72, "market_cap":  1500000000, "dividend_yield": 6.58, "fifty_two_week_high": 40.10,  "fifty_two_week_low": 28.90  },
-    "MPW":   { "name": "Medical Properties Trust",   "ticker": "MPW",   "price": 4.18,   "prev_close": 4.42,   "pct_change": -5.43, "market_cap":  2300000000, "dividend_yield": 9.57, "fifty_two_week_high": 6.80,   "fifty_two_week_low": 3.20   },
-    "CHCT":  { "name": "Community Healthcare Trust", "ticker": "CHCT",  "price": 21.40,  "prev_close": 21.65,  "pct_change": -1.15, "market_cap":   590000000, "dividend_yield": 8.41, "fifty_two_week_high": 28.50,  "fifty_two_week_low": 18.20  },
-    "UHT":   { "name": "Universal Health Realty",    "ticker": "UHT",   "price": 42.10,  "prev_close": 42.80,  "pct_change": -1.64, "market_cap":   630000000, "dividend_yield": 7.60, "fifty_two_week_high": 50.20,  "fifty_two_week_low": 36.10  }
+    "WELL":  { "name": "Welltower",                  "ticker": "WELL",  "price": 136.42, "prev_close": 140.18, "pct_change": -2.68, "market_cap": 141176000000, "dividend_yield": 1.99, "fifty_two_week_high": 155.40, "fifty_two_week_low": 108.20 },
+    "VTR":   { "name": "Ventas",                          "ticker": "VTR",   "price": 68.14,  "prev_close": 70.05,  "pct_change": -2.73, "market_cap": 39592000000, "dividend_yield": 3.22, "fifty_two_week_high": 75.80,  "fifty_two_week_low": 48.30  },
+    "DOC":   { "name": "Healthpeak Properties",           "ticker": "DOC",   "price": 19.88,  "prev_close": 20.41,  "pct_change": -2.60, "market_cap": 11486000000, "dividend_yield": 6.04, "fifty_two_week_high": 23.10,  "fifty_two_week_low": 15.40  },
+    "AHR":   { "name": "American Healthcare REIT",        "ticker": "AHR",   "price": 21.10,  "prev_close": 20.85,  "pct_change":  1.20, "market_cap":  9042000000, "dividend_yield": 3.79, "fifty_two_week_high": 27.40,  "fifty_two_week_low": 12.80  },
+    "ARE":   { "name": "Alexandria Real Estate Equities", "ticker": "ARE",   "price": 73.20,  "prev_close": 73.30,  "pct_change": -0.14, "market_cap":  7484000000, "dividend_yield": 6.21, "fifty_two_week_high": 135.90, "fifty_two_week_low": 60.10  },
+    "CTRE":  { "name": "CareTrust REIT",                  "ticker": "CTRE",  "price": 31.14,  "prev_close": 30.74,  "pct_change":  1.30, "market_cap":  8555000000, "dividend_yield": 5.01, "fifty_two_week_high": 38.20,  "fifty_two_week_low": 22.80  },
+    "HR":    { "name": "Healthcare Realty Trust",         "ticker": "HR",    "price": 14.55,  "prev_close": 14.92,  "pct_change": -2.48, "market_cap":  6070000000, "dividend_yield": 8.25, "fifty_two_week_high": 18.30,  "fifty_two_week_low": 11.20  },
+    "SBRA":  { "name": "Sabra Health Care REIT",          "ticker": "SBRA",  "price": 17.82,  "prev_close": 17.65,  "pct_change":  0.96, "market_cap":  5008000000, "dividend_yield": 6.73, "fifty_two_week_high": 21.40,  "fifty_two_week_low": 13.80  },
+    "JAN":   { "name": "Janus Living",                    "ticker": "JAN",   "price": 27.40,  "prev_close": 26.79,  "pct_change":  2.31, "market_cap":  4473000000, "dividend_yield": 2.92, "fifty_two_week_high": 31.20,  "fifty_two_week_low": 22.40  },
+    "NHI":   { "name": "National Health Investors",       "ticker": "NHI",   "price": 80.86,  "prev_close": 82.10,  "pct_change": -1.51, "market_cap":  4030000000, "dividend_yield": 4.56, "fifty_two_week_high": 91.40,  "fifty_two_week_low": 62.30  },
+    "OHI":   { "name": "Omega Healthcare Investors",      "ticker": "OHI",   "price": 38.72,  "prev_close": 38.45,  "pct_change":  0.70, "market_cap": 13301000000, "dividend_yield": 6.70, "fifty_two_week_high": 44.20,  "fifty_two_week_low": 30.10  },
+    "LTC":   { "name": "LTC Properties",                  "ticker": "LTC",   "price": 36.48,  "prev_close": 36.22,  "pct_change":  0.72, "market_cap":  1863000000, "dividend_yield": 6.58, "fifty_two_week_high": 40.10,  "fifty_two_week_low": 28.90  },
+    "DHC":   { "name": "Diversified Healthcare Trust",    "ticker": "DHC",   "price": 2.82,   "prev_close": 2.76,   "pct_change":  2.06, "market_cap":  1676000000, "dividend_yield": 0.00, "fifty_two_week_high": 4.10,   "fifty_two_week_low": 0.92   },
+    "SILA":  { "name": "Sila Realty Trust",               "ticker": "SILA",  "price": 15.10,  "prev_close": 15.13,  "pct_change": -0.17, "market_cap":  1312000000, "dividend_yield": 5.30, "fifty_two_week_high": 18.40,  "fifty_two_week_low": 12.60  },
+    "MPW":   { "name": "Medical Properties Trust",        "ticker": "MPW",   "price": 4.18,   "prev_close": 4.42,   "pct_change": -5.43, "market_cap":  2767000000, "dividend_yield": 9.57, "fifty_two_week_high": 6.80,   "fifty_two_week_low": 3.20   },
+    "CHCT":  { "name": "Community Healthcare Trust",      "ticker": "CHCT",  "price": 21.40,  "prev_close": 21.65,  "pct_change": -1.15, "market_cap":   590000000, "dividend_yield": 8.41, "fifty_two_week_high": 28.50,  "fifty_two_week_low": 18.20  },
+    "UHT":   { "name": "Universal Health Realty",         "ticker": "UHT",   "price": 42.10,  "prev_close": 42.80,  "pct_change": -1.64, "market_cap":   630000000, "dividend_yield": 7.60, "fifty_two_week_high": 50.20,  "fifty_two_week_low": 36.10  }
+  },
+  "weekly_report": {
+    "week_ending": "April 5, 2026",
+    "generated_at": "2026-04-05T21:30:00Z",
+    "advancing": 4,
+    "declining": 8,
+    "total": 12,
+    "top_gainers": [
+      { "ticker": "CTRE", "name": "CareTrust REIT",             "price": 31.14, "weekly_pct":  3.10 },
+      { "ticker": "SBRA", "name": "Sabra Health Care REIT",     "price": 17.82, "weekly_pct":  1.84 },
+      { "ticker": "OHI",  "name": "Omega Healthcare Investors", "price": 38.72, "weekly_pct":  0.98 }
+    ],
+    "top_losers": [
+      { "ticker": "MPW",  "name": "Medical Properties Trust",   "price": 4.18,  "weekly_pct": -8.12 },
+      { "ticker": "VTR",  "name": "Ventas",                     "price": 68.14, "weekly_pct": -4.61 },
+      { "ticker": "WELL", "name": "Welltower",                  "price": 136.42,"weekly_pct": -3.55 }
+    ],
+    "key_signals": [
+      "CTRE: Mizuho initiates at Outperform with $42 price target — expands analyst coverage",
+      "OHI: Q1 2026 earnings scheduled April 30 — consensus EPS $0.63",
+      "SBRA: $240M investment pipeline expected to close Q1-Q2 2026",
+      "MPW: Shares off 8% on week amid operator restructuring and dividend coverage questions",
+      "NHI: $500M at-the-market equity offering program launched"
+    ],
+    "broad_highlights": [
+      "CMS finalizes FY2026 SNF payment rate at +3.2% net — positive for operator margins",
+      "Medicare Advantage enrollment tops 34M; insurers expanding SNF authorization scrutiny",
+      "Medicaid cuts projected in reconciliation bill — long-term care providers watching closely",
+      "SNF national occupancy hits 79%, projected 80-81% by end of 2026",
+      "Hospital discharge volumes +4.2% in 2024, boosting post-acute referral pipelines"
+    ]
   },
   "ctre_details": {
     "key_dates": [

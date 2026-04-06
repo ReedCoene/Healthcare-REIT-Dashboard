@@ -1,6 +1,6 @@
 // ── Config ───────────────────────────────────────────────────
-const TRACKED    = new Set(['CTRE', 'OHI', 'NHI']);
-const BIG_MOVE   = 2.5;
+const TRACKED  = new Set(['CTRE', 'OHI', 'NHI']);
+const BIG_MOVE = 2.5;
 
 // ── Formatters ───────────────────────────────────────────────
 const fmtPrice = v => v != null ? '$' + Number(v).toFixed(2) : '—';
@@ -14,8 +14,9 @@ const fmtCap   = v => {
 };
 const fmtChange = pct => {
   if (pct == null) return { text: '—', cls: 'flat' };
-  const sign = pct > 0 ? '+' : '';
-  return { text: `${sign}${Number(pct).toFixed(2)}%`, cls: pct > 0 ? 'up' : pct < 0 ? 'down' : 'flat' };
+  const abs  = Math.abs(pct);
+  const sign = pct > 0 ? '+' : pct < 0 ? '−' : '';
+  return { text: `${sign}${abs.toFixed(2)}%`, cls: pct > 0 ? 'up' : pct < 0 ? 'down' : 'flat' };
 };
 const timeSince = str => {
   if (!str) return '';
@@ -64,70 +65,134 @@ function renderAlert(stocks) {
   el.classList.remove('hidden');
 }
 
-// ── Overview: Sector Stats ────────────────────────────────────
-function renderSectorStats(stocks) {
-  const arr = Object.values(stocks);
-  const totalCap  = arr.reduce((s, x) => s + (x.market_cap || 0), 0);
-  const avgYield  = arr.filter(x => x.dividend_yield > 0).reduce((s, x) => s + x.dividend_yield, 0)
-                  / arr.filter(x => x.dividend_yield > 0).length;
+// ── Daily Summary Helper ──────────────────────────────────────
+function summaryBox(title, date, items, accentColor) {
+  const color = accentColor || 'var(--accent)';
+  const bullets = items.map(item => {
+    const cls = item.cls ? ` class="${item.cls}"` : '';
+    return `<li class="daily-summary-item"${cls}>${item.html}</li>`;
+  }).join('');
+  return `
+    <div class="daily-summary" style="border-left-color:${color}">
+      <div class="daily-summary-header">
+        <span class="daily-summary-title" style="color:${color}">${title}</span>
+        <span class="daily-summary-date">${date}</span>
+      </div>
+      <ul class="daily-summary-items">${bullets}</ul>
+    </div>`;
+}
+
+// ── CTRE: Daily Summary ───────────────────────────────────────
+function renderCTRESummary(data) {
+  const s   = data.stocks['CTRE'];
+  const cd  = data.ctre_details || {};
+  const { text, cls } = fmtChange(s.pct_change);
+  const items = [];
+
+  // Price action
+  items.push({ html: `CTRE <span class="${cls}">${text}</span> to ${fmtPrice(s.price)} today` });
+
+  // Most recent CTRE signal
+  const ctreSignals = (data.news || []).filter(n => n.ticker === 'CTRE' && n.is_signal);
+  if (ctreSignals.length) {
+    const n = ctreSignals[0];
+    const link = n.link
+      ? `<a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>`
+      : n.title;
+    items.push({ html: `Latest signal: ${link}` });
+  }
+
+  // Next key date
+  const dates = cd.key_dates || [];
+  if (dates.length) {
+    const next = dates[0];
+    items.push({ html: `Next: <strong>${next.event}</strong> — ${next.date}` });
+  }
+
+  // Analyst coverage summary
+  const analysts = cd.analyst_coverage || [];
+  if (analysts.length) {
+    const buys = analysts.filter(a => ['Outperform','Overweight','Buy'].includes(a.rating));
+    if (buys.length) {
+      const targets = buys.map(a => `${a.firm} $${a.target}`).join(', ');
+      items.push({ html: `Buy-side coverage: ${targets}` });
+    }
+  }
+
+  document.getElementById('ctreSummary').innerHTML =
+    summaryBox("Today's Summary", data.market_date || '—', items, 'var(--accent)');
+}
+
+// ── All REITs: Daily Summary ──────────────────────────────────
+function renderREITsSummary(data) {
+  const arr       = Object.values(data.stocks);
   const advancing = arr.filter(x => x.pct_change > 0).length;
   const declining = arr.filter(x => x.pct_change < 0).length;
+  const unchanged = arr.length - advancing - declining;
+  const sorted    = [...arr].sort((a, b) => b.pct_change - a.pct_change);
+  const top       = sorted[0];
+  const bottom    = sorted[sorted.length - 1];
 
-  document.getElementById('sectorStats').innerHTML = `
-    <div class="stat-card">
-      <div class="stat-label">Sector Market Cap</div>
-      <div class="stat-value">${fmtCap(totalCap)}</div>
-      <div class="stat-sub">${arr.length} REITs tracked</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-label">Avg. Dividend Yield</div>
-      <div class="stat-value">${avgYield.toFixed(2)}%</div>
-      <div class="stat-sub">across coverage universe</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-label">Advancing Today</div>
-      <div class="stat-value up">${advancing}</div>
-      <div class="stat-sub">of ${arr.length} REITs higher</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-label">Declining Today</div>
-      <div class="stat-value down">${declining}</div>
-      <div class="stat-sub">of ${arr.length} REITs lower</div>
-    </div>`;
+  const items = [];
+
+  // Breadth
+  const breadthCls = advancing > declining ? 'up' : advancing < declining ? 'down' : 'flat';
+  items.push({
+    html: `Sector breadth: <span class="up">${advancing} advancing</span> / <span class="down">${declining} declining</span>${unchanged ? ` / ${unchanged} unchanged` : ''} of ${arr.length} REITs`
+  });
+
+  // Top gainer
+  if (top) {
+    const { text } = fmtChange(top.pct_change);
+    items.push({ html: `Top gainer: <strong>${top.ticker}</strong> <span class="up">${text}</span> to ${fmtPrice(top.price)}` });
+  }
+
+  // Top loser
+  if (bottom && bottom.pct_change < 0) {
+    const { text } = fmtChange(bottom.pct_change);
+    items.push({ html: `Top loser: <strong>${bottom.ticker}</strong> <span class="down">${text}</span> to ${fmtPrice(bottom.price)}` });
+  }
+
+  // Any REIT signals today (last 48h)
+  const cutoff = Date.now() - 48 * 3600 * 1000;
+  const todaySignals = (data.news || []).filter(n =>
+    n.ticker && n.is_signal && new Date(n.published).getTime() >= cutoff
+  );
+  if (todaySignals.length) {
+    const s = todaySignals[0];
+    const link = s.link
+      ? `<a href="${s.link}" target="_blank" rel="noopener">${s.title}</a>`
+      : s.title;
+    items.push({ html: `Key signal: ${link}` });
+    if (todaySignals.length > 1) {
+      items.push({ html: `+${todaySignals.length - 1} more REIT signal${todaySignals.length > 2 ? 's' : ''} today` });
+    }
+  }
+
+  const color = advancing >= declining ? 'var(--green)' : 'var(--accent)';
+  document.getElementById('reitsSummary').innerHTML =
+    summaryBox("Today's Summary", data.market_date || '—', items, color);
 }
 
-// ── Overview: Movers ─────────────────────────────────────────
-function renderMovers(stocks) {
-  const sorted  = Object.values(stocks).sort((a, b) => b.pct_change - a.pct_change);
-  const gainers = sorted.slice(0, 3);
-  const losers  = sorted.slice(-3).reverse();
-  document.getElementById('moversRow').innerHTML = [...gainers, ...losers].map(s => {
-    const isGain = s.pct_change >= 0;
-    const { text } = fmtChange(s.pct_change);
-    const dot = TRACKED.has(s.ticker) ? '<div class="tracked-dot" title="Tracked position"></div>' : '';
-    return `<div class="mover-card ${isGain ? 'gain' : 'loss'}">
-      ${dot}
-      <div class="mover-ticker">${s.ticker}</div>
-      <div class="mover-company">${s.name}</div>
-      <div class="mover-price">${fmtPrice(s.price)}</div>
-      <div class="mover-change ${isGain ? 'up' : 'down'}">${text}</div>
-    </div>`;
-  }).join('');
-}
+// ── Healthcare News: Daily Summary ───────────────────────────
+function renderHealthcareSummary(data) {
+  const broadNews = (data.news || []).filter(n => !n.ticker && n.category !== 'reit');
+  const signals   = broadNews.filter(n => n.is_signal).slice(0, 3);
+  const items     = [];
 
-// ── Overview: Signals ─────────────────────────────────────────
-function renderOverviewSignals(news) {
-  const signals = news.filter(n => n.is_signal).slice(0, 6);
-  const el = document.getElementById('overviewSignals');
-  if (!signals.length) { el.innerHTML = '<p class="empty-msg">No major signals today.</p>'; return; }
-  el.innerHTML = signals.map(n => `
-    <div class="signal-card">
-      <div class="card-meta">
-        <span class="card-source signal-src">${n.ticker || n.source || '—'}</span>
-        <span class="card-date">${timeSince(n.published)}</span>
-      </div>
-      <div class="card-title">${n.link ? `<a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>` : n.title}</div>
-    </div>`).join('');
+  if (!signals.length) {
+    items.push({ html: 'No major healthcare signals today — check back after market close.' });
+  } else {
+    signals.forEach(n => {
+      const link = n.link
+        ? `<a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>`
+        : n.title;
+      items.push({ html: `[${n.source}] ${link}` });
+    });
+  }
+
+  document.getElementById('healthcareSummary').innerHTML =
+    summaryBox("Today's Top Stories", data.market_date || '—', items, 'var(--purple)');
 }
 
 // ── CTRE Tab ─────────────────────────────────────────────────
@@ -136,7 +201,6 @@ function renderCTRE(data) {
   const cd = data.ctre_details || {};
   const { text, cls } = fmtChange(s.pct_change);
 
-  // Hero
   document.getElementById('ctreHero').innerHTML = `
     <div class="ctre-hero">
       <div class="ctre-hero-left">
@@ -164,7 +228,6 @@ function renderCTRE(data) {
       </div>
     </div>`;
 
-  // Thesis
   const points = cd.thesis_points || [];
   document.getElementById('ctreThesis').innerHTML = `
     <div class="panel">
@@ -172,7 +235,6 @@ function renderCTRE(data) {
       <ul class="thesis-list">${points.map(p => `<li>${p}</li>`).join('')}</ul>
     </div>`;
 
-  // Key Dates
   const dates = cd.key_dates || [];
   document.getElementById('ctreDates').innerHTML = `
     <div class="panel">
@@ -185,7 +247,6 @@ function renderCTRE(data) {
         </li>`).join('')}</ul>
     </div>`;
 
-  // Analyst Coverage
   const analysts = cd.analyst_coverage || [];
   document.getElementById('ctreAnalysts').innerHTML = `
     <div class="panel">
@@ -198,13 +259,12 @@ function renderCTRE(data) {
             <td>${a.firm}</td>
             <td class="${ratingCls}">${a.rating}</td>
             <td>$${a.target}</td>
-            <td style="color:var(--muted)">${a.date}</td>
+            <td style="color:var(--text-4)">${a.date}</td>
           </tr>`;
         }).join('')}</tbody>
       </table>
     </div>`;
 
-  // CTRE News
   const ctreNews = (data.news || []).filter(n => n.ticker === 'CTRE');
   const ctreEl   = document.getElementById('ctreNews');
   if (!ctreNews.length) { ctreEl.innerHTML = '<p class="empty-msg">No recent news.</p>'; return; }
@@ -218,7 +278,26 @@ function renderCTRE(data) {
     </div>`).join('');
 }
 
-// ── Coverage Table ────────────────────────────────────────────
+// ── All REITs: Movers ─────────────────────────────────────────
+function renderMovers(stocks) {
+  const sorted  = Object.values(stocks).sort((a, b) => b.pct_change - a.pct_change);
+  const gainers = sorted.slice(0, 3);
+  const losers  = sorted.slice(-3).reverse();
+  document.getElementById('moversRow').innerHTML = [...gainers, ...losers].map(s => {
+    const isGain = s.pct_change >= 0;
+    const { text } = fmtChange(s.pct_change);
+    const dot = TRACKED.has(s.ticker) ? '<div class="tracked-dot" title="Tracked position"></div>' : '';
+    return `<div class="mover-card ${isGain ? 'gain' : 'loss'}">
+      ${dot}
+      <div class="mover-ticker">${s.ticker}</div>
+      <div class="mover-company">${s.name}</div>
+      <div class="mover-price">${fmtPrice(s.price)}</div>
+      <div class="mover-change ${isGain ? 'up' : 'down'}">${text}</div>
+    </div>`;
+  }).join('');
+}
+
+// ── All REITs: Coverage Table ─────────────────────────────────
 let sortState = { col: 'pct_change', dir: 'desc' };
 function renderTable(stocks) {
   const rows = Object.values(stocks).sort((a, b) => {
@@ -260,29 +339,26 @@ function attachTableSort() {
   });
 }
 
-// ── News Tab ─────────────────────────────────────────────────
-let newsCat    = 'all';
-let newsCompany = 'ALL';
+// ── Healthcare News Tab ───────────────────────────────────────
+let healthcareCat = 'all';
 
-function renderNewsTab(news) {
-  let filtered = news;
-  if (newsCat === 'reit')   filtered = filtered.filter(n => n.category === 'reit');
-  if (newsCat === 'broad')  filtered = filtered.filter(n => n.category === 'broad');
-  if (newsCat === 'signal') filtered = filtered.filter(n => n.is_signal);
-  if (newsCompany !== 'ALL') filtered = filtered.filter(n => n.ticker === newsCompany);
+function renderHealthcareNewsTab(news) {
+  // Only non-REIT news
+  let filtered = news.filter(n => !n.ticker && n.category !== 'reit');
+  if (healthcareCat === 'broad')  filtered = filtered.filter(n => n.category === 'broad');
+  if (healthcareCat === 'sector') filtered = filtered.filter(n => n.category === 'sector');
+  if (healthcareCat === 'signal') filtered = filtered.filter(n => n.is_signal);
 
-  const el = document.getElementById('newsGrid');
+  const el = document.getElementById('healthcareNewsGrid');
   if (!filtered.length) { el.innerHTML = '<p class="empty-msg">No news for this filter.</p>'; return; }
 
-  const isBroad = n => n.category === 'broad';
   el.innerHTML = `<div class="news-grid-layout">` +
     filtered.slice(0, 40).map(n => {
-      const broad    = isBroad(n);
-      const srcLabel = broad ? (n.source || 'Industry') : (n.ticker || '—');
-      const srcCls   = broad ? 'broad' : (n.is_signal ? 'signal-src' : '');
-      return `<div class="news-card ${broad ? 'broad-card' : ''}" style="margin-bottom:0">
+      const isSector = n.category === 'sector';
+      const srcCls   = isSector ? 'sector-src' : (n.is_signal ? 'signal-src' : '');
+      return `<div class="news-card ${isSector ? 'sector-card' : 'broad-card'}" style="margin-bottom:0">
         <div class="card-meta">
-          <span class="card-source ${srcCls}">${srcLabel}</span>
+          <span class="card-source ${srcCls}">${n.source || 'Industry'}</span>
           <span class="card-date">${timeSince(n.published)}</span>
         </div>
         <div class="card-title">${n.link ? `<a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>` : n.title}</div>
@@ -290,32 +366,92 @@ function renderNewsTab(news) {
     }).join('') + `</div>`;
 }
 
-function populateCompanyFilter(stocks) {
-  const sel = document.getElementById('newsFilter');
-  Object.keys(stocks).sort().forEach(t => {
-    const opt = document.createElement('option');
-    opt.value = t;
-    opt.textContent = `${t} — ${stocks[t].name}`;
-    sel.appendChild(opt);
-  });
-  sel.addEventListener('change', () => {
-    newsCompany = sel.value;
-    renderNewsTab(window._data.news || []);
+function initHealthcareCatFilters(news) {
+  document.querySelectorAll('#healthcareCatFilters .cat-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#healthcareCatFilters .cat-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      healthcareCat = btn.dataset.hcat;
+      renderHealthcareNewsTab(news);
+    });
   });
 }
 
-function initNewsFilters(news) {
-  document.querySelectorAll('.cat-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      newsCat = btn.dataset.cat;
-      // show/hide company dropdown — only relevant for REIT news
-      document.getElementById('newsFilter').style.display =
-        (newsCat === 'broad') ? 'none' : '';
-      renderNewsTab(news);
-    });
-  });
+// ── End of Week Report ────────────────────────────────────────
+function renderWeeklyReport(data) {
+  const el = document.getElementById('weeklyReport');
+  const wr = data.weekly_report;
+
+  if (!wr) {
+    el.innerHTML = `
+      <div class="weekly-empty">
+        <div class="weekly-empty-icon">📋</div>
+        <h2>No report yet this week</h2>
+        <p>The End of Week Report is generated every Sunday after market close and covers the full week's price action, key signals, and macro highlights.</p>
+        <p class="weekly-empty-sub">Check back Sunday evening.</p>
+      </div>`;
+    return;
+  }
+
+  const moverRow = (movers, cls) => movers.map(m => {
+    const sign = m.weekly_pct > 0 ? '+' : '';
+    return `<div class="weekly-mover-item">
+      <span class="weekly-mover-ticker">${m.ticker}</span>
+      <span class="weekly-mover-name">${m.name}</span>
+      <span class="weekly-mover-pct ${cls}">${sign}${Number(m.weekly_pct).toFixed(2)}%</span>
+    </div>`;
+  }).join('');
+
+  const signalList = (items) => items.map(t =>
+    `<li class="weekly-list-item">${t}</li>`
+  ).join('');
+
+  el.innerHTML = `
+    <div class="weekly-report-card">
+      <div class="weekly-report-header">
+        <div>
+          <div class="weekly-report-label">End of Week Report</div>
+          <h2 class="weekly-report-title">Week Ending ${wr.week_ending}</h2>
+        </div>
+        <div class="weekly-breadth">
+          <span class="up">${wr.advancing} advancing</span>
+          <span class="weekly-breadth-sep">/</span>
+          <span class="down">${wr.declining} declining</span>
+          <span class="weekly-breadth-total">of ${wr.total} REITs</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="weekly-grid">
+      <div class="section">
+        <div class="section-header"><h2>Top Gainers — Week</h2></div>
+        <div class="panel weekly-movers-panel">
+          ${wr.top_gainers && wr.top_gainers.length ? moverRow(wr.top_gainers, 'up') : '<p class="empty-msg">No data.</p>'}
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><h2>Top Losers — Week</h2></div>
+        <div class="panel weekly-movers-panel">
+          ${wr.top_losers && wr.top_losers.length ? moverRow(wr.top_losers, 'down') : '<p class="empty-msg">No data.</p>'}
+        </div>
+      </div>
+    </div>
+
+    ${wr.key_signals && wr.key_signals.length ? `
+    <div class="section">
+      <div class="section-header"><h2>Key REIT Signals This Week</h2></div>
+      <div class="panel">
+        <ul class="weekly-list">${signalList(wr.key_signals)}</ul>
+      </div>
+    </div>` : ''}
+
+    ${wr.broad_highlights && wr.broad_highlights.length ? `
+    <div class="section">
+      <div class="section-header"><h2>Healthcare &amp; Macro Highlights</h2></div>
+      <div class="panel">
+        <ul class="weekly-list">${signalList(wr.broad_highlights)}</ul>
+      </div>
+    </div>` : ''}`;
 }
 
 // ── Bootstrap ────────────────────────────────────────────────
@@ -332,15 +468,25 @@ async function init() {
       });
 
     renderAlert(data.stocks);
-    renderSectorStats(data.stocks);
-    renderMovers(data.stocks);
-    renderOverviewSignals(data.news || []);
+
+    // CTRE tab
+    renderCTRESummary(data);
     renderCTRE(data);
+
+    // All REITs tab
+    renderREITsSummary(data);
+    renderMovers(data.stocks);
     renderTable(data.stocks);
     attachTableSort();
-    populateCompanyFilter(data.stocks);
-    initNewsFilters(data.news || []);
-    renderNewsTab(data.news || []);
+
+    // Healthcare News tab
+    renderHealthcareSummary(data);
+    initHealthcareCatFilters(data.news || []);
+    renderHealthcareNewsTab(data.news || []);
+
+    // End of Week Report tab
+    renderWeeklyReport(data);
+
     initTabs();
 
   } catch (err) {

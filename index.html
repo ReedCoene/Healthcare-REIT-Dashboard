@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Healthcare REIT Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
@@ -23,29 +25,15 @@
     <div id="alertBanner" class="alert-banner hidden"></div>
 
     <nav class="tab-nav">
-      <button class="tab-btn active" data-tab="overview">Overview</button>
-      <button class="tab-btn" data-tab="ctre">CTRE <span class="tab-badge">Portfolio</span></button>
-      <button class="tab-btn" data-tab="coverage">All REITs</button>
-      <button class="tab-btn" data-tab="news">News</button>
+      <button class="tab-btn active" data-tab="ctre">CTRE <span class="tab-badge">Portfolio</span></button>
+      <button class="tab-btn" data-tab="reits">All REITs</button>
+      <button class="tab-btn" data-tab="healthcare-news">Healthcare News</button>
+      <button class="tab-btn" data-tab="weekly">End of Week <span class="tab-badge">Sunday</span></button>
     </nav>
 
-    <!-- OVERVIEW TAB -->
-    <div id="tab-overview" class="tab-panel">
-      <div class="stats-row" id="sectorStats"></div>
-      <div class="section">
-        <div class="section-header"><h2>Today's Biggest Movers</h2></div>
-        <div class="movers-row" id="moversRow"><div class="loading-msg">Loading&hellip;</div></div>
-      </div>
-      <div class="section">
-        <div class="section-header">
-          <h2>Key Signals <span class="badge">Earnings &middot; Dividends &middot; Ratings</span></h2>
-        </div>
-        <div id="overviewSignals"></div>
-      </div>
-    </div>
-
     <!-- CTRE TAB -->
-    <div id="tab-ctre" class="tab-panel hidden">
+    <div id="tab-ctre" class="tab-panel">
+      <div id="ctreSummary"></div>
       <div id="ctreHero"></div>
       <div class="ctre-grid">
         <div class="section" id="ctreThesis"></div>
@@ -59,7 +47,12 @@
     </div>
 
     <!-- ALL REITs TAB -->
-    <div id="tab-coverage" class="tab-panel hidden">
+    <div id="tab-reits" class="tab-panel hidden">
+      <div id="reitsSummary"></div>
+      <div class="section">
+        <div class="section-header"><h2>Today's Biggest Movers</h2></div>
+        <div class="movers-row" id="moversRow"><div class="loading-msg">Loading&hellip;</div></div>
+      </div>
       <div class="section">
         <div class="section-header">
           <h2>Coverage Universe</h2>
@@ -84,26 +77,29 @@
       </div>
     </div>
 
-    <!-- NEWS TAB -->
-    <div id="tab-news" class="tab-panel hidden">
+    <!-- HEALTHCARE NEWS TAB -->
+    <div id="tab-healthcare-news" class="tab-panel hidden">
+      <div id="healthcareSummary"></div>
       <div class="section">
         <div class="news-controls">
-          <div class="cat-filters" id="catFilters">
-            <button class="cat-btn active" data-cat="all">All</button>
-            <button class="cat-btn" data-cat="reit">REIT News</button>
-            <button class="cat-btn" data-cat="broad">Healthcare Industry</button>
-            <button class="cat-btn" data-cat="signal">Signals Only</button>
+          <div class="cat-filters" id="healthcareCatFilters">
+            <button class="cat-btn active" data-hcat="all">All</button>
+            <button class="cat-btn" data-hcat="broad">Industry</button>
+            <button class="cat-btn" data-hcat="sector">SNF / Senior Housing</button>
+            <button class="cat-btn" data-hcat="signal">Signals Only</button>
           </div>
-          <select id="newsFilter" class="filter-select">
-            <option value="ALL">All Companies</option>
-          </select>
         </div>
-        <div id="newsGrid"></div>
+        <div id="healthcareNewsGrid"></div>
       </div>
     </div>
 
+    <!-- END OF WEEK REPORT TAB -->
+    <div id="tab-weekly" class="tab-panel hidden">
+      <div id="weeklyReport"></div>
+    </div>
+
     <footer class="footer">
-      <p>Updates automatically after market close Mon&ndash;Fri via GitHub Actions &mdash; not investment advice.</p>
+      <p>Updates automatically after market close Mon&ndash;Fri &amp; Sunday via GitHub Actions &mdash; not investment advice.</p>
     </footer>
 
   </div>

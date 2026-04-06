@@ -17,15 +17,23 @@ NEWS_API_KEY = os.environ.get("NEWS_API_KEY")  # set as GitHub Actions secret
 
 # ── Coverage universe ─────────────────────────────────────────
 REITS = {
+    # Large-cap
     "WELL":  "Welltower",
     "VTR":   "Ventas",
     "DOC":   "Healthpeak Properties",
-    "OHI":   "Omega Healthcare Investors",
+    "AHR":   "American Healthcare REIT",
+    "ARE":   "Alexandria Real Estate Equities",
+    # Mid-cap
     "CTRE":  "CareTrust REIT",
-    "NHI":   "National Health Investors",
-    "SBRA":  "Sabra Health Care REIT",
     "HR":    "Healthcare Realty Trust",
+    "SBRA":  "Sabra Health Care REIT",
+    "JAN":   "Janus Living",
+    "NHI":   "National Health Investors",
+    "OHI":   "Omega Healthcare Investors",
+    # Small-cap
     "LTC":   "LTC Properties",
+    "DHC":   "Diversified Healthcare Trust",
+    "SILA":  "Sila Realty Trust",
     "MPW":   "Medical Properties Trust",
     "CHCT":  "Community Healthcare Trust",
     "UHT":   "Universal Health Realty",
@@ -225,6 +233,68 @@ def fetch_newsapi() -> list:
     return items
 
 
+# ── Weekly Report (generated on Sundays) ─────────────────────
+def generate_weekly_report(all_news: list) -> dict:
+    """Fetch 5-day price history and build end-of-week recap."""
+    from datetime import timedelta
+
+    weekly_movers = []
+    for ticker, name in REITS.items():
+        try:
+            hist = yf.Ticker(ticker).history(period="5d").dropna(subset=["Close"])
+            if len(hist) >= 2:
+                start = float(hist["Close"].iloc[0])
+                end   = float(hist["Close"].iloc[-1])
+                wpct  = ((end - start) / start * 100) if start else 0
+                weekly_movers.append({
+                    "ticker":     ticker,
+                    "name":       name,
+                    "price":      round(end, 2),
+                    "weekly_pct": round(wpct, 2),
+                })
+        except Exception as e:
+            print(f"  Weekly history ERROR {ticker}: {e}", file=sys.stderr)
+
+    weekly_movers.sort(key=lambda x: x["weekly_pct"], reverse=True)
+
+    one_week_ago = datetime.now(timezone.utc) - timedelta(days=7)
+
+    key_signals = []
+    for item in all_news:
+        if item.get("is_signal") and item.get("ticker"):
+            try:
+                pub = datetime.fromisoformat(item["published"].replace("Z", "+00:00"))
+                if pub >= one_week_ago:
+                    key_signals.append(f"{item['ticker']}: {item['title']}")
+            except Exception:
+                pass
+
+    broad_highlights = []
+    for item in all_news:
+        if item.get("is_signal") and item.get("category") in ("broad", "sector"):
+            try:
+                pub = datetime.fromisoformat(item["published"].replace("Z", "+00:00"))
+                if pub >= one_week_ago:
+                    broad_highlights.append(item["title"])
+            except Exception:
+                pass
+
+    advancing = sum(1 for m in weekly_movers if m["weekly_pct"] > 0)
+    declining = sum(1 for m in weekly_movers if m["weekly_pct"] < 0)
+
+    return {
+        "week_ending":      datetime.now().strftime("%B %d, %Y"),
+        "generated_at":     datetime.now(timezone.utc).isoformat(),
+        "advancing":        advancing,
+        "declining":        declining,
+        "total":            len(weekly_movers),
+        "top_gainers":      weekly_movers[:3],
+        "top_losers":       list(reversed(weekly_movers[-3:])) if len(weekly_movers) >= 3 else weekly_movers,
+        "key_signals":      key_signals[:8],
+        "broad_highlights": broad_highlights[:6],
+    }
+
+
 # ── CTRE static details (update manually each quarter) ───────
 CTRE_DETAILS = {
     "key_dates": [
@@ -271,6 +341,23 @@ def main():
 
     sorted_stocks = sorted(stocks.values(), key=lambda s: s["pct_change"], reverse=True)
 
+    # Weekly report: regenerate on Sundays, preserve existing on other days
+    is_sunday = datetime.now().weekday() == 6
+    weekly_report = None
+    if is_sunday:
+        print("\nGenerating weekly report (Sunday)...")
+        weekly_report = generate_weekly_report(all_news)
+        print(f"  Weekly report: {weekly_report['advancing']} advancing / {weekly_report['declining']} declining")
+    else:
+        out_path = os.path.join(os.path.dirname(__file__), "..", "data", "market_data.json")
+        try:
+            with open(out_path, "r") as f:
+                weekly_report = json.load(f).get("weekly_report")
+            if weekly_report:
+                print(f"\nPreserving existing weekly report (week ending {weekly_report.get('week_ending', '?')})")
+        except Exception:
+            pass
+
     payload = {
         "last_updated":  datetime.now(timezone.utc).isoformat(),
         "market_date":   datetime.now().strftime("%B %d, %Y"),
@@ -278,6 +365,7 @@ def main():
         "top_gainers":   sorted_stocks[:3],
         "top_losers":    sorted_stocks[-3:],
         "news":          all_news,
+        "weekly_report": weekly_report,
         "ctre_details":  CTRE_DETAILS,
     }
 
