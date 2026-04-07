@@ -242,7 +242,8 @@ function renderCTRE(data) {
           const cls   = days >= 0 && days <= 21 ? 'up' : 'flat';
           return `<div class="ctre-metric-item">
             <div class="ctre-metric-label">Next Earnings</div>
-            <div class="ctre-metric-value">${s.next_earnings} <span class="pct-pill ${cls}" style="font-size:11px">${label}</span></div>
+            <div class="ctre-metric-value">${s.next_earnings}</div>
+            <div style="margin-top:4px"><span class="pct-pill ${cls}" style="font-size:11px">${label}</span></div>
           </div>`;
         })() : ''}
       </div>
