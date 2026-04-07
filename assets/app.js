@@ -605,11 +605,15 @@ async function init() {
     const data = await res.json();
     window._data = data;
 
-    document.getElementById('marketDate').textContent  = data.market_date || '—';
-    document.getElementById('lastUpdated').textContent =
-      'Updated: ' + new Date(data.last_updated).toLocaleString('en-US', {
-        month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short'
-      });
+    document.getElementById('marketDate').textContent = data.market_date || '—';
+    try {
+      const d = new Date(data.last_updated);
+      document.getElementById('lastUpdated').textContent = data.last_updated
+        ? 'Updated: ' + d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short' })
+        : 'No data yet — workflow runs at 5:30 PM ET weekdays.';
+    } catch(e) {
+      document.getElementById('lastUpdated').textContent = 'No data yet — workflow runs at 5:30 PM ET weekdays.';
+    }
 
     renderAlert(data.stocks);
     renderBrief(data);
