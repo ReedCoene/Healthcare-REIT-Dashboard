@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T21:51:09.106836+00:00",
+  "last_updated": "2026-04-07T22:06:40.562921+00:00",
   "market_date": "April 07, 2026",
   "stocks": {
     "WELL": {
@@ -981,6 +981,17 @@
       "company": null,
       "source": "Skilled Nursing News",
       "category": "sector",
+      "title": "CareTrust Announces $119M in New Investments, Including Deal Tied to 5 Nursing Homes",
+      "link": "https://skillednursingnews.com/2026/04/caretrust-announces-119m-in-new-investments-including-deal-tied-to-5-nursing-homes/",
+      "published": "Tue, 07 Apr 2026 22:00:00 +0000",
+      "summary": "<p>CareTrust REIT (NYSE: CTRE) announced Tuesday that it has closed two new investments totaling $119 million, including the acquisition of a portfolio of five skilled nursing facilities (SNFs). The deal with five SNFs is located in the Midwest with a combined 506 licensed beds. CareTrust originated\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
       "title": "Same Services, Sicker Individuals, Less Time: Daily Frustrations with Medicare Advantage as Acuity Rises in Nursing Homes",
       "link": "https://skillednursingnews.com/2026/04/same-services-sicker-individuals-less-time-daily-frustrations-with-medicare-advantage-as-acuity-rises-in-nursing-homes/",
       "published": "Tue, 07 Apr 2026 21:30:13 +0000",
@@ -1023,13 +1034,13 @@
     {
       "ticker": null,
       "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "[UPDATED] CMS Proposes 2.4% Medicare Increase for Skilled Nursing Facilities in 2027",
-      "link": "https://skillednursingnews.com/2026/04/cms-proposes-2-4-increase-to-snf-pps-for-2027-for-nursing-homes/",
-      "published": "Thu, 02 Apr 2026 21:53:53 +0000",
-      "summary": "<p>The Centers for Medicare and Medicaid Services (CMS) on Thursday issued its Skilled Nursing Facility Prospective Payment System (SNF PPS) proposed rule, increasing Medicare rates by 2.4%. The federal agency is also proposing to remove two measures from the SNF Quality Reporting Program (QRP). The\u2026",
-      "is_signal": true
+      "source": "STAT News",
+      "category": "broad",
+      "title": "Judge refuses to block sending abortion pill by mail for now, but says FDA must finish review",
+      "link": "https://www.statnews.com/2026/04/07/abortion-pill-mifepristone-by-mail-judge-ruling/?utm_campaign=rss",
+      "published": "Tue, 07 Apr 2026 22:04:15 +0000",
+      "summary": "A federal judge Tuesday refused to block filling prescriptions for the abortion pill mifepristone by mail across the U.S. \u2014 at least for now.",
+      "is_signal": false
     },
     {
       "ticker": null,
@@ -1073,17 +1084,6 @@
       "link": "https://www.statnews.com/2026/04/07/genomic-tests-needed-for-targeted-cancer-treatments/?utm_campaign=rss",
       "published": "Tue, 07 Apr 2026 15:00:00 +0000",
       "summary": "Even as therapies improve, a startling number of cancer patients are not getting genomic tests that could improve their chance of survival.",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "STAT+: Pharmalittle: We\u2019re reading about FDA backing domestic production, another Gilead deal, and more",
-      "link": "https://www.statnews.com/pharmalot/2026/04/07/fda-backs-domestic-production-gilead-deal-merck-hiv-anthropic/?utm_campaign=rss",
-      "published": "Tue, 07 Apr 2026 13:39:53 +0000",
-      "summary": "The FDA used the president\u2019s budget to propose policies aimed at encouraging domestic development and manufacturing of drugs",
       "is_signal": false
     },
     {
@@ -1228,17 +1228,6 @@
       "published": "2026-03-16T11:20:00Z",
       "summary": "A step forward in its Health Tech Ecosystem pledge, athenahealth has partnered with b.well to let patients lead their health data sharing through a QR code.",
       "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "MarketWatch",
-      "category": "broad",
-      "title": "Seven REIT stocks pass a strict financial screen, with dividends as high as 6.27%",
-      "link": "https://www.marketwatch.com/story/seven-reit-stocks-pass-a-strict-financial-screen-with-dividends-as-high-as-6-27-fdd57ab8",
-      "published": "2026-03-06T00:41:00Z",
-      "summary": "Bally\u2019s Casino in Blackhawk, Colo., is among the facilities owned by Gaming Leisure Properties, which passed a financial screen of real-estate investment...",
-      "is_signal": true
     },
     {
       "ticker": "WELL",
