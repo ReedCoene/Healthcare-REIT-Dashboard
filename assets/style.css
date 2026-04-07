@@ -835,3 +835,20 @@ body.light .icon-moon { display: block; }
   font-size: 11px;
   color: var(--t4);
 }
+
+/* ── SEC Filing Cards ───────────────────────────────────────── */
+.filing-priority-card { border-left: 3px solid var(--blue); }
+.filing-card          { border-left: 3px solid var(--t3); }
+.filing-priority-src  { background: rgba(0,82,255,.15); color: var(--blue); }
+.filing-src           { background: var(--s3); color: var(--t2); }
+.form-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  padding: 2px 6px;
+  border-radius: var(--r-pill);
+  margin-right: 6px;
+}
+.form-priority  { background: rgba(0,82,255,.2); color: var(--blue); }
+.form-secondary { background: var(--s3); color: var(--t3); }
