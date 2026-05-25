@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-22T22:36:02.030513+00:00",
-  "market_date": "May 22, 2026",
+  "last_updated": "2026-05-25T22:35:31.813249+00:00",
+  "market_date": "May 25, 2026",
   "stocks": {
     "WELL": {
       "name": "Welltower",
@@ -11,7 +11,7 @@
       "market_cap": 152597528576,
       "dividend_yield": 1.37,
       "fifty_two_week_high": 221.68,
-      "fifty_two_week_low": 147.49,
+      "fifty_two_week_low": 148.6,
       "next_earnings": "2026-07-27"
     },
     "VTR": {
@@ -33,7 +33,7 @@
       "prev_close": 19.64,
       "pct_change": 0.46,
       "market_cap": 13602250752,
-      "dividend_yield": 6.21,
+      "dividend_yield": 6.18,
       "fifty_two_week_high": 19.91,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2026-07-23"
@@ -47,7 +47,7 @@
       "market_cap": 9672732672,
       "dividend_yield": 1.99,
       "fifty_two_week_high": 54.67,
-      "fifty_two_week_low": 33.84,
+      "fifty_two_week_low": 34.03,
       "next_earnings": "2026-08-06"
     },
     "ARE": {
@@ -57,7 +57,7 @@
       "prev_close": 47.85,
       "pct_change": 1.09,
       "market_cap": 8429414400,
-      "dividend_yield": 8.53,
+      "dividend_yield": 8.43,
       "fifty_two_week_high": 88.24,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-07-20"
@@ -69,7 +69,7 @@
       "prev_close": 41.01,
       "pct_change": 0.32,
       "market_cap": 9718923264,
-      "dividend_yield": 3.8,
+      "dividend_yield": 3.79,
       "fifty_two_week_high": 43.08,
       "fifty_two_week_low": 27.81,
       "next_earnings": "2026-05-07"
@@ -95,7 +95,7 @@
       "market_cap": 5225378816,
       "dividend_yield": 5.79,
       "fifty_two_week_high": 21.28,
-      "fifty_two_week_low": 17.09,
+      "fifty_two_week_low": 17.13,
       "next_earnings": "2026-04-29"
     },
     "JAN": {
@@ -117,7 +117,7 @@
       "prev_close": 76.55,
       "pct_change": -0.17,
       "market_cap": 3704159744,
-      "dividend_yield": 4.81,
+      "dividend_yield": 4.82,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 68.8,
       "next_earnings": "2026-05-04"
@@ -129,7 +129,7 @@
       "prev_close": 48.26,
       "pct_change": -0.75,
       "market_cap": 14935047168,
-      "dividend_yield": 5.55,
+      "dividend_yield": 5.59,
       "fifty_two_week_high": 49.33,
       "fifty_two_week_low": 35.7,
       "next_earnings": "2026-04-28"
@@ -141,7 +141,7 @@
       "prev_close": 38.64,
       "pct_change": -0.41,
       "market_cap": 1969462400,
-      "dividend_yield": 5.9,
+      "dividend_yield": 5.93,
       "fifty_two_week_high": 40.8,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2026-08-03"
@@ -155,7 +155,7 @@
       "market_cap": 2118435584,
       "dividend_yield": 30,
       "fifty_two_week_high": 9.14,
-      "fifty_two_week_low": 2.96,
+      "fifty_two_week_low": 3.07,
       "next_earnings": "2026-08-03"
     },
     "SILA": {
@@ -165,7 +165,7 @@
       "prev_close": 30.25,
       "pct_change": -0.13,
       "market_cap": 1668833408,
-      "dividend_yield": 5.29,
+      "dividend_yield": 5.3,
       "fifty_two_week_high": 30.63,
       "fifty_two_week_low": 21.94,
       "next_earnings": "2026-08-05"
@@ -177,7 +177,7 @@
       "prev_close": 17.72,
       "pct_change": -1.92,
       "market_cap": 496577728,
-      "dividend_yield": 10.75,
+      "dividend_yield": 10.96,
       "fifty_two_week_high": 18.22,
       "fifty_two_week_low": 13.23,
       "next_earnings": "2026-07-28"
@@ -189,7 +189,7 @@
       "prev_close": 42.12,
       "pct_change": 0.43,
       "market_cap": 586937792,
-      "dividend_yield": 7.08,
+      "dividend_yield": 7.04,
       "fifty_two_week_high": 44.7,
       "fifty_two_week_low": 35.26,
       "next_earnings": "2026-07-27"
@@ -203,7 +203,7 @@
       "prev_close": 47.85,
       "pct_change": 1.09,
       "market_cap": 8429414400,
-      "dividend_yield": 8.53,
+      "dividend_yield": 8.43,
       "fifty_two_week_high": 88.24,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-07-20"
@@ -215,7 +215,7 @@
       "prev_close": 19.64,
       "pct_change": 0.46,
       "market_cap": 13602250752,
-      "dividend_yield": 6.21,
+      "dividend_yield": 6.18,
       "fifty_two_week_high": 19.91,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2026-07-23"
@@ -227,7 +227,7 @@
       "prev_close": 42.12,
       "pct_change": 0.43,
       "market_cap": 586937792,
-      "dividend_yield": 7.08,
+      "dividend_yield": 7.04,
       "fifty_two_week_high": 44.7,
       "fifty_two_week_low": 35.26,
       "next_earnings": "2026-07-27"
@@ -241,7 +241,7 @@
       "prev_close": 48.26,
       "pct_change": -0.75,
       "market_cap": 14935047168,
-      "dividend_yield": 5.55,
+      "dividend_yield": 5.59,
       "fifty_two_week_high": 49.33,
       "fifty_two_week_low": 35.7,
       "next_earnings": "2026-04-28"
@@ -255,7 +255,7 @@
       "market_cap": 2118435584,
       "dividend_yield": 30,
       "fifty_two_week_high": 9.14,
-      "fifty_two_week_low": 2.96,
+      "fifty_two_week_low": 3.07,
       "next_earnings": "2026-08-03"
     },
     {
@@ -265,101 +265,13 @@
       "prev_close": 17.72,
       "pct_change": -1.92,
       "market_cap": 496577728,
-      "dividend_yield": 10.75,
+      "dividend_yield": 10.96,
       "fifty_two_week_high": 18.22,
       "fifty_two_week_low": 13.23,
       "next_earnings": "2026-07-28"
     }
   ],
   "news": [
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "Welltower Stock Gains 16.9% Year to Date: Will It Continue to Rise?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/welltower-stock-gains-16-9-173500089.html?.tsrc=rss",
-      "published": "Thu, 21 May 2026 17:35:00 +0000",
-      "summary": "WELL gains 16.9% YTD as seniors housing demand, major acquisitions and strong liquidity support growth across key markets.",
-      "is_signal": true
-    },
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "Real Estate ETF XLRE Offers Steady Dividends With One Major Caution",
-      "link": "https://247wallst.com/investing/2026/05/13/real-estate-etf-xlre-offers-steady-dividends-with-one-major-caution/?.tsrc=rss",
-      "published": "Wed, 13 May 2026 19:57:32 +0000",
-      "summary": "The Real Estate Select Sector SPDR Fund (NYSEARCA:XLRE) trades around $45 with roughly $7.71 billion in assets and a trailing distribution yield of 3.4%. Nine of the top ten holdings are equity REITs, and the prospectus explicitly targets equity REITs while excluding mortgage REITs. The only true no\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "BMO Capital Raises its Price Target on Welltower (WELL) to $245 from $240",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bmo-capital-raises-price-target-131140329.html?.tsrc=rss",
-      "published": "Thu, 07 May 2026 13:11:40 +0000",
-      "summary": "Welltower Inc. (NYSE:WELL) is one of the 10 Strong Buy S&amp;P 500 Stocks to Invest In. On May 4, 2026, BMO Capital raised its price target on Welltower Inc. (NYSE:WELL) to $245 from $240 and maintained an Outperform rating as part of a broader real estate update following Q1 results, interest rate \u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "Rate Cuts Are Coming: Here\u2019s How to Position TLT, XLRE, and ITB Now",
-      "link": "https://247wallst.com/investing/2026/05/06/rate-cuts-are-coming-heres-how-to-position-tlt-xlre-and-itb-now/?.tsrc=rss",
-      "published": "Wed, 06 May 2026 15:30:48 +0000",
-      "summary": "The Federal Reserve has already trimmed its policy rate by 0.75 percentage points over the past year, leaving the upper bound at 3.75%. The question facing rate-sensitive sectors is what happens if the cutting cycle continues. Three exchange-traded funds sit at the center of that question: the iShar\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "VTR",
-      "company": "Ventas",
-      "source": "VTR",
-      "category": "reit",
-      "title": "GRS Advisors Opens $49 Million Broadstone Net Lease Position, According to Recent SEC Filing",
-      "link": "https://www.fool.com/coverage/filings/2026/05/20/grs-advisors-opens-usd49-million-broadstone-net-lease-position-according-to-recent-sec-filing/?.tsrc=rss",
-      "published": "Wed, 20 May 2026 20:15:49 +0000",
-      "summary": "Broadstone Net Lease has the steady rent base investors expect from long-term tenant contracts. The next question is whether new property investments can turn that stability into per-share growth.",
-      "is_signal": true
-    },
-    {
-      "ticker": "VTR",
-      "company": "Ventas",
-      "source": "VTR",
-      "category": "reit",
-      "title": "Here is Why Ventas (VTR) is One of the Best Large Cap Stocks to Buy Under $100",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-ventas-vtr-one-best-041527537.html?.tsrc=rss",
-      "published": "Mon, 18 May 2026 04:15:27 +0000",
-      "summary": "Ventas Inc. (NYSE:VTR) is one of the best large cap stocks to buy under $100. On April 27, Ventas reported strong financial results for Q1 2026, driven primarily by organic growth in its senior housing operating portfolio/SHOP. The company achieved net income attributable to common stockholders of $\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "VTR",
-      "company": "Ventas",
-      "source": "VTR",
-      "category": "reit",
-      "title": "Ventas Declares Quarterly Dividend of $0.52 Per Common Share",
-      "link": "https://finance.yahoo.com/news/ventas-declares-quarterly-dividend-0-203000191.html?.tsrc=rss",
-      "published": "Wed, 13 May 2026 20:30:00 +0000",
-      "summary": "CHICAGO, May 13, 2026--Ventas, Inc. (NYSE: VTR) today announced that its Board of Directors has declared a quarterly dividend of $0.52 per common share. The dividend will be payable in cash on July 16, 2026, to stockholders of record as of the close of business on June 30, 2026.",
-      "is_signal": true
-    },
-    {
-      "ticker": "VTR",
-      "company": "Ventas",
-      "source": "VTR",
-      "category": "reit",
-      "title": "Ventas (VTR) Could Be a Great Choice",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ventas-vtr-could-great-choice-154506335.html?.tsrc=rss",
-      "published": "Mon, 11 May 2026 15:45:06 +0000",
-      "summary": "Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does Ventas (VTR) have what it takes? Let's find out.",
-      "is_signal": true
-    },
     {
       "ticker": "DOC",
       "company": "Healthpeak Properties",
@@ -409,6 +321,17 @@
       "company": "American Healthcare REIT",
       "source": "AHR",
       "category": "reit",
+      "title": "Is It Too Late To Consider American Healthcare REIT (AHR) After Its 50% One-Year Rally?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/too-consider-american-healthcare-reit-161430783.html?.tsrc=rss",
+      "published": "Sat, 23 May 2026 16:14:30 +0000",
+      "summary": "Considering whether American Healthcare REIT at US$50.19 represents fair value at present, or whether the current price already reflects most of the potential upside. The stock has returned 1.7% over the past week, 5.1% over the last month, 6.2% year to date and 49.7% over the past year, which may h\u2026",
+      "is_signal": false
+    },
+    {
+      "ticker": "AHR",
+      "company": "American Healthcare REIT",
+      "source": "AHR",
+      "category": "reit",
       "title": "All You Need to Know About American Healthcare REIT (AHR) Rating Upgrade to Buy",
       "link": "https://finance.yahoo.com/sectors/healthcare/articles/know-american-healthcare-reit-ahr-160003291.html?.tsrc=rss",
       "published": "Thu, 21 May 2026 16:00:03 +0000",
@@ -435,105 +358,6 @@
       "link": "https://finance.yahoo.com/sectors/healthcare/articles/american-healthcare-reit-announces-pricing-014900030.html?.tsrc=rss",
       "published": "Thu, 21 May 2026 01:49:00 +0000",
       "summary": "IRVINE, Calif., May 21, 2026--American Healthcare REIT, Inc. (NYSE: AHR; the \"Company\") announced today the pricing of an underwritten public offering of 14,000,000 shares of its common stock, all of which are being offered in connection with the forward sale agreement described below. The aggregate\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "AHR",
-      "company": "American Healthcare REIT",
-      "source": "AHR",
-      "category": "reit",
-      "title": "American Healthcare REIT Announces Public Offering of Common Stock",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/american-healthcare-reit-announces-public-200400189.html?.tsrc=rss",
-      "published": "Wed, 20 May 2026 20:04:00 +0000",
-      "summary": "IRVINE, Calif., May 20, 2026--American Healthcare REIT, Inc. (NYSE: AHR; the \"Company\") announced today that it has commenced an underwritten public offering of 14,000,000 shares of its common stock on a forward basis in connection with the forward sale agreement described below.",
-      "is_signal": true
-    },
-    {
-      "ticker": "ARE",
-      "company": "Alexandria Real Estate Equities",
-      "source": "ARE",
-      "category": "reit",
-      "title": "Alexandria Dividend Cut Tests Life Science REIT Valuation And Income Appeal",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/alexandria-dividend-cut-tests-life-121413319.html?.tsrc=rss",
-      "published": "Tue, 12 May 2026 12:14:13 +0000",
-      "summary": "Alexandria Real Estate Equities (NYSE:ARE) has announced a substantial dividend cut. The company cited ongoing challenges in the life science real estate sector, including weak tenant demand. This dividend reduction is a key event for income focused investors in REITs and life science properties. Al\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "ARE",
-      "company": "Alexandria Real Estate Equities",
-      "source": "ARE",
-      "category": "reit",
-      "title": "Implied Volatility Surging for Alexandria Real Estate Equities Stock Options",
-      "link": "https://finance.yahoo.com/markets/options/articles/implied-volatility-surging-alexandria-real-150100864.html?.tsrc=rss",
-      "published": "Mon, 11 May 2026 15:01:00 +0000",
-      "summary": "Investors need to pay close attention to ARE stock based on the movements in the options market lately.",
-      "is_signal": false
-    },
-    {
-      "ticker": "ARE",
-      "company": "Alexandria Real Estate Equities",
-      "source": "ARE",
-      "category": "reit",
-      "title": "Jim Cramer Recommends Selling Alexandria Real Estate",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-recommends-selling-alexandria-152805297.html?.tsrc=rss",
-      "published": "Fri, 08 May 2026 15:28:05 +0000",
-      "summary": "Alexandria Real Estate Equities, Inc. (NYSE:ARE) was one of the stocks on Jim Cramer\u2019s radar as he highlighted AI winners to buy for 2026. A caller asked if it is time to \u201cpull the trigger\u201d on the stock, and Cramer replied: No. As a matter of fact, both Don Wood, Don Wood last night said [\u2026]",
-      "is_signal": false
-    },
-    {
-      "ticker": "ARE",
-      "company": "Alexandria Real Estate Equities",
-      "source": "ARE",
-      "category": "reit",
-      "title": "Joel S. Marcus, Executive Chairman and Founder of Alexandria Real Estate Equities, Inc., Honored with the Prestigious Richard J. Bolte Sr. Award from the Science History Institute Museum & Library in Recognition of His Consequential Long-Term Impact on the Life Science Industry",
-      "link": "https://finance.yahoo.com/sectors/healthcare/articles/joel-marcus-executive-chairman-founder-123000716.html?.tsrc=rss",
-      "published": "Wed, 06 May 2026 12:30:00 +0000",
-      "summary": "Alexandria Real Estate Equities, Inc. (NYSE: ARE), the first, preeminent, longest-tenured and pioneering owner, operator and developer of collaborative Megacampus\u2122 ecosystems in AAA life science and advanced technology innovation cluster locations, today announced that Joel S. Marcus, executive chai\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "CTRE",
-      "company": "CareTrust REIT",
-      "source": "CTRE",
-      "category": "reit",
-      "title": "CareTrust REIT, Inc. Announces Pricing of Upsized Public Offering of Common Stock",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/caretrust-reit-inc-announces-pricing-032500885.html?.tsrc=rss",
-      "published": "Tue, 19 May 2026 03:25:00 +0000",
-      "summary": "DANA POINT, Calif., May 19, 2026--CareTrust REIT, Inc. Announces Pricing of Upsized Public Offering of Common Stock",
-      "is_signal": true
-    },
-    {
-      "ticker": "CTRE",
-      "company": "CareTrust REIT",
-      "source": "CTRE",
-      "category": "reit",
-      "title": "CareTrust REIT, Inc. Announces Launch of Public Offering of Common Stock",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/caretrust-reit-inc-announces-launch-200300186.html?.tsrc=rss",
-      "published": "Mon, 18 May 2026 20:03:00 +0000",
-      "summary": "DANA POINT, Calif., May 18, 2026--CareTrust REIT, Inc. Announces Launch of Public Offering of Common Stock",
-      "is_signal": true
-    },
-    {
-      "ticker": "CTRE",
-      "company": "CareTrust REIT",
-      "source": "CTRE",
-      "category": "reit",
-      "title": "3 Top Dividend Stocks Yielding Up To 4%",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-top-dividend-stocks-yielding-113151809.html?.tsrc=rss",
-      "published": "Mon, 11 May 2026 11:31:51 +0000",
-      "summary": "The market has climbed 2.2% in the last 7 days and surged by 31% over the past year, with earnings forecasted to grow by 17% annually. In this dynamic environment, dividend stocks that offer yields up to 4% can provide a steady income stream while potentially benefiting from overall market growth.",
-      "is_signal": true
-    },
-    {
-      "ticker": "CTRE",
-      "company": "CareTrust REIT",
-      "source": "CTRE",
-      "category": "reit",
-      "title": "CareTrust REIT Q1 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/caretrust-reit-q1-earnings-call-highlights-2026-05-09/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "published": "Sat, 09 May 2026 23:03:50 +0000",
-      "summary": "CareTrust REIT (NYSE:CTRE) reported a strong start to 2026, highlighting rapid investment activity, higher funds from operations and an increased full-year outlook during its first-quarter earnings call. President and CEO Dave Sedgwick said the company closed approximately $245 million of investmen",
       "is_signal": true
     },
     {
@@ -673,6 +497,17 @@
       "company": "National Health Investors",
       "source": "NHI",
       "category": "reit",
+      "title": "SHO vs. NHI: Which Stock Is the Better Value Option?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sho-vs-nhi-stock-better-154002599.html?.tsrc=rss",
+      "published": "Mon, 25 May 2026 15:40:02 +0000",
+      "summary": "SHO vs. NHI: Which Stock Is the Better Value Option?",
+      "is_signal": false
+    },
+    {
+      "ticker": "NHI",
+      "company": "National Health Investors",
+      "source": "NHI",
+      "category": "reit",
       "title": "PEB vs. NHI: Which Stock Is the Better Value Option?",
       "link": "https://finance.yahoo.com/markets/stocks/articles/peb-vs-nhi-stock-better-154004145.html?.tsrc=rss",
       "published": "Fri, 08 May 2026 15:40:04 +0000",
@@ -700,17 +535,6 @@
       "published": "Wed, 06 May 2026 14:00:27 +0000",
       "summary": "On the call today are Eric Mendelsohn, President and CEO; Kevin Pascoe, Chief Investment Officer; John Spaid, Chief Financial Officer; and David Travis, Chief Accounting Officer.  The results as well as notice of the accessibility of this conference call were released after the market closed yesterd\u2026",
       "is_signal": true
-    },
-    {
-      "ticker": "NHI",
-      "company": "National Health Investors",
-      "source": "NHI",
-      "category": "reit",
-      "title": "Does 2026 Rent Reset And Activist Pressure With NHI Recast The Bull Case For National HealthCare (NHC)?",
-      "link": "https://finance.yahoo.com/sectors/healthcare/articles/does-2026-rent-reset-activist-171206464.html?.tsrc=rss",
-      "published": "Tue, 05 May 2026 17:12:06 +0000",
-      "summary": "In recent commentary, National HealthCare Corporation has been flagged for significant risks tied to a 2026 rent reset with landlord National Health Investors, which could reprice roughly half its facilities and pressure profitability amid labor shortages and regulatory scrutiny. At the same time, g\u2026",
-      "is_signal": false
     },
     {
       "ticker": "OHI",
@@ -757,50 +581,6 @@
       "is_signal": false
     },
     {
-      "ticker": "LTC",
-      "company": "LTC Properties",
-      "source": "LTC",
-      "category": "reit",
-      "title": "LTC to Participate in Nareit\u2019s REITWeek 2026 Investor Conference",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ltc-participate-nareit-reitweek-2026-201500508.html?.tsrc=rss",
-      "published": "Tue, 19 May 2026 20:15:00 +0000",
-      "summary": "WESTLAKE VILLAGE, Calif., May 19, 2026--LTC Properties Inc. (NYSE: LTC) (\"LTC\" or the \"Company\"), announced today senior management will participate in Nareit\u2019s REITWeek 2026 Investor Conference June 1-3 in New York City.",
-      "is_signal": false
-    },
-    {
-      "ticker": "LTC",
-      "company": "LTC Properties",
-      "source": "LTC",
-      "category": "reit",
-      "title": "Our 5 Top Monthly-Pay REITs Offer a Lifetime of Recession-Resistant Income",
-      "link": "https://247wallst.com/investing/2026/05/13/our-5-top-monthly-pay-reits-offer-a-lifetime-of-recession-resistant-income/?.tsrc=rss",
-      "published": "Wed, 13 May 2026 12:12:37 +0000",
-      "summary": "Investors love dividend stocks, especially the monthly pay variety, because they provide dependable passive income streams and an excellent opportunity for solid total return. Total return includes interest, capital gains, dividends, and distributions realized over time. In other words, the total re\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "LTC",
-      "company": "LTC Properties",
-      "source": "LTC",
-      "category": "reit",
-      "title": "I\u2019m Building a $2,000-a-Month Passive Income Portfolio. Here Are the Exact Dividend Stocks.",
-      "link": "https://247wallst.com/investing/2026/05/12/im-building-a-2000-a-month-passive-income-portfolio-here-are-the-exact-dividend-stocks/?.tsrc=rss",
-      "published": "Tue, 12 May 2026 14:31:12 +0000",
-      "summary": "If you are looking for two grand a month and you have capital, you\u2019re likely past at least your fifties. Dividend stocks like Realty Income (NYSE:O), LTC Properties (NYSE:LTC), and Diversified Royalty (OTCMKTS:BEVFF) are your best bets, and each of them will serve a different purpose for your portfo\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "LTC",
-      "company": "LTC Properties",
-      "source": "LTC",
-      "category": "reit",
-      "title": "LTC Properties Q1 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/ltc-properties-q1-earnings-call-highlights-2026-05-11/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "published": "Mon, 11 May 2026 11:14:10 +0000",
-      "summary": "LTC Properties (NYSE:LTC) said it is accelerating its shift toward a seniors housing operating portfolio, or SHOP, strategy, with management telling investors that the transition is expected to materially change the company\u2019s growth profile by the end of 2026. On the company\u2019s first-quarter 2026 ea",
-      "is_signal": true
-    },
-    {
       "ticker": "DHC",
       "company": "Diversified Healthcare Trust",
       "source": "DHC",
@@ -843,138 +623,6 @@
       "published": "Tue, 05 May 2026 15:47:02 +0000",
       "summary": "Diversified Healthcare Trust (NASDAQ:DHC) reported first-quarter 2026 results that management said reflected improving operating performance following strategic changes made in its senior housing operating portfolio last year, alongside continued progress on balance sheet initiatives. Quarterly res",
       "is_signal": true
-    },
-    {
-      "ticker": "SILA",
-      "company": "Sila Realty Trust",
-      "source": "SILA",
-      "category": "reit",
-      "title": "Sila Realty Trust Announces First Quarter 2026 Results",
-      "link": "https://finance.yahoo.com/sectors/healthcare/articles/sila-realty-trust-announces-first-203000524.html?.tsrc=rss",
-      "published": "Thu, 07 May 2026 20:30:00 +0000",
-      "summary": "TAMPA, Fla., May 07, 2026--Sila Realty Trust Announces First Quarter 2026 Results",
-      "is_signal": true
-    },
-    {
-      "ticker": "SILA",
-      "company": "Sila Realty Trust",
-      "source": "SILA",
-      "category": "reit",
-      "title": "Blue Owl Capital Shifts Capital With Sila Deal And SpaceX Gains",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-shifts-capital-121018119.html?.tsrc=rss",
-      "published": "Sat, 02 May 2026 12:10:18 +0000",
-      "summary": "Blue Owl Capital (NYSE:OWL) agreed to acquire Sila Realty Trust, expanding its real estate footprint. The company also realized gains from selling part of its stake in SpaceX at a substantial valuation. These two transactions add fresh context to how Blue Owl allocates capital across real estate and\u2026",
-      "is_signal": false
-    },
-    {
-      "ticker": "SILA",
-      "company": "Sila Realty Trust",
-      "source": "SILA",
-      "category": "reit",
-      "title": "Blue Owl Capital (OWL): Most Undervalued Stock Under $10 to Buy Right Now",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-owl-most-212932271.html?.tsrc=rss",
-      "published": "Thu, 30 Apr 2026 21:29:32 +0000",
-      "summary": "Blue Owl Capital Inc. (NYSE:OWL) is one of the Most Undervalued Stocks Under $10 to Buy Right Now. On April 20, Sila Realty Trust, Inc. and certain affiliates of Blue Owl Capital Inc. (NYSE:OWL) announced that Sila entered into a definitive merger agreement. As a result, certain affiliates of Blue O\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "SILA",
-      "company": "Sila Realty Trust",
-      "source": "SILA",
-      "category": "reit",
-      "title": "Assessing Sila Realty Trust (SILA) Valuation After Recent Double Digit Share Price Gains",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/assessing-sila-realty-trust-sila-090616068.html?.tsrc=rss",
-      "published": "Wed, 29 Apr 2026 09:06:16 +0000",
-      "summary": "Recent performance snapshot Sila Realty Trust (SILA) has drawn attention after a month return of about 31%, alongside a past 3 months return near 26%. This has prompted investors to reassess the healthcare focused net lease REIT\u2019s profile. See our latest analysis for Sila Realty Trust. With the shar\u2026",
-      "is_signal": false
-    },
-    {
-      "ticker": "CHCT",
-      "company": "Community Healthcare Trust",
-      "source": "CHCT",
-      "category": "reit",
-      "title": "How The Community Healthcare Trust (CHCT) Story Is Evolving Around Earnings Risks And Asset Sales",
-      "link": "https://finance.yahoo.com/sectors/healthcare/articles/community-healthcare-trust-chct-story-141510488.html?.tsrc=rss",
-      "published": "Wed, 20 May 2026 14:15:10 +0000",
-      "summary": "Community Healthcare Trust\u2019s fair value price target is steady at US$18.50, with no change from the prior estimate, even as other model inputs have been refreshed. That stable target sits alongside analyst research that clusters expectations in the mid to high teens and weighs steady execution again\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "CHCT",
-      "company": "Community Healthcare Trust",
-      "source": "CHCT",
-      "category": "reit",
-      "title": "Community Healthcare Trust Q1 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/community-healthcare-trust-q1-earnings-call-highlights-2026-05-09/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "published": "Sat, 09 May 2026 18:04:31 +0000",
-      "summary": "Community Healthcare Trust (NYSE:CHCT) reported higher first-quarter revenue and funds from operations while management said it is continuing to focus on capital recycling, selective acquisitions and resolving an ongoing tenant transition involving six behavioral health hospitals. On the company\u2019s",
-      "is_signal": true
-    },
-    {
-      "ticker": "CHCT",
-      "company": "Community Healthcare Trust",
-      "source": "CHCT",
-      "category": "reit",
-      "title": "High yield ETF KBWY faces hidden payout risk from cannabis REIT tenant defaults",
-      "link": "https://247wallst.com/investing/2026/05/07/high-yield-etf-kbwy-faces-hidden-payout-risk-from-cannabis-reit-tenant-defaults/?.tsrc=rss",
-      "published": "Thu, 07 May 2026 12:36:25 +0000",
-      "summary": "The Invesco KBW Premium Yield Equity REIT ETF (NASDAQ:KBWY) concentrates in roughly 30 small and mid-cap REITs that pass a high-yield screen. KBWY currently distributes a 7.6% SEC 30-day yield with a 0.35% expense ratio, and the question for holders is whether that distribution rests on real cash fl\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "CHCT",
-      "company": "Community Healthcare Trust",
-      "source": "CHCT",
-      "category": "reit",
-      "title": "Community Healthcare Trust Incorporated Q1 2026 Earnings Call Summary",
-      "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-community-healthcare-trust-incorporated-q1-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-      "published": "Wed, 06 May 2026 12:30:00 +0000",
-      "summary": "Moby summary of Community Healthcare Trust Incorporated's Q1 2026 earnings call",
-      "is_signal": true
-    },
-    {
-      "ticker": "UHT",
-      "company": "Universal Health Realty",
-      "source": "UHT",
-      "category": "reit",
-      "title": "Universal Health Realty Stock Slips Post Q1 Earnings, FFO Rises",
-      "link": "https://finance.yahoo.com/sectors/healthcare/articles/universal-health-realty-stock-slips-165300063.html?.tsrc=rss",
-      "published": "Thu, 30 Apr 2026 16:53:00 +0000",
-      "summary": "UHT posts higher first-quarter 2026 profit and FFO on lower interest costs, lifts dividend, expands credit line and advances a pre-leased medical office project.",
-      "is_signal": true
-    },
-    {
-      "ticker": "UHT",
-      "company": "Universal Health Realty",
-      "source": "UHT",
-      "category": "reit",
-      "title": "UNIVERSAL HEALTH REALTY INCOME TRUST REPORTS 2026 FIRST QUARTER FINANCIAL RESULTS",
-      "link": "https://finance.yahoo.com/sectors/healthcare/articles/universal-health-realty-income-trust-202000382.html?.tsrc=rss",
-      "published": "Mon, 27 Apr 2026 20:20:00 +0000",
-      "summary": "Universal Health Realty Income Trust (NYSE:UHT) announced today that for the three-month period ended March 31, 2026, net income was $5.0 million, or $.36 per diluted share, as compared to $4.8 million, or $.34 per diluted share, during the first quarter of 2025.",
-      "is_signal": true
-    },
-    {
-      "ticker": "UHT",
-      "company": "Universal Health Realty",
-      "source": "UHT",
-      "category": "reit",
-      "title": "The Zacks Analyst Blog Highlights NVIDIA, Apple, Coca-Cola, Universal Health Realty Income Trust and The Cato",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-nvidia-092300276.html?.tsrc=rss",
-      "published": "Fri, 17 Apr 2026 09:23:00 +0000",
-      "summary": "NVIDIA, Apple and Coca-Cola lead Zacks research spotlight, with AI growth, services expansion and pricing strength shaping outlooks amid key risks.",
-      "is_signal": true
-    },
-    {
-      "ticker": "UHT",
-      "company": "Universal Health Realty",
-      "source": "UHT",
-      "category": "reit",
-      "title": "Top Stock Reports for NVIDIA, Apple & Coca-Cola",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-nvidia-apple-205600679.html?.tsrc=rss",
-      "published": "Thu, 16 Apr 2026 20:56:00 +0000",
-      "summary": "NVIDIA rides AI-driven demand and data center growth, but supply constraints, rising costs and competition threaten its ability to fully capitalize on momentum.",
-      "is_signal": false
     },
     {
       "ticker": null,
@@ -1036,6 +684,28 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
+      "title": "STAT+: Eli Lilly says Verve\u2019s gene editor lowers cholesterol levels in early study",
+      "link": "https://www.statnews.com/2026/05/25/eli-lilly-verv-102-gene-editing-cholesterol-phase-1-trial-data/?utm_campaign=rss",
+      "published": "Mon, 25 May 2026 12:45:00 +0000",
+      "summary": "Eli Lilly said Monday that a high dose of its gene-editing therapy reduced cholesterol levels by 62% in participants in a clinical trial.",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "STAT News",
+      "category": "broad",
+      "title": "Opinion: How the perimenopause movement is hurting women",
+      "link": "https://www.statnews.com/2026/05/23/perimenopause-misinformation-influencers-supplements-hormones/?utm_campaign=rss",
+      "published": "Sat, 23 May 2026 11:00:00 +0000",
+      "summary": "\u201cThere's a whole industry that seems to have sprung up\u201d: Two experts on the people profiting from the rise of the perimenopause movement.",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "STAT News",
+      "category": "broad",
       "title": "STAT+: Congress slashed Medicaid funding to providers. The Trump administration wants to cut even further",
       "link": "https://www.statnews.com/2026/05/22/medicaid-state-directed-payments-trump-proposes-more-cuts/?utm_campaign=rss",
       "published": "Fri, 22 May 2026 17:19:15 +0000",
@@ -1062,28 +732,6 @@
       "link": "https://www.statnews.com/pharmalot/2026/05/22/parkinson-drug-trial-setback-merck-lung-cancer-therapy/?utm_campaign=rss",
       "published": "Fri, 22 May 2026 13:29:35 +0000",
       "summary": "Biogen and Denali said their experimental Parkinson\u2019s therapy failed to slow the degenerative brain disorder in a randomized trial",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "A CDC page on mpox caught in political crosshairs",
-      "link": "https://www.statnews.com/2026/05/22/health-news-cdc-mpox-page-caught-in-political-crosshairs/?utm_campaign=rss",
-      "published": "Fri, 22 May 2026 13:14:29 +0000",
-      "summary": "Seed oil panic, how STIs spread, and more health news from Morning Rounds",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "STAT+: Longevity startup Retro Biosciences says latest fundraising values it at $1.8 billion",
-      "link": "https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/?utm_campaign=rss",
-      "published": "Fri, 22 May 2026 11:00:00 +0000",
-      "summary": "Retro Biosciences, the longevity startup backed by OpenAI CEO Sam Altman, has raised more money at a $1.8 billion valuation, it announced Friday.",
       "is_signal": false
     },
     {
@@ -1188,35 +836,13 @@
     {
       "ticker": null,
       "company": null,
-      "source": "GlobeNewswire",
+      "source": "PRNewswire",
       "category": "broad",
-      "title": "Strawberry Fields REIT Announces First Quarter 2026 Earnings Release, Conference Call and Webcast",
-      "link": "https://www.globenewswire.com/news-release/2026/04/24/3280653/0/en/Strawberry-Fields-REIT-Announces-First-Quarter-2026-Earnings-Release-Conference-Call-and-Webcast.html",
-      "published": "2026-04-24T10:30:00Z",
-      "summary": "SOUTH BEND, Ind., April 24, 2026 (GLOBE NEWSWIRE) -- Strawberry Fields REIT, Inc. (NYSE AMERICAN: STRW) (the \u201cCompany\u201d) announced today that it will report its first quarter 2026 financial results before the market opens on May 8, 2026.",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "Yahoo Entertainment",
-      "category": "broad",
-      "title": "LTC Properties (LTC) Maintains Monthly Dividend while Working Through Tenant Challenges",
-      "link": "https://finance.yahoo.com/sectors/healthcare/articles/ltc-properties-ltc-maintains-monthly-204534929.html",
-      "published": "2026-04-23T20:45:34Z",
-      "summary": "LTC Properties, Inc. (NYSE:LTC) is included among the 10 Monthly Dividend Stocks to Buy and Hold Forever. LTC Properties, Inc. (NYSE:LTC) is a healthcare...",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "MarketBeat",
-      "category": "broad",
-      "title": "National Health Investors (NYSE:NHI) Given New $84.00 Price Target at Wells Fargo & Company",
-      "link": "https://www.marketbeat.com/instant-alerts/national-health-investors-nysenhi-given-new-8400-price-target-at-wells-fargo-company-2026-04-22/",
-      "published": "2026-04-22T16:50:23Z",
-      "summary": "Wells Fargo & Company lowered their price target on National Health Investors from $86.00 to $84.00 and set an \"equal weight\" rating on the stock in a report on Wednesday.",
-      "is_signal": true
+      "title": "The Statesman at Horseshoe Bay Breaks Ground, Introducing $108M Luxury Senior Living Community to the Texas Hill Country",
+      "link": "https://www.prnewswire.com/news-releases/the-statesman-at-horseshoe-bay-breaks-ground-introducing-108m-luxury-senior-living-community-to-the-texas-hill-country-302780310.html",
+      "published": "2026-05-22T16:29:00Z",
+      "summary": "Falcon Senior Housing and SilverPoint Senior Living officially launch construction on Falcon Tract within the SilverRock community \u2014 establishing a new landmark for independent living, assisted living, and memory care in Horseshoe Bay, Texas. HORSESHOE BAY, T\u2026",
+      "is_signal": false
     },
     {
       "ticker": null,
@@ -1250,28 +876,6 @@
       "published": "2026-05-21T14:10:48Z",
       "summary": "Health care costs for couples in retirement could reach up to $500,000 even with Medicare, according to the Employee Benefit Research Institute. Couples with...",
       "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "The Times of India",
-      "category": "broad",
-      "title": "Senior living market may surge to $14 billion by 2031 amid changing family structures: Experts",
-      "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/senior-living-market-may-surge-to-14-billion-by-2031-amid-changing-family-structures-experts/articleshow/131219171.cms",
-      "published": "2026-05-20T06:46:00Z",
-      "summary": "India's senior living sector is poised for substantial growth, projected to reach nearly $14 billion by 2031, driven by demographic shifts and evolving lifestyle preferences. Experts highlight a significant demand-supply gap, creating a long-term opportunity \u2026",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "The Irish Times",
-      "category": "broad",
-      "title": "State\u2019s largest residential landlord turns down invitation to Oireachtas committee",
-      "link": "https://www.irishtimes.com/politics/oireachtas/2026/05/19/states-largest-residential-landlord-turns-down-invitation-to-oireachtas-committee/",
-      "published": "2026-05-19T19:11:03Z",
-      "summary": "Senior executives at company which owns \u20ac1.24bn property portfolio are \u2018exceptionally busy\u2019",
-      "is_signal": false
     },
     {
       "ticker": null,
