@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-18T23:19:20.150428+00:00",
-  "market_date": "June 18, 2026",
+  "last_updated": "2026-06-19T22:31:38.763971+00:00",
+  "market_date": "June 19, 2026",
   "stocks": {
     "WELL": {
       "name": "Welltower",
@@ -44,7 +44,7 @@
       "price": 46.52,
       "prev_close": 46.52,
       "pct_change": 0.0,
-      "market_cap": 8965441536,
+      "market_cap": 9616721920,
       "dividend_yield": 2.13,
       "fifty_two_week_high": 54.67,
       "fifty_two_week_low": 35.46,
@@ -1036,21 +1036,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: CMS recalculates Medicare Advantage star ratings again, adding more volatility to program",
-      "link": "https://www.statnews.com/2026/06/18/medicare-advantage-star-ratings-recalculated-volatility-industry-lawsuits/?utm_campaign=rss",
-      "published": "Thu, 18 Jun 2026 22:25:13 +0000",
-      "summary": "Medicare Advantage plans that receive four out of five stars or better get bonus payments, which have ballooned to $16 billion this year.",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "STAT+: FDA advisory panel endorses Moderna mRNA flu vaccine that was subject of controversy",
-      "link": "https://www.statnews.com/2026/06/18/fda-mrna-flu-vaccine-vrbpac-advisers-endorse-moderna-shots/?utm_campaign=rss",
-      "published": "Thu, 18 Jun 2026 20:26:25 +0000",
-      "summary": "A panel of advisers to FDA gave its endorsement to a seasonal mRNA flu vaccine that was developed by Moderna and that earlier this year became the subject of controversy.",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "link": "https://www.statnews.com/pharmalot/2026/06/19/up-and-down-the-ladder-jobs-bristol-novartis-pfizer-moderna-astrazeneca/?utm_campaign=rss",
+      "published": "Fri, 19 Jun 2026 14:00:00 +0000",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
       "is_signal": false
     },
     {
@@ -1058,10 +1047,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Eli Lilly ends 340B drug discounts to some hospitals for failing to provide claims data",
-      "link": "https://www.statnews.com/pharmalot/2026/06/18/eli-lilly-340b-hospitals-drug-discount-price-breaks-eliminated/?utm_campaign=rss",
-      "published": "Thu, 18 Jun 2026 19:56:26 +0000",
-      "summary": "Making good on its threat, Eli Lilly has begun eliminating mandated price breaks to a few dozen hospitals that participate in a federal drug discount program.",
+      "title": "Federal grant delays could jeopardize essential disability services, research",
+      "link": "https://www.statnews.com/2026/06/19/federal-grant-delays-jeopardize-essential-disability-services-research/?utm_campaign=rss",
+      "published": "Fri, 19 Jun 2026 08:30:00 +0000",
+      "summary": "Disability researchers across the country worry about their jobs, and the future of their institutions, as a delay in issuing federal grants drags on.",
       "is_signal": false
     },
     {
@@ -1069,10 +1058,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "New hope in treating Huntington\u2019s disease and a report card on RFK Jr.\u2019s promises",
-      "link": "https://www.statnews.com/2026/06/18/huntingtons-disease-uniqure-rfk-jr-readout-loud-podcast/?utm_campaign=rss",
-      "published": "Thu, 18 Jun 2026 19:40:54 +0000",
-      "summary": "This week on \"The Readout LOUD\" podcast: new hope in treating Huntington's disease and a report card on RFK Jr.'s promises. Listen now.",
+      "title": "Tennessee pharmacies sell potent ivermectin, led by anti-vaccine doctor who\u2019s taken \u2018bucketloads\u2019",
+      "link": "https://www.statnews.com/2026/06/19/tennessee-ivermectin-market-how-to-create-booming-sales-unproven-drug/?utm_campaign=rss",
+      "published": "Fri, 19 Jun 2026 08:30:00 +0000",
+      "summary": "Tennessee pharmacies are selling potent versions of the antiparasitic drug ivermectin, led by an anti-vaccine doctor who\u2019s taken \"bucketloads.\"",
       "is_signal": false
     },
     {
@@ -1080,10 +1069,21 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "Ebola cases increase almost 40% in a week as death toll passes 200",
-      "link": "https://www.statnews.com/2026/06/18/ebola-outbreak-congo-uganda-cases-increase-death-toll/?utm_campaign=rss",
-      "published": "Thu, 18 Jun 2026 16:30:00 +0000",
-      "summary": "Ebola cases have increased almost 40% in a week in the current outbreak in Congo and Uganda as the death toll passes 200.",
+      "title": "Opinion: STAT+: The real work for making dramatic gains against pancreatic cancer is just beginning",
+      "link": "https://www.statnews.com/2026/06/19/daraxonrasib-pancreatic-cancer-miracle-drug-oncosystems-ai/?utm_campaign=rss",
+      "published": "Fri, 19 Jun 2026 08:30:00 +0000",
+      "summary": "The co-founders of Darwin Health write that the real work for making dramatic gains against pancreatic cancers is just beginning.",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "STAT News",
+      "category": "broad",
+      "title": "Opinion: Maternity deserts aren\u2019t accidents. They\u2019re the result of a design flaw",
+      "link": "https://www.statnews.com/2026/06/19/maternity-desert-physician-shortage-obstetrics-pregnancy-residency-south-dakota/?utm_campaign=rss",
+      "published": "Fri, 19 Jun 2026 08:30:00 +0000",
+      "summary": "Shrinking fertility should mean less strain on doctors. But nearly half of U.S. counties lack a practicing obstetrician or gynecologist.",
       "is_signal": false
     },
     {
@@ -1146,6 +1146,17 @@
       "company": null,
       "source": "Yahoo Entertainment",
       "category": "broad",
+      "title": "BMO Capital and Morgan Stanley Take Different Views on Healthpeak Properties (DOC)",
+      "link": "https://finance.yahoo.com/real-estate/articles/bmo-capital-morgan-stanley-different-191107834.html",
+      "published": "2026-06-17T19:11:07Z",
+      "summary": "With an annual dividend yield of 6.07%, Healthpeak Properties, Inc. (NYSE:DOC) is included among the 12 Stocks with Highest Dividend to Invest In Now. On Jun...",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Yahoo Entertainment",
+      "category": "broad",
       "title": "The Ensign Group (ENSG) Acquires Iowa Skilled Nursing Facility and Real Estate",
       "link": "https://finance.yahoo.com/sectors/healthcare/articles/ensign-group-ensg-acquires-iowa-193514480.html",
       "published": "2026-06-13T19:35:14Z",
@@ -1199,6 +1210,17 @@
     {
       "ticker": null,
       "company": null,
+      "source": "PRNewswire",
+      "category": "broad",
+      "title": "The NHP Foundation and Trinity East Village CDC Close Financing on Trinity East Village Senior, Helping Third Ward Seniors Age in Place",
+      "link": "https://www.prnewswire.com/news-releases/the-nhp-foundation-and-trinity-east-village-cdc-close-financing-on-trinity-east-village-senior-helping-third-ward-seniors-age-in-place-302803505.html",
+      "published": "2026-06-18T12:05:00Z",
+      "summary": "90-unit community will provide affordable housing for low-income seniors and replacement housing for Cuney Homes residents NEW YORK, June 18, 2026 /PRNewswire/ -- The NHP Foundation (NHPF), a leading national mission-based affordable housing developer, today \u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
       "source": "GlobeNewswire",
       "category": "broad",
       "title": "National Healthcare Properties Announces Preliminary Results of its Series A and Series B Preferred Stock Self Tender Offers",
@@ -1216,17 +1238,6 @@
       "link": "https://www.prnewswire.com/news-releases/pnc-multifamily-capital-announces-251-4-million-fund-expanding-access-to-affordable-housing-nationwide-302803112.html",
       "published": "2026-06-17T13:05:00Z",
       "summary": "New fund to support 16 developments, creating and preserving affordable homes for families, seniors and underserved populations PITTSBURGH, June 17, 2026 /PRNewswire/ -- PNC Bank, N.A., a leader in tax credit syndication, today announced the closing of Low-In\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "PRNewswire",
-      "category": "broad",
-      "title": "Safehold Closes $225 Million Private Placement of Structured Senior Unsecured Notes Due 2056",
-      "link": "https://www.prnewswire.com/news-releases/safehold-closes-225-million-private-placement-of-structured-senior-unsecured-notes-due-2056-302800690.html",
-      "published": "2026-06-15T20:05:00Z",
-      "summary": "NEW YORK, June 15, 2026 /PRNewswire/ -- Safehold Inc. (NYSE: SAFE) today announced that its operating company, Safehold GL Holdings LLC (\"Safehold\" or the \"operating company\"), has signed a definitive note purchase agreement providing for a private placement \u2026",
       "is_signal": true
     },
     {
