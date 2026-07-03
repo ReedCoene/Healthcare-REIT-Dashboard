@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-02T22:38:46.703316+00:00",
-  "market_date": "July 02, 2026",
+  "last_updated": "2026-07-03T22:35:12.109406+00:00",
+  "market_date": "July 03, 2026",
   "stocks": {
     "WELL": {
       "name": "Welltower",
@@ -9,9 +9,9 @@
       "prev_close": 230.19,
       "pct_change": 2.55,
       "market_cap": 166638157824,
-      "dividend_yield": 0,
+      "dividend_yield": 1.25,
       "fifty_two_week_high": 236.06,
-      "fifty_two_week_low": 150.2,
+      "fifty_two_week_low": 150.53,
       "next_earnings": "2026-07-27"
     },
     "VTR": {
@@ -21,8 +21,8 @@
       "prev_close": 89.65,
       "pct_change": 3.2,
       "market_cap": 44980420608,
-      "dividend_yield": 2.23,
-      "fifty_two_week_high": 92.859,
+      "dividend_yield": 2.16,
+      "fifty_two_week_high": 92.86,
       "fifty_two_week_low": 62.06,
       "next_earnings": "2026-07-29"
     },
@@ -33,8 +33,8 @@
       "prev_close": 21.64,
       "pct_change": 1.16,
       "market_cap": 15091396608,
-      "dividend_yield": 0,
-      "fifty_two_week_high": 21.975,
+      "dividend_yield": 5.57,
+      "fifty_two_week_high": 21.98,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2026-08-04"
     },
@@ -44,8 +44,8 @@
       "price": 55.04,
       "prev_close": 53.65,
       "pct_change": 2.59,
-      "market_cap": 11377995776,
-      "dividend_yield": 1.86,
+      "market_cap": 10607435776,
+      "dividend_yield": 1.82,
       "fifty_two_week_high": 55.09,
       "fifty_two_week_low": 35.54,
       "next_earnings": "2026-08-06"
@@ -57,7 +57,7 @@
       "prev_close": 53.01,
       "pct_change": -0.81,
       "market_cap": 9163088896,
-      "dividend_yield": 5.43,
+      "dividend_yield": 5.48,
       "fifty_two_week_high": 88.24,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-08-03"
@@ -69,7 +69,7 @@
       "prev_close": 40.9,
       "pct_change": 2.1,
       "market_cap": 9865392128,
-      "dividend_yield": 0,
+      "dividend_yield": 3.74,
       "fifty_two_week_high": 43.08,
       "fifty_two_week_low": 30.21,
       "next_earnings": "2026-05-07"
@@ -81,7 +81,7 @@
       "prev_close": 20.29,
       "pct_change": 1.58,
       "market_cap": 7228999168,
-      "dividend_yield": 4.73,
+      "dividend_yield": 4.66,
       "fifty_two_week_high": 20.9,
       "fifty_two_week_low": 15.29,
       "next_earnings": "2026-07-30"
@@ -93,7 +93,7 @@
       "prev_close": 19.68,
       "pct_change": 2.44,
       "market_cap": 5084152320,
-      "dividend_yield": 6.1,
+      "dividend_yield": 5.95,
       "fifty_two_week_high": 21.28,
       "fifty_two_week_low": 17.17,
       "next_earnings": "2026-04-29"
@@ -105,7 +105,7 @@
       "prev_close": 28.99,
       "pct_change": 0.45,
       "market_cap": 6179933696,
-      "dividend_yield": 1.97,
+      "dividend_yield": 1.96,
       "fifty_two_week_high": 29.61,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-08-04"
@@ -117,7 +117,7 @@
       "prev_close": 76.55,
       "pct_change": 1.23,
       "market_cap": 3756023808,
-      "dividend_yield": 4.81,
+      "dividend_yield": 4.75,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 67.94,
       "next_earnings": "2026-05-04"
@@ -129,8 +129,8 @@
       "prev_close": 48.17,
       "pct_change": 2.55,
       "market_cap": 15402741760,
-      "dividend_yield": 5.56,
-      "fifty_two_week_high": 49.405,
+      "dividend_yield": 5.43,
+      "fifty_two_week_high": 49.41,
       "fifty_two_week_low": 35.7,
       "next_earnings": "2026-07-29"
     },
@@ -141,7 +141,7 @@
       "prev_close": 38.85,
       "pct_change": 1.11,
       "market_cap": 2010407552,
-      "dividend_yield": 0,
+      "dividend_yield": 5.8,
       "fifty_two_week_high": 40.8,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2026-08-03"
@@ -177,8 +177,8 @@
       "prev_close": 18.38,
       "pct_change": -0.38,
       "market_cap": 523149504,
-      "dividend_yield": 0,
-      "fifty_two_week_high": 18.66,
+      "dividend_yield": 10.4,
+      "fifty_two_week_high": 18.665,
       "fifty_two_week_low": 13.23,
       "next_earnings": "2026-07-28"
     },
@@ -189,7 +189,7 @@
       "prev_close": 44.98,
       "pct_change": 1.87,
       "market_cap": 635779904,
-      "dividend_yield": 6.67,
+      "dividend_yield": 6.55,
       "fifty_two_week_high": 46.3,
       "fifty_two_week_low": 35.26,
       "next_earnings": "2026-07-27"
@@ -203,8 +203,8 @@
       "prev_close": 89.65,
       "pct_change": 3.2,
       "market_cap": 44980420608,
-      "dividend_yield": 2.23,
-      "fifty_two_week_high": 92.859,
+      "dividend_yield": 2.16,
+      "fifty_two_week_high": 92.86,
       "fifty_two_week_low": 62.06,
       "next_earnings": "2026-07-29"
     },
@@ -214,8 +214,8 @@
       "price": 55.04,
       "prev_close": 53.65,
       "pct_change": 2.59,
-      "market_cap": 11377995776,
-      "dividend_yield": 1.86,
+      "market_cap": 10607435776,
+      "dividend_yield": 1.82,
       "fifty_two_week_high": 55.09,
       "fifty_two_week_low": 35.54,
       "next_earnings": "2026-08-06"
@@ -227,9 +227,9 @@
       "prev_close": 230.19,
       "pct_change": 2.55,
       "market_cap": 166638157824,
-      "dividend_yield": 0,
+      "dividend_yield": 1.25,
       "fifty_two_week_high": 236.06,
-      "fifty_two_week_low": 150.2,
+      "fifty_two_week_low": 150.53,
       "next_earnings": "2026-07-27"
     }
   ],
@@ -253,8 +253,8 @@
       "prev_close": 18.38,
       "pct_change": -0.38,
       "market_cap": 523149504,
-      "dividend_yield": 0,
-      "fifty_two_week_high": 18.66,
+      "dividend_yield": 10.4,
+      "fifty_two_week_high": 18.665,
       "fifty_two_week_low": 13.23,
       "next_earnings": "2026-07-28"
     },
@@ -265,13 +265,35 @@
       "prev_close": 53.01,
       "pct_change": -0.81,
       "market_cap": 9163088896,
-      "dividend_yield": 5.43,
+      "dividend_yield": 5.48,
       "fifty_two_week_high": 88.24,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-08-03"
     }
   ],
   "news": [
+    {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "source": "WELL",
+      "category": "reit",
+      "title": "4 Reasons to Add VICI Properties Stock to Your Portfolio Now",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/4-reasons-add-vici-properties-155000301.html?.tsrc=rss",
+      "published": "Fri, 03 Jul 2026 15:50:00 +0000",
+      "summary": "VICI's mission-critical assets, long-term leases, inflation-linked rents and investment-grade balance sheet support durable cash flows and dividend growth.",
+      "is_signal": true
+    },
+    {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "source": "WELL",
+      "category": "reit",
+      "title": "Welltower\u2019s Q2 2026 Earnings: What to Expect",
+      "link": "https://www.barchart.com/story/news/3113613/welltowers-q2-2026-earnings-what-to-expect?.tsrc=rss",
+      "published": "Fri, 03 Jul 2026 10:13:06 +0000",
+      "summary": "As Welltower gears up to reveal its second-quarter earnings later this month, analysts forecast double-digit profit growth.",
+      "is_signal": true
+    },
     {
       "ticker": "WELL",
       "company": "Welltower",
@@ -292,28 +314,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/welltower-stock-gains-20-9-163900861.html?.tsrc=rss",
       "published": "Mon, 29 Jun 2026 16:39:00 +0000",
       "summary": "WELL climbs 20.9% in six months as seniors housing demand, acquisitions and portfolio moves fuel growth.",
-      "is_signal": true
-    },
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "Welltower CFO Timothy McHugh sets U.S. pay record at $167M",
-      "link": "https://qz.com/welltower-cfo-pay-record-167-million-062326?.tsrc=rss",
-      "published": "Tue, 23 Jun 2026 15:13:14 +0000",
-      "summary": "Timothy McHugh's 2025 compensation surpasses the previous record set by Tesla's CFO and leaves his nearest S&amp;P 500 peers more than $100 million behind",
-      "is_signal": false
-    },
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "Welltower Announces Date of Second Quarter 2026 Earnings Release, Conference Call and Webcast",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/welltower-announces-date-second-quarter-120000909.html?.tsrc=rss",
-      "published": "Tue, 23 Jun 2026 12:00:00 +0000",
-      "summary": "Welltower\u00ae Inc. (NYSE: WELL) today announced it will release second quarter 2026 financial results after the close of trading on the New York Stock Exchange on Monday, July 27, 2026. The Company will host a conference call and webcast on Tuesday, July 28, 2026, at 9:00 a.m. ET to discuss these resul\u2026",
       "is_signal": true
     },
     {
@@ -365,6 +365,17 @@
       "company": "Healthpeak Properties",
       "source": "DOC",
       "category": "reit",
+      "title": "3 REITs to Buy for Passive Income in July",
+      "link": "https://247wallst.com/investing/2026/07/03/3-reits-to-buy-for-passive-income-in-july/?.tsrc=rss",
+      "published": "Fri, 03 Jul 2026 13:15:30 +0000",
+      "summary": "Income investors entering July 2026 are getting a friendlier setup than they had six months ago. The 10-year Treasury yield sits at 4%, down from its May 19 peak of 5%, and the Fed Funds upper bound has held at 4% for six months after two cuts in late 2025. Falling rates lower refinancing pressure .\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": "DOC",
+      "company": "Healthpeak Properties",
+      "source": "DOC",
+      "category": "reit",
       "title": "Healthpeak Properties Gains 28% in 3 Months: Will the Trend Last?",
       "link": "https://finance.yahoo.com/real-estate/articles/healthpeak-properties-gains-28-3-183000189.html?.tsrc=rss",
       "published": "Fri, 26 Jun 2026 18:30:00 +0000",
@@ -394,15 +405,15 @@
       "is_signal": false
     },
     {
-      "ticker": "DOC",
-      "company": "Healthpeak Properties",
-      "source": "DOC",
+      "ticker": "AHR",
+      "company": "American Healthcare REIT",
+      "source": "AHR",
       "category": "reit",
-      "title": "Healthpeak Properties Publishes Its 15th Annual Corporate Impact Report",
-      "link": "https://finance.yahoo.com/real-estate/articles/healthpeak-properties-publishes-15th-annual-201500401.html?.tsrc=rss",
-      "published": "Thu, 18 Jun 2026 20:15:00 +0000",
-      "summary": "DENVER, June 18, 2026--Healthpeak Properties, Inc. (\"Healthpeak\") (NYSE: DOC) announced today the release of its 15th annual 2025 Corporate Impact Report (the \"Report\"). The Report highlights Healthpeak's continued focus on building a resilient portfolio, advancing sustainability goals, fostering a \u2026",
-      "is_signal": true
+      "title": "Is Digital Realty Trust Stock Worth Retaining in Your Portfolio?",
+      "link": "https://finance.yahoo.com/real-estate/articles/digital-realty-trust-stock-worth-155900773.html?.tsrc=rss",
+      "published": "Fri, 03 Jul 2026 15:59:00 +0000",
+      "summary": "DLR benefits from AI-driven demand and expansion, but competition, debt and execution risks remain.",
+      "is_signal": false
     },
     {
       "ticker": "AHR",
@@ -436,17 +447,6 @@
       "published": "Fri, 26 Jun 2026 16:00:03 +0000",
       "summary": "American Healthcare REIT (AHR) might move higher on growing optimism about its earnings prospects, which is reflected by its upgrade to a Zacks Rank #2 (Buy).",
       "is_signal": true
-    },
-    {
-      "ticker": "AHR",
-      "company": "American Healthcare REIT",
-      "source": "AHR",
-      "category": "reit",
-      "title": "Is American Healthcare REIT, Inc. (AHR) Outperforming Other Finance Stocks This Year?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/american-healthcare-reit-inc-ahr-134004376.html?.tsrc=rss",
-      "published": "Fri, 26 Jun 2026 13:40:04 +0000",
-      "summary": "Here is how American Healthcare REIT (AHR) and Skyward Specialty Insurance (SKWD) have performed compared to their sector so far this year.",
-      "is_signal": false
     },
     {
       "ticker": "ARE",
@@ -629,6 +629,17 @@
       "company": "Janus Living",
       "source": "JAN",
       "category": "reit",
+      "title": "3 REITs to Buy for Passive Income in July",
+      "link": "https://247wallst.com/investing/2026/07/03/3-reits-to-buy-for-passive-income-in-july/?.tsrc=rss",
+      "published": "Fri, 03 Jul 2026 13:15:30 +0000",
+      "summary": "Income investors entering July 2026 are getting a friendlier setup than they had six months ago. The 10-year Treasury yield sits at 4%, down from its May 19 peak of 5%, and the Fed Funds upper bound has held at 4% for six months after two cuts in late 2025. Falling rates lower refinancing pressure .\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": "JAN",
+      "company": "Janus Living",
+      "source": "JAN",
+      "category": "reit",
       "title": "Healthpeak Properties Gains 28% in 3 Months: Will the Trend Last?",
       "link": "https://finance.yahoo.com/real-estate/articles/healthpeak-properties-gains-28-3-183000189.html?.tsrc=rss",
       "published": "Fri, 26 Jun 2026 18:30:00 +0000",
@@ -655,17 +666,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-healthpeak-properties-doc-010752967.html?.tsrc=rss",
       "published": "Mon, 08 Jun 2026 01:07:52 +0000",
       "summary": "Healthpeak Properties recently reported first-quarter 2026 funds from operations as adjusted of US$0.45 per share, ahead of expectations, and completed the Janus Living IPO, raising about US$880 million in net proceeds while retaining an 81.6% ownership stake. Alongside highlighting leasing momentum\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "JAN",
-      "company": "Janus Living",
-      "source": "JAN",
-      "category": "reit",
-      "title": "Janus Living Announces Pricing of Public Offering of Class A-1 Common Stock",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/janus-living-announces-pricing-public-232900675.html?.tsrc=rss",
-      "published": "Tue, 02 Jun 2026 23:29:00 +0000",
-      "summary": "DENVER, June 02, 2026--Janus Living, Inc. (NYSE: JAN) (\"Janus Living\"), a pure-play senior housing real estate investment trust (REIT), announced today the pricing of its public offering of 25,000,000 shares of its Class A-1 common stock at a price to the public of $25.00 per share. In addition, Jan\u2026",
       "is_signal": true
     },
     {
@@ -849,6 +849,28 @@
       "company": "Sila Realty Trust",
       "source": "SILA",
       "category": "reit",
+      "title": "Blue Owl Capital (OWL) Stock Still Looks Above Fair Value As Sila Deal Closes",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-owl-stock-221619877.html?.tsrc=rss",
+      "published": "Fri, 03 Jul 2026 22:16:19 +0000",
+      "summary": "Blue Owl Capital stock has fallen sharply over the last year, yet the valuation checks lean expensive rather than cheap. This creates a clear tension between the recent share price pressure and what the broader metrics are currently suggesting. Over the past 1 year, Blue Owl Capital is down 50.5%, w\u2026",
+      "is_signal": false
+    },
+    {
+      "ticker": "SILA",
+      "company": "Sila Realty Trust",
+      "source": "SILA",
+      "category": "reit",
+      "title": "Blue Owl Capital (OWL) Caps Redemptions And Closes Sila Realty Trust Deal",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-owl-caps-191503337.html?.tsrc=rss",
+      "published": "Fri, 03 Jul 2026 19:15:03 +0000",
+      "summary": "Blue Owl Capital (NYSE:OWL) has enforced quarterly redemption caps on its private credit funds in response to elevated investor withdrawal requests. The company has completed its acquisition of Sila Realty Trust, expanding its footprint in healthcare focused net lease real estate. These moves affect\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": "SILA",
+      "company": "Sila Realty Trust",
+      "source": "SILA",
+      "category": "reit",
       "title": "Are You Looking for a Top Momentum Pick? Why Sila Realty Trust (SILA) is a Great Choice",
       "link": "https://finance.yahoo.com/markets/stocks/articles/looking-top-momentum-pick-why-160002344.html?.tsrc=rss",
       "published": "Wed, 01 Jul 2026 16:00:02 +0000",
@@ -864,28 +886,6 @@
       "link": "https://finance.yahoo.com/real-estate/articles/funds-managed-blue-owl-capital-134500898.html?.tsrc=rss",
       "published": "Wed, 01 Jul 2026 13:45:00 +0000",
       "summary": "Blue Owl Capital Inc. (\"Blue Owl\") (NYSE: OWL), a leading alternative asset manager, today announced that funds managed by Blue Owl have successfully completed the previously announced acquisition of Sila Realty Trust, Inc. (\"Sila\" or \"the Company\"), a net lease real estate investment trust with a s\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "SILA",
-      "company": "Sila Realty Trust",
-      "source": "SILA",
-      "category": "reit",
-      "title": "Sila Realty Trust, Inc. Stockholders Approve Acquisition by Affiliates of Blue Owl Capital Inc.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sila-realty-trust-inc-stockholders-131800702.html?.tsrc=rss",
-      "published": "Fri, 26 Jun 2026 13:18:00 +0000",
-      "summary": "TAMPA, Fla., June 26, 2026--Sila Realty Trust, Inc. Stockholders Approve Acquisition by Affiliates of Blue Owl Capital Inc.",
-      "is_signal": true
-    },
-    {
-      "ticker": "SILA",
-      "company": "Sila Realty Trust",
-      "source": "SILA",
-      "category": "reit",
-      "title": "How Blue Owl\u2019s Sila Realty Deal and Credit Expansion Will Impact Blue Owl Capital (OWL) Investors",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-sila-realty-deal-120707460.html?.tsrc=rss",
-      "published": "Fri, 05 Jun 2026 12:07:07 +0000",
-      "summary": "In recent days, Blue Owl Capital has been active on multiple fronts, including leading a US$300 million private credit facility for Perk, planning a roughly US$2.40 billion all-cash acquisition of Sila Realty Trust, arranging a US$400 million notes offering to reduce debt, and seeing a large institu\u2026",
       "is_signal": true
     },
     {
@@ -1144,6 +1144,17 @@
     {
       "ticker": null,
       "company": null,
+      "source": "GlobeNewswire",
+      "category": "broad",
+      "title": "The Ensign Group Purchases Real Estate and Operations in Texas",
+      "link": "https://www.globenewswire.com/news-release/2026/07/02/3321199/21305/en/The-Ensign-Group-Purchases-Real-Estate-and-Operations-in-Texas.html",
+      "published": "2026-07-02T10:00:00Z",
+      "summary": "SAN JUAN CAPISTRANO, Calif., July 02, 2026 (GLOBE NEWSWIRE) -- The Ensign Group, Inc. (Nasdaq: ENSG), the parent company of the Ensign\u2122\u00a0group of companies, which invest in and provide skilled nursing and senior living services, physical, occupational and spee\u2026",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
       "source": "Yahoo Entertainment",
       "category": "broad",
       "title": "BMO Capital and Morgan Stanley Take Different Views on Healthpeak Properties (DOC)",
@@ -1166,23 +1177,23 @@
     {
       "ticker": null,
       "company": null,
-      "source": "GlobeNewswire",
+      "source": "The New Republic",
       "category": "broad",
-      "title": "The Ensign Group Acquires Real Estate and Operations in Iowa",
-      "link": "https://www.globenewswire.com/news-release/2026/06/02/3304935/21305/en/The-Ensign-Group-Acquires-Real-Estate-and-Operations-in-Iowa.html",
-      "published": "2026-06-02T10:00:00Z",
-      "summary": "SAN JUAN CAPISTRANO, Calif., June 02, 2026 (GLOBE NEWSWIRE) -- The Ensign Group, Inc. (Nasdaq: ENSG), the parent company of the Ensign\u2122\u00a0group of companies, which invest in and provide skilled nursing and senior living services, physical, occupational and spee\u2026",
+      "title": "Kleptocracy Is Trump\u2019s Most Lucrative Business Venture",
+      "link": "https://newrepublic.com/article/212644/kleptocracy-trump-lucrative-business-venture",
+      "published": "2026-07-02T10:00:00Z",
+      "summary": "Being president of the United States is by far the most lucrative business venture of Donald Trump\u2019s checkered business career. The June 30 release of his financial disclosure report makes this official. Trump has turned the American presidency into an extrac\u2026",
       "is_signal": false
     },
     {
       "ticker": null,
       "company": null,
-      "source": "GlobeNewswire",
+      "source": "CounterPunch",
       "category": "broad",
-      "title": "The Ensign Group Purchases Memory Care Facility in California",
-      "link": "https://www.globenewswire.com/news-release/2026/06/02/3304939/21305/en/The-Ensign-Group-Purchases-Memory-Care-Facility-in-California.html",
-      "published": "2026-06-02T10:00:00Z",
-      "summary": "SAN JUAN CAPISTRANO, Calif., June 02, 2026 (GLOBE NEWSWIRE) -- The Ensign Group, Inc. (Nasdaq: ENSG), the parent company of the EnsignTM\u00a0group of companies, which invest in and provide skilled nursing and senior living services, physical, occupational and spe\u2026",
+      "title": "Why People Say the Economy is Bad: Fees and Insurance",
+      "link": "https://www.counterpunch.org/2026/07/02/why-people-say-the-economy-is-bad-fees-and-insurance/",
+      "published": "2026-07-02T05:52:54Z",
+      "summary": "People\u2019s negative assessments of the economy continue to be somewhat of a mystery. The recent run-up in gas prices and inflation more generally is unambiguously bad news, but is this the worst economy ever, as some of the consumer confidence measures have bee\u2026",
       "is_signal": false
     },
     {
