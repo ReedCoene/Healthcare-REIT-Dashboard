@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-08-10T22:08:21.843266+00:00",
-  "market_date": "August 10, 2026",
+  "last_updated": "2026-08-11T22:19:51.275403+00:00",
+  "market_date": "August 11, 2026",
   "stocks": {
     "WELL": {
       "name": "Welltower",
       "ticker": "WELL",
-      "price": 235.04,
-      "prev_close": 236.92,
-      "pct_change": -0.79,
-      "market_cap": 169363243008,
-      "dividend_yield": 1.44,
+      "price": 226.01,
+      "prev_close": 235.04,
+      "pct_change": -3.84,
+      "market_cap": 162856484864,
+      "dividend_yield": 1.45,
       "fifty_two_week_high": 255.2,
       "fifty_two_week_low": 161.26,
       "next_earnings": "2026-10-26"
@@ -17,11 +17,11 @@
     "VTR": {
       "name": "Ventas",
       "ticker": "VTR",
-      "price": 91.95,
-      "prev_close": 93.36,
-      "pct_change": -1.51,
-      "market_cap": 47165415424,
-      "dividend_yield": 2.14,
+      "price": 86.96,
+      "prev_close": 91.95,
+      "pct_change": -5.43,
+      "market_cap": 44605816832,
+      "dividend_yield": 2.18,
       "fifty_two_week_high": 101.6,
       "fifty_two_week_low": 66.38,
       "next_earnings": "2026-10-28"
@@ -29,11 +29,11 @@
     "DOC": {
       "name": "Healthpeak Properties",
       "ticker": "DOC",
-      "price": 20.9,
-      "prev_close": 21.41,
-      "pct_change": -2.38,
-      "market_cap": 14816997376,
-      "dividend_yield": 5.7,
+      "price": 20.51,
+      "prev_close": 20.9,
+      "pct_change": -1.87,
+      "market_cap": 14540508160,
+      "dividend_yield": 5.84,
       "fifty_two_week_high": 22.95,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2026-10-22"
@@ -41,11 +41,11 @@
     "AHR": {
       "name": "American Healthcare REIT",
       "ticker": "AHR",
-      "price": 55.47,
-      "prev_close": 56.74,
-      "pct_change": -2.24,
-      "market_cap": 10690306048,
-      "dividend_yield": 1.76,
+      "price": 52.69,
+      "prev_close": 55.47,
+      "pct_change": -5.01,
+      "market_cap": 10892197888,
+      "dividend_yield": 1.8,
       "fifty_two_week_high": 58.7,
       "fifty_two_week_low": 39.64,
       "next_earnings": "2026-11-05"
@@ -53,11 +53,11 @@
     "ARE": {
       "name": "Alexandria Real Estate Equities",
       "ticker": "ARE",
-      "price": 48.35,
-      "prev_close": 49.74,
-      "pct_change": -2.79,
-      "market_cap": 8320806400,
-      "dividend_yield": 5.79,
+      "price": 48.12,
+      "prev_close": 48.35,
+      "pct_change": -0.48,
+      "market_cap": 8281224704,
+      "dividend_yield": 5.96,
       "fifty_two_week_high": 88.24,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-10-26"
@@ -65,11 +65,11 @@
     "CTRE": {
       "name": "CareTrust REIT",
       "ticker": "CTRE",
-      "price": 40.42,
-      "prev_close": 41.22,
-      "pct_change": -1.94,
-      "market_cap": 9550970880,
-      "dividend_yield": 3.78,
+      "price": 38.68,
+      "prev_close": 40.42,
+      "pct_change": -4.3,
+      "market_cap": 9139820544,
+      "dividend_yield": 3.86,
       "fifty_two_week_high": 43.62,
       "fifty_two_week_low": 32.25,
       "next_earnings": "2026-08-06"
@@ -77,11 +77,11 @@
     "HR": {
       "name": "Healthcare Realty Trust",
       "ticker": "HR",
-      "price": 19.64,
-      "prev_close": 19.97,
-      "pct_change": -1.65,
-      "market_cap": 6888769024,
-      "dividend_yield": 4.81,
+      "price": 19.15,
+      "prev_close": 19.64,
+      "pct_change": -2.49,
+      "market_cap": 6645007360,
+      "dividend_yield": 4.89,
       "fifty_two_week_high": 22.04,
       "fifty_two_week_low": 16.23,
       "next_earnings": "2026-10-29"
@@ -89,11 +89,11 @@
     "SBRA": {
       "name": "Sabra Health Care REIT",
       "ticker": "SBRA",
-      "price": 20.67,
-      "prev_close": 21.04,
-      "pct_change": -1.76,
-      "market_cap": 5280415232,
-      "dividend_yield": 5.7,
+      "price": 19.85,
+      "prev_close": 20.67,
+      "pct_change": -3.97,
+      "market_cap": 5070935552,
+      "dividend_yield": 5.81,
       "fifty_two_week_high": 22.77,
       "fifty_two_week_low": 17.17,
       "next_earnings": "2026-08-03"
@@ -101,10 +101,10 @@
     "JAN": {
       "name": "Janus Living",
       "ticker": "JAN",
-      "price": 30.18,
-      "prev_close": 30.47,
-      "pct_change": -0.95,
-      "market_cap": 6518065152,
+      "price": 29.57,
+      "prev_close": 30.18,
+      "pct_change": -2.02,
+      "market_cap": 6386321408,
       "dividend_yield": 30,
       "fifty_two_week_high": 32.83,
       "fifty_two_week_low": 22.76,
@@ -113,23 +113,23 @@
     "NHI": {
       "name": "National Health Investors",
       "ticker": "NHI",
-      "price": 74.15,
-      "prev_close": 75.3,
-      "pct_change": -1.53,
-      "market_cap": 3594130688,
-      "dividend_yield": 4.89,
+      "price": 69.95,
+      "prev_close": 74.15,
+      "pct_change": -5.66,
+      "market_cap": 0,
+      "dividend_yield": 4.96,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 67.94,
-      "next_earnings": "2026-08-10"
+      "next_earnings": "2026-11-05"
     },
     "OHI": {
       "name": "Omega Healthcare Investors",
       "ticker": "OHI",
-      "price": 47.39,
-      "prev_close": 48.46,
-      "pct_change": -2.21,
-      "market_cap": 14946581504,
-      "dividend_yield": 5.61,
+      "price": 45.57,
+      "prev_close": 47.39,
+      "pct_change": -3.84,
+      "market_cap": 14550376448,
+      "dividend_yield": 5.74,
       "fifty_two_week_high": 52.39,
       "fifty_two_week_low": 39.26,
       "next_earnings": "2026-10-29"
@@ -137,11 +137,11 @@
     "LTC": {
       "name": "LTC Properties",
       "ticker": "LTC",
-      "price": 39.42,
-      "prev_close": 39.85,
-      "pct_change": -1.08,
-      "market_cap": 2124957184,
-      "dividend_yield": 5.72,
+      "price": 38.11,
+      "prev_close": 39.42,
+      "pct_change": -3.32,
+      "market_cap": 2054341120,
+      "dividend_yield": 5.78,
       "fifty_two_week_high": 43.0,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2026-11-03"
@@ -149,23 +149,23 @@
     "DHC": {
       "name": "Diversified Healthcare Trust",
       "ticker": "DHC",
-      "price": 8.41,
-      "prev_close": 8.82,
-      "pct_change": -4.65,
-      "market_cap": 2036304768,
+      "price": 8.16,
+      "prev_close": 8.41,
+      "pct_change": -2.97,
+      "market_cap": 1975772544,
       "dividend_yield": 30,
       "fifty_two_week_high": 9.66,
-      "fifty_two_week_low": 3.35,
+      "fifty_two_week_low": 3.36,
       "next_earnings": "2026-11-02"
     },
     "CHCT": {
       "name": "Community Healthcare Trust",
       "ticker": "CHCT",
-      "price": 15.12,
-      "prev_close": 15.85,
-      "pct_change": -4.61,
-      "market_cap": 432005504,
-      "dividend_yield": 11.12,
+      "price": 15.07,
+      "prev_close": 15.12,
+      "pct_change": -0.33,
+      "market_cap": 431813376,
+      "dividend_yield": 11.66,
       "fifty_two_week_high": 19.165,
       "fifty_two_week_low": 13.23,
       "next_earnings": "2026-10-27"
@@ -173,11 +173,11 @@
     "UHT": {
       "name": "Universal Health Realty",
       "ticker": "UHT",
-      "price": 41.41,
-      "prev_close": 42.72,
-      "pct_change": -3.07,
-      "market_cap": 575543040,
-      "dividend_yield": 7.02,
+      "price": 40.75,
+      "prev_close": 41.41,
+      "pct_change": -1.59,
+      "market_cap": 566369920,
+      "dividend_yield": 7.24,
       "fifty_two_week_high": 46.3,
       "fifty_two_week_low": 35.26,
       "next_earnings": "2026-10-26"
@@ -185,81 +185,92 @@
   },
   "top_gainers": [
     {
-      "name": "Welltower",
-      "ticker": "WELL",
-      "price": 235.04,
-      "prev_close": 236.92,
-      "pct_change": -0.79,
-      "market_cap": 169363243008,
-      "dividend_yield": 1.44,
-      "fifty_two_week_high": 255.2,
-      "fifty_two_week_low": 161.26,
-      "next_earnings": "2026-10-26"
-    },
-    {
-      "name": "Janus Living",
-      "ticker": "JAN",
-      "price": 30.18,
-      "prev_close": 30.47,
-      "pct_change": -0.95,
-      "market_cap": 6518065152,
-      "dividend_yield": 30,
-      "fifty_two_week_high": 32.83,
-      "fifty_two_week_low": 22.76,
-      "next_earnings": "2026-11-03"
-    },
-    {
-      "name": "LTC Properties",
-      "ticker": "LTC",
-      "price": 39.42,
-      "prev_close": 39.85,
-      "pct_change": -1.08,
-      "market_cap": 2124957184,
-      "dividend_yield": 5.72,
-      "fifty_two_week_high": 43.0,
-      "fifty_two_week_low": 33.64,
-      "next_earnings": "2026-11-03"
-    }
-  ],
-  "top_losers": [
-    {
-      "name": "Universal Health Realty",
-      "ticker": "UHT",
-      "price": 41.41,
-      "prev_close": 42.72,
-      "pct_change": -3.07,
-      "market_cap": 575543040,
-      "dividend_yield": 7.02,
-      "fifty_two_week_high": 46.3,
-      "fifty_two_week_low": 35.26,
-      "next_earnings": "2026-10-26"
-    },
-    {
       "name": "Community Healthcare Trust",
       "ticker": "CHCT",
-      "price": 15.12,
-      "prev_close": 15.85,
-      "pct_change": -4.61,
-      "market_cap": 432005504,
-      "dividend_yield": 11.12,
+      "price": 15.07,
+      "prev_close": 15.12,
+      "pct_change": -0.33,
+      "market_cap": 431813376,
+      "dividend_yield": 11.66,
       "fifty_two_week_high": 19.165,
       "fifty_two_week_low": 13.23,
       "next_earnings": "2026-10-27"
     },
     {
-      "name": "Diversified Healthcare Trust",
-      "ticker": "DHC",
-      "price": 8.41,
-      "prev_close": 8.82,
-      "pct_change": -4.65,
-      "market_cap": 2036304768,
-      "dividend_yield": 30,
-      "fifty_two_week_high": 9.66,
-      "fifty_two_week_low": 3.35,
-      "next_earnings": "2026-11-02"
+      "name": "Alexandria Real Estate Equities",
+      "ticker": "ARE",
+      "price": 48.12,
+      "prev_close": 48.35,
+      "pct_change": -0.48,
+      "market_cap": 8281224704,
+      "dividend_yield": 5.96,
+      "fifty_two_week_high": 88.24,
+      "fifty_two_week_low": 39.41,
+      "next_earnings": "2026-10-26"
+    },
+    {
+      "name": "Universal Health Realty",
+      "ticker": "UHT",
+      "price": 40.75,
+      "prev_close": 41.41,
+      "pct_change": -1.59,
+      "market_cap": 566369920,
+      "dividend_yield": 7.24,
+      "fifty_two_week_high": 46.3,
+      "fifty_two_week_low": 35.26,
+      "next_earnings": "2026-10-26"
+    }
+  ],
+  "top_losers": [
+    {
+      "name": "American Healthcare REIT",
+      "ticker": "AHR",
+      "price": 52.69,
+      "prev_close": 55.47,
+      "pct_change": -5.01,
+      "market_cap": 10892197888,
+      "dividend_yield": 1.8,
+      "fifty_two_week_high": 58.7,
+      "fifty_two_week_low": 39.64,
+      "next_earnings": "2026-11-05"
+    },
+    {
+      "name": "Ventas",
+      "ticker": "VTR",
+      "price": 86.96,
+      "prev_close": 91.95,
+      "pct_change": -5.43,
+      "market_cap": 44605816832,
+      "dividend_yield": 2.18,
+      "fifty_two_week_high": 101.6,
+      "fifty_two_week_low": 66.38,
+      "next_earnings": "2026-10-28"
+    },
+    {
+      "name": "National Health Investors",
+      "ticker": "NHI",
+      "price": 69.95,
+      "prev_close": 74.15,
+      "pct_change": -5.66,
+      "market_cap": 0,
+      "dividend_yield": 4.96,
+      "fifty_two_week_high": 91.38,
+      "fifty_two_week_low": 67.94,
+      "next_earnings": "2026-11-05"
     }
   ],
   "news": [
+    {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "source": "WELL",
+      "category": "reit",
+      "title": "Welltower Stock: Analyst Estimates & Ratings",
+      "link": "https://www.barchart.com/story/news/3781129/welltower-stock-analyst-estimates-ratings?.tsrc=rss",
+      "published": "Tue, 11 Aug 2026 14:14:40 +0000",
+      "summary": "Welltower has outperformed the broader market over the past year, and analysts are highly optimistic about the stock\u2019s prospects.",
+      "is_signal": true
+    },
     {
       "ticker": "WELL",
       "company": "Welltower",
@@ -294,17 +305,6 @@
       "is_signal": true
     },
     {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "Welltower Inc (WELL) Q2 2026 Earnings Call Highlights: Record Growth and Strategic Investments ...",
-      "link": "https://finance.yahoo.com/real-estate/articles/welltower-inc-well-q2-2026-210037134.html?.tsrc=rss",
-      "published": "Tue, 28 Jul 2026 21:00:37 +0000",
-      "summary": "Welltower Inc (WELL) reports robust financial results with significant revenue and FFO growth, while navigating economic uncertainties and strategic dispositions.",
-      "is_signal": true
-    },
-    {
       "ticker": "VTR",
       "company": "Ventas",
       "source": "VTR",
@@ -331,10 +331,10 @@
       "company": "Ventas",
       "source": "VTR",
       "category": "reit",
-      "title": "Ventas Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/ventas-q2-earnings-call-highlights-2026-08-01/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "published": "Sat, 01 Aug 2026 05:03:45 +0000",
-      "summary": "Ventas (NYSE:VTR) raised its 2026 investment and earnings outlook after reporting second-quarter growth led by its senior housing operating portfolio, or SHOP, as occupancy gains and rent growth lifted property-level results. Chairman and Chief Executive Officer Debra A. Cafaro said the company gen",
+      "title": "Ventas (VTR) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ventas-vtr-q2-earnings-key-223002259.html?.tsrc=rss",
+      "published": "Wed, 29 Jul 2026 22:30:02 +0000",
+      "summary": "Although the revenue and EPS for Ventas (VTR) give a sense of how its business performed in the quarter ended June 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
       "is_signal": true
     },
     {
@@ -375,10 +375,10 @@
       "company": "Healthpeak Properties",
       "source": "DOC",
       "category": "reit",
-      "title": "Healthpeak Properties (DOC) Stock Looks Below Fair Value Despite Rich Earnings",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/healthpeak-properties-doc-stock-looks-131050839.html?.tsrc=rss",
-      "published": "Sun, 09 Aug 2026 13:10:50 +0000",
-      "summary": "Healthpeak Properties has delivered a 35.1% return over the past year, yet the valuation checks send mixed messages, with the Discounted Cash Flow (DCF) intrinsic value estimate suggesting meaningful upside while earnings-based multiples point to a richer price tag. Over the last 12 months, Healthpe\u2026",
+      "title": "Healthpeak Properties Q2 Earnings Call Highlights",
+      "link": "https://www.marketbeat.com/instant-alerts/healthpeak-properties-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "published": "Sat, 08 Aug 2026 04:03:57 +0000",
+      "summary": "Healthpeak Properties (NYSE:DOC) reported second-quarter adjusted funds from operations of $0.46 per share and raised its full-year adjusted FFO guidance by $0.02 to a range of $1.73 to $1.77 per share, citing improved same-store net operating income expectations in its lab and senior housing busine",
       "is_signal": true
     },
     {
@@ -386,22 +386,11 @@
       "company": "Healthpeak Properties",
       "source": "DOC",
       "category": "reit",
-      "title": "Should Healthpeak\u2019s Raised 2026 EPS Guidance and Profitability Shift Require Action From Healthpeak Properties (DOC) Investors?",
-      "link": "https://finance.yahoo.com/real-estate/articles/healthpeak-raised-2026-eps-guidance-051124787.html?.tsrc=rss",
-      "published": "Sun, 09 Aug 2026 05:11:24 +0000",
-      "summary": "In August 2026, Healthpeak Properties, Inc. reported second-quarter 2026 results showing revenue of US$771.58 million and net income of US$52.82 million, alongside higher earnings per share from continuing operations compared with a year earlier. For the first half of 2026, the company\u2019s net income \u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "AHR",
-      "company": "American Healthcare REIT",
-      "source": "AHR",
-      "category": "reit",
-      "title": "American Healthcare REIT Announces Public Offering of Common Stock",
-      "link": "https://finance.yahoo.com/real-estate/articles/american-healthcare-reit-announces-public-200400952.html?.tsrc=rss",
-      "published": "Mon, 10 Aug 2026 20:04:00 +0000",
-      "summary": "IRVINE, Calif., August 10, 2026--American Healthcare REIT, Inc. (NYSE: AHR; the \"Company\") announced today that it has commenced an underwritten public offering of 13,250,000 shares of its common stock on a forward basis in connection with the forward sale agreements described below.",
-      "is_signal": true
+      "title": "Is Wall Street Bullish or Bearish on Healthpeak Properties Stock?",
+      "link": "https://www.barchart.com/story/news/3665379/is-wall-street-bullish-or-bearish-on-healthpeak-properties-stock?.tsrc=rss",
+      "published": "Wed, 05 Aug 2026 14:03:10 +0000",
+      "summary": "Healthpeak Properties has rallied the broader market over the past year, and analysts remain slightly bullish about the stock\u2019s prospects.",
+      "is_signal": false
     },
     {
       "ticker": "AHR",
@@ -430,11 +419,22 @@
       "company": "American Healthcare REIT",
       "source": "AHR",
       "category": "reit",
-      "title": "American Healthcare REIT, Inc. Q2 2026 Earnings Call Summary",
-      "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-american-healthcare-reit-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-      "published": "Fri, 07 Aug 2026 12:30:00 +0000",
-      "summary": "Moby summary of American Healthcare REIT, Inc.'s Q2 2026 earnings call",
-      "is_signal": true
+      "title": "Implied Volatility Surging for American Healthcare REIT Stock Options",
+      "link": "https://finance.yahoo.com/markets/options/articles/implied-volatility-surging-american-healthcare-130700348.html?.tsrc=rss",
+      "published": "Tue, 21 Jul 2026 13:07:00 +0000",
+      "summary": "Investors need to pay close attention to AHR stock based on the movements in the options market lately.",
+      "is_signal": false
+    },
+    {
+      "ticker": "AHR",
+      "company": "American Healthcare REIT",
+      "source": "AHR",
+      "category": "reit",
+      "title": "Is American Healthcare REIT, Inc. (AHR) Stock Outpacing Its Finance Peers This Year?",
+      "link": "https://finance.yahoo.com/real-estate/articles/american-healthcare-reit-inc-ahr-134003183.html?.tsrc=rss",
+      "published": "Mon, 13 Jul 2026 13:40:03 +0000",
+      "summary": "Here is how American Healthcare REIT (AHR) and First BanCorp (FBP) have performed compared to their sector so far this year.",
+      "is_signal": false
     },
     {
       "ticker": "ARE",
@@ -445,17 +445,6 @@
       "link": "https://www.marketbeat.com/instant-alerts/alexandria-real-estate-equities-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
       "published": "Tue, 04 Aug 2026 20:04:04 +0000",
       "summary": "Alexandria Real Estate Equities (NYSE:ARE) reported second-quarter 2026 adjusted funds from operations of $1.73 per diluted share and reaffirmed the midpoint of its full-year guidance at $6.40 per share, while narrowing the annual range to plus or minus $0.05. The life science real estate company s",
-      "is_signal": true
-    },
-    {
-      "ticker": "ARE",
-      "company": "Alexandria Real Estate Equities",
-      "source": "ARE",
-      "category": "reit",
-      "title": "ARE's Q2 FFO Beats Estimates on Leasing Momentum, Rental Rates Improve",
-      "link": "https://finance.yahoo.com/real-estate/articles/ares-q2-ffo-beats-estimates-181400083.html?.tsrc=rss",
-      "published": "Tue, 04 Aug 2026 18:14:00 +0000",
-      "summary": "Alexandria's Q2 FFO beat estimates as leasing tops 1 million RSF, rental-rate declines ease and 1.4 million RSF awaits lease commencement.",
       "is_signal": true
     },
     {
@@ -481,6 +470,17 @@
       "is_signal": true
     },
     {
+      "ticker": "ARE",
+      "company": "Alexandria Real Estate Equities",
+      "source": "ARE",
+      "category": "reit",
+      "title": "Alexandria Real Estate Equities, Inc. Announces Foundational Milestone in Mission-Critical Partnership with the Foundation for the National Institutes of Health to Advance Precision Medicine for Depression",
+      "link": "https://finance.yahoo.com/healthcare/articles/alexandria-real-estate-equities-inc-123000979.html?.tsrc=rss",
+      "published": "Wed, 29 Jul 2026 12:30:00 +0000",
+      "summary": "Alexandria Real Estate Equities, Inc. (NYSE: ARE), the first, longest-tenured and pioneering owner, operator and developer of collaborative Megacampus\u2122 ecosystems in AAA life science and advanced technology innovation clusters, today announced with the Foundation for the National Institutes of Healt\u2026",
+      "is_signal": true
+    },
+    {
       "ticker": "CTRE",
       "company": "CareTrust REIT",
       "source": "CTRE",
@@ -496,10 +496,21 @@
       "company": "CareTrust REIT",
       "source": "CTRE",
       "category": "reit",
-      "title": "CareTrust REIT Inc (CTRE) (Q2 2026) Earnings Call Highlights: Record $900M Investment Quarter ...",
-      "link": "https://finance.yahoo.com/real-estate/articles/caretrust-reit-inc-ctre-q2-230112728.html?.tsrc=rss",
-      "published": "Fri, 07 Aug 2026 23:01:12 +0000",
-      "summary": "CareTrust REIT Inc (CTRE) reports a 44% surge in normalized FFO and raises full-year guidance amid a record $1.5 billion in year-to-date investments.",
+      "title": "CareTrust Announces $291 Million of Recent Investments; $1.5 Billion Investments Year-To-Date; Reloaded Pipeline",
+      "link": "https://finance.yahoo.com/real-estate/articles/caretrust-announces-291-million-recent-202100137.html?.tsrc=rss",
+      "published": "Thu, 06 Aug 2026 20:21:00 +0000",
+      "summary": "DANA POINT, Calif., August 06, 2026--CareTrust Announces $290 Million of Recent Investments; $1.5 Billion Investments Year-To-Date; Reloaded Pipeline",
+      "is_signal": true
+    },
+    {
+      "ticker": "CTRE",
+      "company": "CareTrust REIT",
+      "source": "CTRE",
+      "category": "reit",
+      "title": "CareTrust REIT Sets Second Quarter Earnings Call for Friday, August 7, 2026",
+      "link": "https://finance.yahoo.com/real-estate/articles/caretrust-reit-sets-second-quarter-200600652.html?.tsrc=rss",
+      "published": "Thu, 23 Jul 2026 20:06:00 +0000",
+      "summary": "DANA POINT, Calif., July 23, 2026--CareTrust REIT Sets Second Quarter Earnings Call for Friday, August 7, 2026",
       "is_signal": true
     },
     {
@@ -511,17 +522,6 @@
       "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-caretrust-reit-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
       "published": "Fri, 07 Aug 2026 12:30:00 +0000",
       "summary": "Moby summary of CareTrust REIT, Inc.'s Q2 2026 earnings call",
-      "is_signal": true
-    },
-    {
-      "ticker": "CTRE",
-      "company": "CareTrust REIT",
-      "source": "CTRE",
-      "category": "reit",
-      "title": "CareTrust REIT (CTRE) Meets Q2 FFO Estimates",
-      "link": "https://finance.yahoo.com/real-estate/articles/caretrust-reit-ctre-meets-q2-214004980.html?.tsrc=rss",
-      "published": "Thu, 06 Aug 2026 21:40:04 +0000",
-      "summary": "CareTrust REIT (CTRE) delivered FFO and revenue surprises of 0.00% and +5.04%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
       "is_signal": true
     },
     {
@@ -540,17 +540,6 @@
       "company": "Healthcare Realty Trust",
       "source": "HR",
       "category": "reit",
-      "title": "Healthcare Realty Trust Inc (HR) (Q2 2026) Earnings Call Highlights: Raises Guidance on Strong ...",
-      "link": "https://finance.yahoo.com/real-estate/articles/healthcare-realty-trust-inc-hr-210125570.html?.tsrc=rss",
-      "published": "Fri, 31 Jul 2026 21:01:25 +0000",
-      "summary": "Healthcare Realty Trust Inc (HR) boosts full-year FFO outlook amid robust same-store NOI growth and accretive JV acquisitions.",
-      "is_signal": true
-    },
-    {
-      "ticker": "HR",
-      "company": "Healthcare Realty Trust",
-      "source": "HR",
-      "category": "reit",
       "title": "Healthcare Realty Trust Q2 Earnings Call Highlights",
       "link": "https://www.marketbeat.com/instant-alerts/healthcare-realty-trust-q2-earnings-call-highlights-2026-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
       "published": "Fri, 31 Jul 2026 19:04:22 +0000",
@@ -562,10 +551,32 @@
       "company": "Healthcare Realty Trust",
       "source": "HR",
       "category": "reit",
+      "title": "Healthcare Realty Trust Inc (HR) (Q2 2026) Earnings Call Highlights: Raises Guidance on Strong ...",
+      "link": "https://finance.yahoo.com/real-estate/articles/healthcare-realty-trust-inc-hr-210125570.html?.tsrc=rss",
+      "published": "Fri, 31 Jul 2026 21:01:25 +0000",
+      "summary": "Healthcare Realty Trust Inc (HR) boosts full-year FFO outlook amid robust same-store NOI growth and accretive JV acquisitions.",
+      "is_signal": true
+    },
+    {
+      "ticker": "HR",
+      "company": "Healthcare Realty Trust",
+      "source": "HR",
+      "category": "reit",
       "title": "Healthcare Realty Trust Incorporated Q2 2026 Earnings Call Summary",
       "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-healthcare-realty-trust-incorporated-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
       "published": "Fri, 31 Jul 2026 12:30:00 +0000",
       "summary": "Moby summary of Healthcare Realty Trust Incorporated's Q2 2026 earnings call",
+      "is_signal": true
+    },
+    {
+      "ticker": "SBRA",
+      "company": "Sabra Health Care REIT",
+      "source": "SBRA",
+      "category": "reit",
+      "title": "Sabra Health Care REIT (SBRA) Q2 2026 Earnings Call Transcript",
+      "link": "https://www.fool.com/earnings/call-transcripts/2026/08/10/sabra-health-care-reit-sbra-q2-2026-earnings-call-transcript/?.tsrc=rss",
+      "published": "Tue, 11 Aug 2026 01:29:41 +0000",
+      "summary": "Managed senior housing transition drives gains amid record investment pipeline activity.",
       "is_signal": true
     },
     {
@@ -602,17 +613,6 @@
       "is_signal": true
     },
     {
-      "ticker": "SBRA",
-      "company": "Sabra Health Care REIT",
-      "source": "SBRA",
-      "category": "reit",
-      "title": "Sabra Healthcare REIT Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/sabra-healthcare-reit-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "published": "Tue, 04 Aug 2026 19:04:18 +0000",
-      "summary": "Sabra Healthcare REIT (NASDAQ:SBRA) reported second-quarter 2026 normalized funds from operations of $0.38 per share and normalized adjusted funds from operations of $0.40 per share, with management reaffirming the higher full-year earnings outlook it issued in a July business update. Normalized FF",
-      "is_signal": true
-    },
-    {
       "ticker": "JAN",
       "company": "Janus Living",
       "source": "JAN",
@@ -628,10 +628,10 @@
       "company": "Janus Living",
       "source": "JAN",
       "category": "reit",
-      "title": "JAN Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/jan-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "published": "Sat, 08 Aug 2026 14:04:02 +0000",
-      "summary": "JAN (NYSE:JAN) reported higher second-quarter revenue, adjusted EBITDA and funds from operations as the senior housing real estate investment trust benefited from organic growth and acquisitions completed during the first half of 2026. Janus Living said consolidated revenue increased 45% year over",
+      "title": "How Investors Are Reacting To Healthpeak Properties (DOC) Raised 2026 FFOA Outlook And Janus Living IPO Proceeds",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-healthpeak-properties-doc-010752967.html?.tsrc=rss",
+      "published": "Mon, 08 Jun 2026 01:07:52 +0000",
+      "summary": "Healthpeak Properties recently reported first-quarter 2026 funds from operations as adjusted of US$0.45 per share, ahead of expectations, and completed the Janus Living IPO, raising about US$880 million in net proceeds while retaining an 81.6% ownership stake. Alongside highlighting leasing momentum\u2026",
       "is_signal": true
     },
     {
@@ -639,10 +639,10 @@
       "company": "Janus Living",
       "source": "JAN",
       "category": "reit",
-      "title": "Healthpeak Properties Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/healthpeak-properties-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "published": "Sat, 08 Aug 2026 04:03:57 +0000",
-      "summary": "Healthpeak Properties (NYSE:DOC) reported second-quarter adjusted funds from operations of $0.46 per share and raised its full-year adjusted FFO guidance by $0.02 to a range of $1.73 to $1.77 per share, citing improved same-store net operating income expectations in its lab and senior housing busine",
+      "title": "Three Stocks That May Be Trading Below Estimated Value In May 2026",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/three-stocks-may-trading-below-173814761.html?.tsrc=rss",
+      "published": "Fri, 29 May 2026 17:38:14 +0000",
+      "summary": "The United States market has shown robust growth, with a 1.8% increase over the last week and a remarkable 28% rise over the past year, while earnings are projected to grow by 17% annually. In such an environment, identifying stocks that may be trading below their estimated value can offer investors\u2026",
       "is_signal": true
     },
     {
@@ -650,10 +650,43 @@
       "company": "Janus Living",
       "source": "JAN",
       "category": "reit",
-      "title": "Healthpeak Properties Inc (DOC) (Q2 2026) Earnings Call Highlights: Strong Leasing Momentum and ...",
-      "link": "https://finance.yahoo.com/real-estate/articles/healthpeak-properties-inc-doc-q2-210603110.html?.tsrc=rss",
-      "published": "Wed, 05 Aug 2026 21:06:03 +0000",
-      "summary": "Healthpeak Properties Inc (DOC) reports solid Q2 2026 results with raised FFO guidance, driven by strong senior housing growth and improved lab occupancy.",
+      "title": "Janus Living Announces Pricing of Public Offering of Class A-1 Common Stock",
+      "link": "https://finance.yahoo.com/real-estate/articles/janus-living-announces-pricing-public-003800101.html?.tsrc=rss",
+      "published": "Tue, 11 Aug 2026 00:38:00 +0000",
+      "summary": "DENVER, August 11, 2026--Janus Living, Inc. (NYSE: JAN) (\"Janus Living\"), a pure-play senior housing real estate investment trust (REIT), announced today the pricing of its public offering of 16,000,000 shares of its Class A-1 common stock at a price to the public of $29.00 per share. In addition, J\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": "NHI",
+      "company": "National Health Investors",
+      "source": "NHI",
+      "category": "reit",
+      "title": "National Health Investors Inc (NHI) (Q2 2026) Earnings Call Highlights: Strategic Pivot to SHOP ...",
+      "link": "https://finance.yahoo.com/healthcare/articles/national-health-investors-inc-nhi-210318598.html?.tsrc=rss",
+      "published": "Tue, 11 Aug 2026 21:03:18 +0000",
+      "summary": "NHI reports robust net income growth and dividend increase while navigating SHOP portfolio challenges and capital redeployment opportunities.",
+      "is_signal": true
+    },
+    {
+      "ticker": "NHI",
+      "company": "National Health Investors",
+      "source": "NHI",
+      "category": "reit",
+      "title": "National Health Investors Q2 Earnings Call Highlights",
+      "link": "https://www.marketbeat.com/instant-alerts/national-health-investors-q2-earnings-call-highlights-2026-08-11/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "published": "Tue, 11 Aug 2026 19:04:38 +0000",
+      "summary": "National Health Investors (NYSE:NHI) reported second-quarter results that management said were in line with expectations, alongside the completion of a major portfolio sale and continued expansion of its seniors housing operating portfolio, or SHOP. President and CEO Eric Mendelsohn said the compan",
+      "is_signal": true
+    },
+    {
+      "ticker": "NHI",
+      "company": "National Health Investors",
+      "source": "NHI",
+      "category": "reit",
+      "title": "National Health Investors (NHI) Q2 FFO Lag Estimates",
+      "link": "https://finance.yahoo.com/healthcare/articles/national-health-investors-nhi-q2-215506616.html?.tsrc=rss",
+      "published": "Mon, 10 Aug 2026 21:55:06 +0000",
+      "summary": "National Health Investors (NHI) delivered FFO and revenue surprises of -5.56% and +2.81%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
       "is_signal": true
     },
     {
@@ -665,50 +698,6 @@
       "link": "https://finance.yahoo.com/real-estate/articles/nhi-issues-investor-201000577.html?.tsrc=rss",
       "published": "Mon, 10 Aug 2026 20:10:00 +0000",
       "summary": "National Health Investors, Inc. (NYSE: NHI) has issued the following investor update which can be found at:",
-      "is_signal": false
-    },
-    {
-      "ticker": "NHI",
-      "company": "National Health Investors",
-      "source": "NHI",
-      "category": "reit",
-      "title": "National Health Investors (NHI) Could Be 12% Undervalued As New COO Draws Fresh Interest",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/national-health-investors-nhi-could-171727776.html?.tsrc=rss",
-      "published": "Fri, 07 Aug 2026 17:17:27 +0000",
-      "summary": "National Health Investors (NHI) stock is drawing fresh attention after the company named senior housing veteran Chris Maingot as Chief Operating Officer, effective July 27, 2026. The move highlights the company\u2019s management depth in a specialized REIT segment. See our latest analysis for National He\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "NHI",
-      "company": "National Health Investors",
-      "source": "NHI",
-      "category": "reit",
-      "title": "NHI Announces Second Quarter 2026 Earnings Release and Conference Call Dates",
-      "link": "https://finance.yahoo.com/healthcare/articles/nhi-announces-second-quarter-2026-203000698.html?.tsrc=rss",
-      "published": "Wed, 15 Jul 2026 20:30:00 +0000",
-      "summary": "National Health Investors, Inc. (NYSE: NHI) announced details for the release of its results for the second quarter ended June 30, 2026. NHI plans to issue its earnings release after the market closes on Monday, August 10, 2026, and will host a conference call on the following day, Tuesday, August 1\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "NHI",
-      "company": "National Health Investors",
-      "source": "NHI",
-      "category": "reit",
-      "title": "SHO or NHI: Which Is the Better Value Stock Right Now?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sho-nhi-better-value-stock-154003780.html?.tsrc=rss",
-      "published": "Mon, 13 Jul 2026 15:40:03 +0000",
-      "summary": "SHO vs. NHI: Which Stock Is the Better Value Option?",
-      "is_signal": false
-    },
-    {
-      "ticker": "OHI",
-      "company": "Omega Healthcare Investors",
-      "source": "OHI",
-      "category": "reit",
-      "title": "GLPI or OHI: Which Is the Better Value Stock Right Now?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/glpi-ohi-better-value-stock-154004574.html?.tsrc=rss",
-      "published": "Mon, 10 Aug 2026 15:40:04 +0000",
-      "summary": "GLPI vs. OHI: Which Stock Is the Better Value Option?",
       "is_signal": false
     },
     {
@@ -727,10 +716,10 @@
       "company": "Omega Healthcare Investors",
       "source": "OHI",
       "category": "reit",
-      "title": "A High-Yield Dividend Bundle for Income Investors to Buy in August",
-      "link": "https://247wallst.com/investing/2026/08/07/a-high-yield-dividend-bundle-for-income-investors-to-buy-in-august/?.tsrc=rss",
-      "published": "Fri, 07 Aug 2026 12:00:40 +0000",
-      "summary": "Five dividend payers, one bundle, and a yield range so wide it spans a blue-chip utility sleeping soundly through wildfire liability to a mortgage REIT down 71% over ten years that still pays monthly. Knowing where to draw your line separates income from regret.",
+      "title": "Omega Healthcare Investors (OHI) Stock May Be 47% Undervalued Following Dividend Increase",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/omega-healthcare-investors-ohi-stock-081115773.html?.tsrc=rss",
+      "published": "Tue, 04 Aug 2026 08:11:15 +0000",
+      "summary": "Omega Healthcare Investors has delivered a strong 108.3% total return over the past five years, yet current valuation checks and the intrinsic value estimate still point to the stock trading at a discount to its underlying cash flow potential. Over five years, Omega Healthcare Investors has returned\u2026",
       "is_signal": true
     },
     {
@@ -738,10 +727,32 @@
       "company": "Omega Healthcare Investors",
       "source": "OHI",
       "category": "reit",
-      "title": "Omega Healthcare Investors (OHI) May Find a Bottom Soon, Here's Why You Should Buy the Stock Now",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/omega-healthcare-investors-ohi-may-135501894.html?.tsrc=rss",
-      "published": "Thu, 06 Aug 2026 13:55:01 +0000",
-      "summary": "Omega Healthcare Investors (OHI) appears to have found support after losing some value lately, as indicated by the formation of a hammer chart. In addition to this technical chart pattern, strong agreement among Wall Street analysts in revising earnings estimates higher enhances the stock's potentia\u2026",
+      "title": "Omega Healthcare Investors Inc (OHI) (Q2 2026) Earnings Call Highlights: Record EBITDA Coverage ...",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/omega-healthcare-investors-inc-ohi-210708852.html?.tsrc=rss",
+      "published": "Thu, 30 Jul 2026 21:07:08 +0000",
+      "summary": "Omega Healthcare Investors Inc (OHI) reports highest EBITDA coverage in over a decade at 1.65x, while navigating temporary headwinds from asset sales to position for future growth.",
+      "is_signal": true
+    },
+    {
+      "ticker": "OHI",
+      "company": "Omega Healthcare Investors",
+      "source": "OHI",
+      "category": "reit",
+      "title": "Omega Healthcare Investors (OHI) Q2 FFO and Revenues Beat Estimates",
+      "link": "https://finance.yahoo.com/real-estate/articles/omega-healthcare-investors-ohi-q2-003505506.html?.tsrc=rss",
+      "published": "Thu, 30 Jul 2026 00:35:05 +0000",
+      "summary": "Omega Healthcare Investors (OHI) delivered FFO and revenue surprises of +3.75% and +3.17%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "is_signal": true
+    },
+    {
+      "ticker": "LTC",
+      "company": "LTC Properties",
+      "source": "LTC",
+      "category": "reit",
+      "title": "LTC to Participate in the NYSE Real Estate Investor Access Day",
+      "link": "https://finance.yahoo.com/real-estate/articles/ltc-participate-nyse-real-estate-131500386.html?.tsrc=rss",
+      "published": "Mon, 10 Aug 2026 13:15:00 +0000",
+      "summary": "WESTLAKE VILLAGE, Calif., August 10, 2026--LTC Properties, Inc. (NYSE: LTC) (\"LTC\" or the \"Company\"), a real estate investment trust specializing in seniors housing and health care properties, today announced senior management will participate virtually in the NYSE Real Estate Investor Access Day on\u2026",
       "is_signal": true
     },
     {
@@ -775,17 +786,6 @@
       "link": "https://www.marketbeat.com/instant-alerts/ltc-properties-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
       "published": "Sat, 08 Aug 2026 17:03:55 +0000",
       "summary": "LTC Properties (NYSE:LTC) said it is accelerating its transition toward a seniors housing operating portfolio, raising its 2026 SHOP acquisition guidance by 50% to $900 million at the midpoint while planning substantially higher asset dispositions and loan payoffs. Co-President and Co-Chief Executi",
-      "is_signal": true
-    },
-    {
-      "ticker": "LTC",
-      "company": "LTC Properties",
-      "source": "LTC",
-      "category": "reit",
-      "title": "LTC Properties Inc (LTC) (Q2 2026) Earnings Call Highlights: Accelerating SHOP Strategy with ...",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ltc-properties-inc-ltc-q2-230347012.html?.tsrc=rss",
-      "published": "Thu, 06 Aug 2026 23:03:47 +0000",
-      "summary": "LTC Properties Inc (LTC) boosts 2026 SHOP acquisition guidance to $900 million and targets 75% of NOI from SHOP by 2028, while navigating a transformative year of capital recycling.",
       "is_signal": true
     },
     {
@@ -837,6 +837,28 @@
       "company": "Sila Realty Trust",
       "source": "SILA",
       "category": "reit",
+      "title": "Blue Owl Capital (OWL) Stock Still Looks Above Fair Value As Sila Deal Closes",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-owl-stock-221619877.html?.tsrc=rss",
+      "published": "Fri, 03 Jul 2026 22:16:19 +0000",
+      "summary": "Blue Owl Capital stock has fallen sharply over the last year, yet the valuation checks lean expensive rather than cheap. This creates a clear tension between the recent share price pressure and what the broader metrics are currently suggesting. Over the past 1 year, Blue Owl Capital is down 50.5%, w\u2026",
+      "is_signal": false
+    },
+    {
+      "ticker": "SILA",
+      "company": "Sila Realty Trust",
+      "source": "SILA",
+      "category": "reit",
+      "title": "Blue Owl Capital (OWL) Caps Redemptions And Closes Sila Realty Trust Deal",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-capital-owl-caps-191503337.html?.tsrc=rss",
+      "published": "Fri, 03 Jul 2026 19:15:03 +0000",
+      "summary": "Blue Owl Capital (NYSE:OWL) has enforced quarterly redemption caps on its private credit funds in response to elevated investor withdrawal requests. The company has completed its acquisition of Sila Realty Trust, expanding its footprint in healthcare focused net lease real estate. These moves affect\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": "SILA",
+      "company": "Sila Realty Trust",
+      "source": "SILA",
+      "category": "reit",
       "title": "Are You Looking for a Top Momentum Pick? Why Sila Realty Trust (SILA) is a Great Choice",
       "link": "https://finance.yahoo.com/markets/stocks/articles/looking-top-momentum-pick-why-160002344.html?.tsrc=rss",
       "published": "Wed, 01 Jul 2026 16:00:02 +0000",
@@ -855,25 +877,36 @@
       "is_signal": true
     },
     {
-      "ticker": "SILA",
-      "company": "Sila Realty Trust",
-      "source": "SILA",
+      "ticker": "CHCT",
+      "company": "Community Healthcare Trust",
+      "source": "CHCT",
       "category": "reit",
-      "title": "How Blue Owl\u2019s Sila Realty Deal and Credit Expansion Will Impact Blue Owl Capital (OWL) Investors",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-sila-realty-deal-120707460.html?.tsrc=rss",
-      "published": "Fri, 05 Jun 2026 12:07:07 +0000",
-      "summary": "In recent days, Blue Owl Capital has been active on multiple fronts, including leading a US$300 million private credit facility for Perk, planning a roughly US$2.40 billion all-cash acquisition of Sila Realty Trust, arranging a US$400 million notes offering to reduce debt, and seeing a large institu\u2026",
+      "title": "Community Healthcare Trust (CHCT) Q2 FFO and Revenues Miss Estimates",
+      "link": "https://finance.yahoo.com/real-estate/articles/community-healthcare-trust-chct-q2-230006061.html?.tsrc=rss",
+      "published": "Tue, 04 Aug 2026 23:00:06 +0000",
+      "summary": "Community Healthcare Trust (CHCT) delivered FFO and revenue surprises of -1.75% and -2.73%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
       "is_signal": true
     },
     {
-      "ticker": "SILA",
-      "company": "Sila Realty Trust",
-      "source": "SILA",
+      "ticker": "CHCT",
+      "company": "Community Healthcare Trust",
+      "source": "CHCT",
       "category": "reit",
-      "title": "Assessing Sila Realty Trust (SILA) Valuation After Recent Double Digit Share Price Gains",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/assessing-sila-realty-trust-sila-090616068.html?.tsrc=rss",
-      "published": "Wed, 29 Apr 2026 09:06:16 +0000",
-      "summary": "Recent performance snapshot Sila Realty Trust (SILA) has drawn attention after a month return of about 31%, alongside a past 3 months return near 26%. This has prompted investors to reassess the healthcare focused net lease REIT\u2019s profile. See our latest analysis for Sila Realty Trust. With the shar\u2026",
+      "title": "Community Healthcare Trust Announces Second Quarter Earnings Release Date And Conference Call",
+      "link": "https://finance.yahoo.com/healthcare/articles/community-healthcare-trust-announces-second-213000174.html?.tsrc=rss",
+      "published": "Fri, 17 Jul 2026 21:30:00 +0000",
+      "summary": "Community Healthcare Trust Incorporated (NYSE: CHCT) today announced that on Tuesday evening, August 4, 2026, after the market closes, it will report results for the second quarter of 2026.",
+      "is_signal": true
+    },
+    {
+      "ticker": "CHCT",
+      "company": "Community Healthcare Trust",
+      "source": "CHCT",
+      "category": "reit",
+      "title": "Community Healthcare Trust Releases 2025 Corporate Sustainability Report",
+      "link": "https://finance.yahoo.com/healthcare/articles/community-healthcare-trust-releases-2025-204500268.html?.tsrc=rss",
+      "published": "Wed, 24 Jun 2026 20:45:00 +0000",
+      "summary": "Community Healthcare Trust Incorporated (NYSE: CHCT) (the \"Company\") today announced the release of its third Corporate Sustainability Report highlighting the Company's progress and its sustainability initiatives implemented in 2025. The report is aligned with the Global Reporting Framework Initiati\u2026",
       "is_signal": false
     },
     {
@@ -881,44 +914,11 @@
       "company": "Community Healthcare Trust",
       "source": "CHCT",
       "category": "reit",
-      "title": "Down 14.0% in 4 Weeks, Here's Why Community Healthcare Trust (CHCT) Looks Ripe for a Turnaround",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/down-14-0-4-weeks-133502395.html?.tsrc=rss",
-      "published": "Thu, 06 Aug 2026 13:35:02 +0000",
-      "summary": "Community Healthcare Trust (CHCT) has become technically an oversold stock now, which implies exhaustion of the heavy selling pressure on it. This, combined with strong agreement among Wall Street analysts in revising earnings estimates higher, indicates a potential trend reversal for the stock in t\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "CHCT",
-      "company": "Community Healthcare Trust",
-      "source": "CHCT",
-      "category": "reit",
-      "title": "Community Healthcare Trust Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/community-healthcare-trust-q2-earnings-call-highlights-2026-08-06/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "published": "Thu, 06 Aug 2026 08:04:10 +0000",
-      "summary": "Community Healthcare Trust (NYSE:CHCT) outlined a strategic plan centered on retaining more capital for acquisitions, improving occupancy and recycling assets after reporting second-quarter adjusted funds from operations of $0.56 per diluted share, unchanged from the first quarter. Chief Executive",
-      "is_signal": true
-    },
-    {
-      "ticker": "CHCT",
-      "company": "Community Healthcare Trust",
-      "source": "CHCT",
-      "category": "reit",
-      "title": "Community Healthcare Trust Inc (CHCT) (Q2 2026) Earnings Call Highlights: Strategic Dividend ...",
-      "link": "https://finance.yahoo.com/healthcare/articles/community-healthcare-trust-inc-chct-210702027.html?.tsrc=rss",
-      "published": "Wed, 05 Aug 2026 21:07:02 +0000",
-      "summary": "CHCT slashes dividend to $0.33 per share, freeing up capital for a $99 million acquisition pipeline and targeting 92% occupancy by 2027.",
-      "is_signal": true
-    },
-    {
-      "ticker": "CHCT",
-      "company": "Community Healthcare Trust",
-      "source": "CHCT",
-      "category": "reit",
-      "title": "Is Community Healthcare Trust (CHCT) Stock Undervalued Right Now?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/community-healthcare-trust-chct-stock-134004271.html?.tsrc=rss",
-      "published": "Wed, 05 Aug 2026 13:40:04 +0000",
-      "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
-      "is_signal": true
+      "title": "Community Healthcare Trust vs. Sabra Health Care REIT: Which Real Estate Stock Is a Better Buy in 2026?",
+      "link": "https://www.fool.com/coverage/better-buy/2026/06/15/community-healthcare-trust-vs-sabra-health-care-reit-which-real-estate-stock-is-a-better-buy-in-2026/?.tsrc=rss",
+      "published": "Mon, 15 Jun 2026 12:51:25 +0000",
+      "summary": "One REIT boasts nearly 200 outpatient sites, while the other manages over 36,000 senior care beds. Explore how their financials and risk profiles stack up.",
+      "is_signal": false
     },
     {
       "ticker": "UHT",
@@ -969,6 +969,17 @@
       "company": null,
       "source": "Skilled Nursing News",
       "category": "sector",
+      "title": "NHI Execs Talk\u00a0$560M\u00a0NHC Sale, C-Suite Changes to\u00a0Boost Private Pay, Senior Housing M&A",
+      "link": "https://skillednursingnews.com/2026/08/nhi-execs-talk-560m-nhc-sale-c-suite-changes-to-boost-private-pay-senior-housing-ma/",
+      "published": "Tue, 11 Aug 2026 22:00:00 +0000",
+      "summary": "<p>National Health Investors (NYSE: NHI) on July 1 completed the sale of its National HealthCare Corporation (NHC) portfolio, leased to NHC, for $560 million with expected gains of about $541.6 million. It\u2019s \u201cone of the most significant corporate actions in NHI\u2019s history,\u201d NHI CEO Eric Mendelsohn sa\u2026",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
       "title": "Skilled Nursing\u00a0Dealbook:\u00a0$170.5M in Financing Closed For 7 Skilled Nursing Facilities and Portfolios",
       "link": "https://skillednursingnews.com/2026/08/skilled-nursing-dealbook-170-5m-in-financing-closed-for-7-skilled-nursing-facilities-and-portfolios/",
       "published": "Mon, 10 Aug 2026 22:00:00 +0000",
@@ -1011,12 +1022,12 @@
     {
       "ticker": null,
       "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "\u2018Too Important to Fail\u2019:\u00a0With\u00a0$735M in Nursing Home Investments\u00a0in First Half,\u00a0CareTrust\u00a0Reaffirms Faith in Sector",
-      "link": "https://skillednursingnews.com/2026/08/too-important-to-fail-with-735m-in-nursing-home-investments-in-first-half-caretrust-reaffirms-faith-in-sector/",
-      "published": "Fri, 07 Aug 2026 22:00:00 +0000",
-      "summary": "<p>CareTrust REIT (NYSE: CTRE) CEO David Sedgwick believes the nursing home sector is \u201ctoo important to fail,\u201d and is a vital part of the healthcare continuum. This indispensable quality is the main reason the REIT continues to invest heavily in the sector. Sedgwick cited his long connection to skil\u2026",
+      "source": "STAT News",
+      "category": "broad",
+      "title": "Medicaid will stop paying for some gender-affirming care for transgender minors",
+      "link": "https://www.statnews.com/2026/08/11/medicaid-to-end-funding-gender-affirming-care-transgender-youth/?utm_campaign=rss",
+      "published": "Tue, 11 Aug 2026 22:18:55 +0000",
+      "summary": "The Trump administration plans to end federal funding for some care for transgender minors.",
       "is_signal": true
     },
     {
@@ -1024,10 +1035,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "Trump returns to controversial vaccine policy with order questioning childhood schedule",
-      "link": "https://www.statnews.com/2026/08/10/trump-return-to-vaccine-policy-executive-order/?utm_campaign=rss",
-      "published": "Mon, 10 Aug 2026 19:29:51 +0000",
-      "summary": "The Trump administration, which had recently avoided public discussions of vaccine policy because of concern around the political repercussions, is changing course.",
+      "title": "STAT+: Trump is counting on the health care industry to remake vaccines. It\u2019s pushing back instead",
+      "link": "https://www.statnews.com/2026/08/11/health-care-pharma-industry-pushes-back-trump-vaccine-policy-changes/?utm_campaign=rss",
+      "published": "Tue, 11 Aug 2026 16:57:34 +0000",
+      "summary": "Trump wants to change how American kids are vaccinated, but doctors and the pharma industry aren't on board.",
       "is_signal": false
     },
     {
@@ -1035,10 +1046,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: In surprise decision, FDA rejects radiopharma therapy expected to rival Novartis treatment",
-      "link": "https://www.statnews.com/2026/08/10/itm-radiopharma-fda-rejection/?utm_campaign=rss",
-      "published": "Mon, 10 Aug 2026 15:11:07 +0000",
-      "summary": "The FDA has rejected a radiopharmaceutical therapy because of manufacturing issues, halting what would have been a competitor for Novartis.",
+      "title": "Opinion: Trump says his executive order should restore trust in vaccines. It does the exact opposite",
+      "link": "https://www.statnews.com/2026/08/11/trump-executive-order-vaccines-undecided-parents-trust/?utm_campaign=rss",
+      "published": "Tue, 11 Aug 2026 16:46:06 +0000",
+      "summary": "The White House says Trump\u2019s recent executive order is aimed at restoring trust in vaccines. It will do the opposite, writes an epidemiologist.",
       "is_signal": false
     },
     {
@@ -1046,10 +1057,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "FDA to require notice of additives in food supply for the first time",
-      "link": "https://www.statnews.com/2026/08/10/rfk-jr-proposal-fda-gras-rule-generally-recognized-as-safe/?utm_campaign=rss",
-      "published": "Mon, 10 Aug 2026 15:00:00 +0000",
-      "summary": "RFK Jr. is claiming a win with a new proposal on the food industry's GRAS loophole; nutrition advocates give mixed reviews.",
+      "title": "How we know that splitting up the MMR vaccine could be dangerous",
+      "link": "https://www.statnews.com/2026/08/11/how-we-know-splitting-up-mmr-vaccine-could-be-dangerous/?utm_campaign=rss",
+      "published": "Tue, 11 Aug 2026 14:28:57 +0000",
+      "summary": "It's no mystery. History tells us that President Trump\u2019s executive order calling for the MMR to be split into separate shots could do real harm.",
       "is_signal": false
     },
     {
@@ -1057,21 +1068,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Ban prior auth? And hospitals cut jobs",
-      "link": "https://www.statnews.com/2026/08/10/advocate-ban-prior-authorization-340b-limits-impact-on-hospitals/?utm_campaign=rss",
-      "published": "Mon, 10 Aug 2026 14:52:16 +0000",
-      "summary": "We examine a call to reform how health insurers do business, and a look at the impact of 340B restrictions.",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "STAT+: FDA panel to weigh Grail\u2019s Galleri test",
-      "link": "https://www.statnews.com/2026/08/10/biotech-news-fda-panel-to-weigh-grail-galleri-test/?utm_campaign=rss",
-      "published": "Mon, 10 Aug 2026 14:48:07 +0000",
-      "summary": "China reins in its biotech innovation engine, radiopharma boom meets unexpected hurdles, and more news from The Readout",
+      "title": "STAT+: Trump\u2019s vaccine pivot overshadows food rule",
+      "link": "https://www.statnews.com/2026/08/11/trump-vaccine-policy-pivot-overshadows-fda-gras-food-rule-dc-diagnosis/?utm_campaign=rss",
+      "published": "Tue, 11 Aug 2026 14:19:47 +0000",
+      "summary": "Trump is turning the focus back to controversial vaccine policy, overshadowing a new move on food additives.",
       "is_signal": false
     },
     {
@@ -1128,6 +1128,17 @@
       "published": "Thu, 16 Jan 2014 12:00:00 +0000",
       "summary": "<div class=\"paragraph paragraph--image paragraph--image--teaser paragraph--type--image paragraph--id--11915 paragraph--view-mode--teaser\">\n            \n\n  \n  \n      \n  <div class=\"field field--name-field-media-image field--type-image field--label-visually_hidden\">\n    <div class=\"field__label visual\u2026",
       "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "PRNewswire",
+      "category": "broad",
+      "title": "NHI Announces Second Quarter 2026 Results",
+      "link": "https://www.prnewswire.com/news-releases/nhi-announces-second-quarter-2026-results-302847286.html",
+      "published": "2026-08-10T20:05:00Z",
+      "summary": "MURFREESBORO, Tenn., Aug. 10, 2026 /PRNewswire/ -- National Health Investors, Inc. (NYSE: NHI) announced today its results for the quarter ended June 30, 2026. CEO Comments \"We continued to expand our Senior Housing Operating Portfolio (\"SHOP\") with second qu\u2026",
+      "is_signal": true
     },
     {
       "ticker": null,
@@ -1231,45 +1242,34 @@
     {
       "ticker": null,
       "company": null,
-      "source": "MarketBeat",
+      "source": "PRNewswire",
       "category": "broad",
-      "title": "Forty three Eighteen Advisors LLC Acquires New Shares in National Health Investors, Inc. $NHI",
-      "link": "https://www.marketbeat.com/instant-alerts/filing-forty-three-eighteen-advisors-llc-acquires-new-shares-in-national-health-investors-inc-nhi-2026-07-18/",
-      "published": "2026-07-18T15:13:05Z",
-      "summary": "Forty three Eighteen Advisors LLC bought a new stake in  National Health Investors, Inc. (NYSE:NHI - Free Report) during the first quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission (SEC). The fund boug\u2026",
+      "title": "Brookdale Announces Second Quarter 2026 Results",
+      "link": "https://www.prnewswire.com/news-releases/brookdale-announces-second-quarter-2026-results-302847450.html",
+      "published": "2026-08-10T20:15:00Z",
+      "summary": "BRENTWOOD, Tenn., Aug. 10, 2026 /PRNewswire/ -- Brookdale Senior Living Inc. (NYSE: BKD) (\"Brookdale\" or the \"Company\") announced results for the quarter ended June 30, 2026. HIGHLIGHTS Increased second quarter 2026 consolidated revenue per available unit (Re\u2026",
       "is_signal": true
     },
     {
       "ticker": null,
       "company": null,
-      "source": "MarketBeat",
+      "source": "PRNewswire",
       "category": "broad",
-      "title": "LTC Properties Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/ltc-properties-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-      "published": "2026-08-08T17:03:55Z",
-      "summary": "LTC Properties (NYSE:LTC) said it is accelerating its transition toward a seniors housing operating portfolio, raising its 2026 SHOP acquisition guidance by...",
-      "is_signal": true
+      "title": "NHI Issues Investor Update",
+      "link": "https://www.prnewswire.com/news-releases/nhi-issues-investor-update-302847282.html",
+      "published": "2026-08-10T20:10:00Z",
+      "summary": "MURFREESBORO, Tenn., Aug. 10, 2026 /PRNewswire/ -- National Health Investors, Inc. (NYSE: NHI) has issued the following investor update which can be found at: https://investors.nhireit.com/News/presentations-and-webcasts/default.aspx About National Health Inv\u2026",
+      "is_signal": false
     },
     {
       "ticker": null,
       "company": null,
-      "source": "MarketBeat",
+      "source": "Biztoc.com",
       "category": "broad",
-      "title": "Healthpeak Properties Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/healthpeak-properties-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-      "published": "2026-08-08T04:03:57Z",
-      "summary": "Healthpeak Properties (NYSE:DOC) reported second-quarter adjusted funds from operations of $0.46 per share and raised its full-year adjusted FFO guidance by...",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "GlobeNewswire",
-      "category": "broad",
-      "title": "CAPREIT Reports Second Quarter 2026 Results",
-      "link": "https://www.globenewswire.com/news-release/2026/08/06/3340838/0/en/CAPREIT-Reports-Second-Quarter-2026-Results.html",
-      "published": "2026-08-06T21:00:00Z",
-      "summary": "Not for distribution to U.S. newswire services or for dissemination in the United States.  TORONTO, Aug.  06, 2026  (GLOBE NEWSWIRE) -- Canadian Apartment...",
+      "title": "Are Wall Street Analysts Bullish on Ventas Stock?",
+      "link": "https://biztoc.com/x/33713aa3d6dcf08c",
+      "published": "2026-08-10T09:29:42Z",
+      "summary": "Chicago, Illinois-based Ventas, Inc. (VTR) is a healthcare-focused real estate investment trust (REIT) that owns and operates properties serving the growing and aging U.S. population. Valued at a market cap of $47.9 billion, the company\u2019s portfolio spans seni\u2026",
       "is_signal": true
     },
     {
