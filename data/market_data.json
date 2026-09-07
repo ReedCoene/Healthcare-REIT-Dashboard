@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-04T23:12:34.872672+00:00",
-  "market_date": "September 04, 2026",
+  "last_updated": "2026-09-07T23:41:51.507492+00:00",
+  "market_date": "September 07, 2026",
   "stocks": {
     "WELL": {
       "name": "Welltower",
@@ -9,7 +9,7 @@
       "prev_close": 241.12,
       "pct_change": -2.05,
       "market_cap": 170177495040,
-      "dividend_yield": 1.41,
+      "dividend_yield": 1.44,
       "fifty_two_week_high": 255.2,
       "fifty_two_week_low": 163.75,
       "next_earnings": "2026-10-26"
@@ -21,9 +21,9 @@
       "prev_close": 92.11,
       "pct_change": -2.0,
       "market_cap": 46303666176,
-      "dividend_yield": 2.26,
+      "dividend_yield": 2.3,
       "fifty_two_week_high": 101.6,
-      "fifty_two_week_low": 66.38,
+      "fifty_two_week_low": 66.54,
       "next_earnings": "2026-10-28"
     },
     "DOC": {
@@ -33,7 +33,7 @@
       "prev_close": 21.03,
       "pct_change": -1.81,
       "market_cap": 14639760384,
-      "dividend_yield": 5.8,
+      "dividend_yield": 5.91,
       "fifty_two_week_high": 22.95,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2026-10-22"
@@ -45,7 +45,7 @@
       "prev_close": 55.76,
       "pct_change": -1.87,
       "market_cap": 11928892416,
-      "dividend_yield": 1.79,
+      "dividend_yield": 1.83,
       "fifty_two_week_high": 58.7,
       "fifty_two_week_low": 40.0,
       "next_earnings": "2026-11-05"
@@ -69,7 +69,7 @@
       "prev_close": 39.61,
       "pct_change": -1.51,
       "market_cap": 9217797120,
-      "dividend_yield": 3.94,
+      "dividend_yield": 4.0,
       "fifty_two_week_high": 43.62,
       "fifty_two_week_low": 32.79,
       "next_earnings": "2026-11-09"
@@ -80,8 +80,8 @@
       "price": 19.12,
       "prev_close": 19.27,
       "pct_change": -0.78,
-      "market_cap": 6634597888,
-      "dividend_yield": 4.98,
+      "market_cap": 6706378752,
+      "dividend_yield": 5.02,
       "fifty_two_week_high": 22.04,
       "fifty_two_week_low": 16.31,
       "next_earnings": "2026-10-29"
@@ -93,7 +93,7 @@
       "prev_close": 20.93,
       "pct_change": -0.72,
       "market_cap": 5308516352,
-      "dividend_yield": 5.73,
+      "dividend_yield": 5.78,
       "fifty_two_week_high": 22.77,
       "fifty_two_week_low": 17.17,
       "next_earnings": "2026-11-04"
@@ -117,7 +117,7 @@
       "prev_close": 71.91,
       "pct_change": -1.43,
       "market_cap": 3480947200,
-      "dividend_yield": 5.23,
+      "dividend_yield": 5.3,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 67.94,
       "next_earnings": "2026-11-05"
@@ -128,8 +128,8 @@
       "price": 46.38,
       "prev_close": 47.04,
       "pct_change": -1.4,
-      "market_cap": 14809008128,
-      "dividend_yield": 5.78,
+      "market_cap": 14628032512,
+      "dividend_yield": 5.86,
       "fifty_two_week_high": 52.39,
       "fifty_two_week_low": 39.26,
       "next_earnings": "2026-10-29"
@@ -141,7 +141,7 @@
       "prev_close": 41.9,
       "pct_change": -1.65,
       "market_cap": 2221448192,
-      "dividend_yield": 0,
+      "dividend_yield": 5.53,
       "fifty_two_week_high": 43.0,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2026-11-03"
@@ -155,7 +155,7 @@
       "market_cap": 1818388736,
       "dividend_yield": 30,
       "fifty_two_week_high": 9.66,
-      "fifty_two_week_low": 3.82,
+      "fifty_two_week_low": 3.92,
       "next_earnings": "2026-11-02"
     },
     "CHCT": {
@@ -164,8 +164,8 @@
       "price": 15.0,
       "prev_close": 14.9,
       "pct_change": 0.67,
-      "market_cap": 429807616,
-      "dividend_yield": 11.83,
+      "market_cap": 428576896,
+      "dividend_yield": 11.75,
       "fifty_two_week_high": 19.165,
       "fifty_two_week_low": 13.23,
       "next_earnings": "2026-10-27"
@@ -177,7 +177,7 @@
       "prev_close": 41.16,
       "pct_change": -0.8,
       "market_cap": 567483264,
-      "dividend_yield": 7.29,
+      "dividend_yield": 7.35,
       "fifty_two_week_high": 46.3,
       "fifty_two_week_low": 35.26,
       "next_earnings": "2026-10-26"
@@ -190,8 +190,8 @@
       "price": 15.0,
       "prev_close": 14.9,
       "pct_change": 0.67,
-      "market_cap": 429807616,
-      "dividend_yield": 11.83,
+      "market_cap": 428576896,
+      "dividend_yield": 11.75,
       "fifty_two_week_high": 19.165,
       "fifty_two_week_low": 13.23,
       "next_earnings": "2026-10-27"
@@ -215,7 +215,7 @@
       "prev_close": 20.93,
       "pct_change": -0.72,
       "market_cap": 5308516352,
-      "dividend_yield": 5.73,
+      "dividend_yield": 5.78,
       "fifty_two_week_high": 22.77,
       "fifty_two_week_low": 17.17,
       "next_earnings": "2026-11-04"
@@ -229,9 +229,9 @@
       "prev_close": 92.11,
       "pct_change": -2.0,
       "market_cap": 46303666176,
-      "dividend_yield": 2.26,
+      "dividend_yield": 2.3,
       "fifty_two_week_high": 101.6,
-      "fifty_two_week_low": 66.38,
+      "fifty_two_week_low": 66.54,
       "next_earnings": "2026-10-28"
     },
     {
@@ -241,7 +241,7 @@
       "prev_close": 241.12,
       "pct_change": -2.05,
       "market_cap": 170177495040,
-      "dividend_yield": 1.41,
+      "dividend_yield": 1.44,
       "fifty_two_week_high": 255.2,
       "fifty_two_week_low": 163.75,
       "next_earnings": "2026-10-26"
@@ -255,11 +255,33 @@
       "market_cap": 1818388736,
       "dividend_yield": 30,
       "fifty_two_week_high": 9.66,
-      "fifty_two_week_low": 3.82,
+      "fifty_two_week_low": 3.92,
       "next_earnings": "2026-11-02"
     }
   ],
   "news": [
+    {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "source": "WELL",
+      "category": "reit",
+      "title": "Key Reasons to Add Welltower Stock to Your Portfolio Right Now",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/key-reasons-add-welltower-stock-144000590.html?.tsrc=rss",
+      "published": "Mon, 07 Sep 2026 14:40:00 +0000",
+      "summary": "WELL's SHO portfolio posts 20.5% SSNOI growth as acquisitions and capital recycling support its seniors housing focus.",
+      "is_signal": true
+    },
+    {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "source": "WELL",
+      "category": "reit",
+      "title": "Is Welltower Stock Outperforming the Nasdaq?",
+      "link": "https://www.barchart.com/story/news/4472429/is-welltower-stock-outperforming-the-nasdaq?.tsrc=rss",
+      "published": "Mon, 07 Sep 2026 08:55:54 +0000",
+      "summary": "Despite WELL\u2019s strong outperformance relative to the Nasdaq Composite over the past year, Wall Street analysts remain very bullish on the stock\u2019s prospects.",
+      "is_signal": false
+    },
     {
       "ticker": "WELL",
       "company": "Welltower",
@@ -281,28 +303,6 @@
       "published": "Tue, 01 Sep 2026 20:39:00 +0000",
       "summary": "Toyota Motor's hybrid growth and expanded value-chain businesses support demand, but higher costs, China weakness and leverage temper prospects.",
       "is_signal": false
-    },
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "Welltower, Other Senior Housing REITs to See More Upside as Occupancy Supports 2027 Growth, Morgan Stanley Says",
-      "link": "https://finance.yahoo.com/real-estate/articles/welltower-other-senior-housing-reits-152427957.html?.tsrc=rss",
-      "published": "Tue, 01 Sep 2026 15:24:27 +0000",
-      "summary": "Welltower (WELL) and other senior housing REITs could see stronger growth in 2027 as occupancy rises",
-      "is_signal": true
-    },
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "Welltower Stock: Analyst Estimates & Ratings",
-      "link": "https://www.barchart.com/story/news/3781129/welltower-stock-analyst-estimates-ratings?.tsrc=rss",
-      "published": "Tue, 11 Aug 2026 14:14:40 +0000",
-      "summary": "Welltower has outperformed the broader market over the past year, and analysts are highly optimistic about the stock\u2019s prospects.",
-      "is_signal": true
     },
     {
       "ticker": "VTR",
@@ -441,6 +441,17 @@
       "company": "Alexandria Real Estate Equities",
       "source": "ARE",
       "category": "reit",
+      "title": "Alexandria\u2019s (ARE) Profit Rebound Comes With A Cash Flow Catch",
+      "link": "https://finance.yahoo.com/real-estate/articles/alexandria-profit-rebound-comes-cash-135541164.html?.tsrc=rss",
+      "published": "Sun, 06 Sep 2026 13:55:41 +0000",
+      "summary": "On August 3, Alexandria Real Estate Equities (NYSE:ARE) reported a Q2 2026 net loss of $0.43 per diluted share, narrower than the $0.64 loss posted a year earlier, while first-half net income swung to $1.68 per share from a loss of $0.71 in H1 2025. Funds from operations, the metric real estate inve\u2026",
+      "is_signal": false
+    },
+    {
+      "ticker": "ARE",
+      "company": "Alexandria Real Estate Equities",
+      "source": "ARE",
+      "category": "reit",
       "title": "Alexandria Real Estate Equities (ARE) Up 5.7% Since Last Earnings Report: Can It Continue?",
       "link": "https://finance.yahoo.com/real-estate/articles/alexandria-real-estate-equities-5-153003846.html?.tsrc=rss",
       "published": "Wed, 02 Sep 2026 15:30:03 +0000",
@@ -467,17 +478,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/alexandria-real-estate-equities-stock-050613804.html?.tsrc=rss",
       "published": "Wed, 26 Aug 2026 05:06:13 +0000",
       "summary": "Alexandria Real Estate Equities has seen its stock fall sharply over the past five years, yet current valuation checks suggest the shares trade at a discount to what the company's cash flows and market multiples imply as a reasonable intrinsic value. The stock has declined about 68% over five years,\u2026",
-      "is_signal": false
-    },
-    {
-      "ticker": "ARE",
-      "company": "Alexandria Real Estate Equities",
-      "source": "ARE",
-      "category": "reit",
-      "title": "Is Wall Street Bullish or Bearish on Alexandria Real Estate Stock?",
-      "link": "https://www.barchart.com/story/news/4023429/is-wall-street-bullish-or-bearish-on-alexandria-real-estate-stock?.tsrc=rss",
-      "published": "Tue, 25 Aug 2026 13:50:47 +0000",
-      "summary": "Alexandria Real Estate has underperformed the broader market over the past year, and analysts remain skeptical about the stock\u2019s prospects.",
       "is_signal": false
     },
     {
@@ -529,6 +529,17 @@
       "company": "Healthcare Realty Trust",
       "source": "HR",
       "category": "reit",
+      "title": "Healthcare Realty Trust (HR) Upgraded to Buy: What Does It Mean for the Stock?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/healthcare-realty-trust-hr-upgraded-160002781.html?.tsrc=rss",
+      "published": "Mon, 07 Sep 2026 16:00:02 +0000",
+      "summary": "Healthcare Realty Trust (HR) has been upgraded to a Zacks Rank #2 (Buy), reflecting growing optimism about the company's earnings prospects. This might drive the stock higher in the near term.",
+      "is_signal": true
+    },
+    {
+      "ticker": "HR",
+      "company": "Healthcare Realty Trust",
+      "source": "HR",
+      "category": "reit",
       "title": "Bears are Losing Control Over Healthcare Realty Trust (HR), Here's Why It's a 'Buy' Now",
       "link": "https://finance.yahoo.com/markets/stocks/articles/bears-losing-control-over-healthcare-135501906.html?.tsrc=rss",
       "published": "Tue, 01 Sep 2026 13:55:01 +0000",
@@ -555,17 +566,6 @@
       "link": "https://www.fool.com/earnings/call-transcripts/2026/08/07/healthcare-realty-trust-hr-q2-2026-earnings-call-transcript/?.tsrc=rss",
       "published": "Sat, 08 Aug 2026 02:13:25 +0000",
       "summary": "FFO guidance raised as occupancy and leasing spreads drive outperformance.",
-      "is_signal": true
-    },
-    {
-      "ticker": "HR",
-      "company": "Healthcare Realty Trust",
-      "source": "HR",
-      "category": "reit",
-      "title": "Healthcare Realty Trust Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/healthcare-realty-trust-q2-earnings-call-highlights-2026-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "published": "Fri, 31 Jul 2026 19:04:22 +0000",
-      "summary": "Healthcare Realty Trust (NYSE:HR) reported second-quarter results marked by higher occupancy, leasing activity, same-store net operating income growth and an increase to its full-year funds-from-operations outlook. Management said the company\u2019s performance continues to run ahead of objectives outlin",
       "is_signal": true
     },
     {
@@ -833,47 +833,14 @@
       "is_signal": true
     },
     {
-      "ticker": "SILA",
-      "company": "Sila Realty Trust",
-      "source": "SILA",
+      "ticker": "CHCT",
+      "company": "Community Healthcare Trust",
+      "source": "CHCT",
       "category": "reit",
-      "title": "Are You Looking for a Top Momentum Pick? Why Sila Realty Trust (SILA) is a Great Choice",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/looking-top-momentum-pick-why-160002344.html?.tsrc=rss",
-      "published": "Wed, 01 Jul 2026 16:00:02 +0000",
-      "summary": "Does Sila Realty Trust (SILA) have what it takes to be a top stock pick for momentum investors? Let's find out.",
-      "is_signal": false
-    },
-    {
-      "ticker": "SILA",
-      "company": "Sila Realty Trust",
-      "source": "SILA",
-      "category": "reit",
-      "title": "Funds Managed by Blue Owl Capital Complete Acquisition of Sila Realty Trust",
-      "link": "https://finance.yahoo.com/real-estate/articles/funds-managed-blue-owl-capital-134500898.html?.tsrc=rss",
-      "published": "Wed, 01 Jul 2026 13:45:00 +0000",
-      "summary": "Blue Owl Capital Inc. (\"Blue Owl\") (NYSE: OWL), a leading alternative asset manager, today announced that funds managed by Blue Owl have successfully completed the previously announced acquisition of Sila Realty Trust, Inc. (\"Sila\" or \"the Company\"), a net lease real estate investment trust with a s\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "SILA",
-      "company": "Sila Realty Trust",
-      "source": "SILA",
-      "category": "reit",
-      "title": "Sila Realty Trust, Inc. Stockholders Approve Acquisition by Affiliates of Blue Owl Capital Inc.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sila-realty-trust-inc-stockholders-131800702.html?.tsrc=rss",
-      "published": "Fri, 26 Jun 2026 13:18:00 +0000",
-      "summary": "TAMPA, Fla., June 26, 2026--Sila Realty Trust, Inc. Stockholders Approve Acquisition by Affiliates of Blue Owl Capital Inc.",
-      "is_signal": true
-    },
-    {
-      "ticker": "SILA",
-      "company": "Sila Realty Trust",
-      "source": "SILA",
-      "category": "reit",
-      "title": "How Blue Owl\u2019s Sila Realty Deal and Credit Expansion Will Impact Blue Owl Capital (OWL) Investors",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-sila-realty-deal-120707460.html?.tsrc=rss",
-      "published": "Fri, 05 Jun 2026 12:07:07 +0000",
-      "summary": "In recent days, Blue Owl Capital has been active on multiple fronts, including leading a US$300 million private credit facility for Perk, planning a roughly US$2.40 billion all-cash acquisition of Sila Realty Trust, arranging a US$400 million notes offering to reduce debt, and seeing a large institu\u2026",
+      "title": "Should Value Investors Buy Community Healthcare Trust (CHCT) Stock?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-community-healthcare-134005256.html?.tsrc=rss",
+      "published": "Mon, 07 Sep 2026 13:40:05 +0000",
+      "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
       "is_signal": true
     },
     {
@@ -908,17 +875,6 @@
       "published": "Fri, 17 Jul 2026 21:30:00 +0000",
       "summary": "Community Healthcare Trust Incorporated (NYSE: CHCT) today announced that on Tuesday evening, August 4, 2026, after the market closes, it will report results for the second quarter of 2026.",
       "is_signal": true
-    },
-    {
-      "ticker": "CHCT",
-      "company": "Community Healthcare Trust",
-      "source": "CHCT",
-      "category": "reit",
-      "title": "Community Healthcare Trust Releases 2025 Corporate Sustainability Report",
-      "link": "https://finance.yahoo.com/healthcare/articles/community-healthcare-trust-releases-2025-204500268.html?.tsrc=rss",
-      "published": "Wed, 24 Jun 2026 20:45:00 +0000",
-      "summary": "Community Healthcare Trust Incorporated (NYSE: CHCT) (the \"Company\") today announced the release of its third Corporate Sustainability Report highlighting the Company's progress and its sustainability initiatives implemented in 2025. The report is aligned with the Global Reporting Framework Initiati\u2026",
-      "is_signal": false
     },
     {
       "ticker": "UHT",
@@ -1024,6 +980,39 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
+      "title": "STAT+: Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation",
+      "link": "https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab/?utm_campaign=rss",
+      "published": "Mon, 07 Sep 2026 11:13:52 +0000",
+      "summary": "Novo Nordisk has stopped two trials of a drug that aims to tame inflammation as a way to improve cardiovascular health, another blow for the approach.",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "STAT News",
+      "category": "broad",
+      "title": "STAT+: Not so fast: Diabetes association panel not done reviewing ejections from its June meeting",
+      "link": "https://www.statnews.com/2026/09/06/ada-diabetes-association-ejection-conference-review-not-final/?utm_campaign=rss",
+      "published": "Sun, 06 Sep 2026 23:07:31 +0000",
+      "summary": "The American Diabetes Association \u201ccontinues to move from crisis to crisis to crisis,\u201d says one of five members ejected from June conference.",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "STAT News",
+      "category": "broad",
+      "title": "Opinion: What STAT readers think about M.D. vs. D.O., AI in medicine, surrogacy, and more",
+      "link": "https://www.statnews.com/2026/09/05/md-vs-do-surrogacy-ai-medicine-stat-letters-to-editor/?utm_campaign=rss",
+      "published": "Sat, 05 Sep 2026 08:30:00 +0000",
+      "summary": "\u201cA click, signature, or brief review should not magically transfer responsibility from an AI developer or platform to a physician,\u201d a reader tells STAT.",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "STAT News",
+      "category": "broad",
       "title": "STAT+: Novartis\u2019 experimental cardiovascular drug fails a pivotal study",
       "link": "https://www.statnews.com/2026/09/04/novartis-therapy-pelacarsen-fails-cardiovascular-trial/?utm_campaign=rss",
       "published": "Fri, 04 Sep 2026 21:07:27 +0000",
@@ -1040,39 +1029,6 @@
       "published": "Fri, 04 Sep 2026 16:05:04 +0000",
       "summary": "First, Mass General Brigham split with Dana-Farber. Now its Medicare Advantage plan is dropping the cancer hospital.",
       "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "STAT+: After failure of Angelman syndrome drug, experts see hope in other experimental therapies",
-      "link": "https://www.statnews.com/2026/09/04/angelman-syndrome-drug-ultragenyx-oak-hill-ionis/?utm_campaign=rss",
-      "published": "Fri, 04 Sep 2026 15:34:42 +0000",
-      "summary": "After the failure of an experimental drug for Angelman syndrome, experts cautioned that there is still reason to think similar experimental medicines can succeed.",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "STAT+: FDA takes another look at botanical drugs",
-      "link": "https://www.statnews.com/2026/09/04/biotech-news-fda-takes-another-look-at-botanical-drugs/?utm_campaign=rss",
-      "published": "Fri, 04 Sep 2026 13:46:42 +0000",
-      "summary": "The biggest barrier for a top schzophrenia treatment, Ionis' first approval for Alexander disease, and more biotech news",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "Disabled workers at greater risk of losing health insurance",
-      "link": "https://www.statnews.com/2026/09/04/health-news-disabled-workers-at-greater-risk-of-losing-insurance/?utm_campaign=rss",
-      "published": "Fri, 04 Sep 2026 13:08:15 +0000",
-      "summary": "An organ transplant first, new details on ADA conference controversy, and more health news from Morning Rounds",
-      "is_signal": false
     },
     {
       "ticker": null,
@@ -1198,34 +1154,12 @@
     {
       "ticker": null,
       "company": null,
-      "source": "GlobeNewswire",
+      "source": "Livemint",
       "category": "broad",
-      "title": "Strawberry Fields REIT Announces Q3 2026 Cash Dividend of $0.17 per Common Share",
-      "link": "https://www.globenewswire.com/news-release/2026/08/06/3340852/0/en/Strawberry-Fields-REIT-Announces-Q3-2026-Cash-Dividend-of-0-17-per-Common-Share.html",
-      "published": "2026-08-06T21:15:00Z",
-      "summary": "SOUTH BEND, Ind., Aug. 06, 2026 (GLOBE NEWSWIRE) -- Strawberry Fields REIT, Inc. (NYSE AMERICAN: STRW) (the \u201cCompany\u201d) today announced that its Board of Directors declared a cash dividend on its common stock in the amount of $0.17 per share (the \u201cDividend\u201d). \u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "GlobeNewswire",
-      "category": "broad",
-      "title": "Strawberry Fields REIT Announces Second Quarter 2026 Operating Results",
-      "link": "https://www.globenewswire.com/news-release/2026/08/06/3340854/0/en/Strawberry-Fields-REIT-Announces-Second-Quarter-2026-Operating-Results.html",
-      "published": "2026-08-06T21:15:00Z",
-      "summary": "Strawberry Fields REIT Announces Second Quarter 2026 Operating Results ...",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "MarketBeat",
-      "category": "broad",
-      "title": "Sabra Healthcare REIT Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/sabra-healthcare-reit-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-      "published": "2026-08-04T19:04:18Z",
-      "summary": "Sabra Healthcare REIT (NASDAQ:SBRA) reported second-quarter 2026 normalized funds from operations of $0.38 per share and normalized adjusted funds from opera...",
+      "title": "India\u2019s senior living market to grow 4x, cross \u20b91 trillion by 2030, Tier II, III cities to see most new projects: Report",
+      "link": "https://www.livemint.com/money/personal-finance/india-senior-living-market-grow-4x-cross-rs-1-lakh-crore-2030-tier-ii-iii-cities-new-projects-invest-real-estate-report-11788716428873.html",
+      "published": "2026-09-06T18:31:27Z",
+      "summary": "India's senior living market is estimated to cross \u20b91 lakh crore by 2030, nearly four times the current levels, according to a report by Colliers. The segment's expansion is drawing increased investment from real estate developers and investors, it added.&nbs\u2026",
       "is_signal": true
     },
     {
