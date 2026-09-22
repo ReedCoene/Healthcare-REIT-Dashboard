@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-18T23:31:11.992855+00:00",
-  "market_date": "September 18, 2026",
+  "last_updated": "2026-09-22T00:14:36.985332+00:00",
+  "market_date": "September 22, 2026",
   "stocks": {
     "WELL": {
       "name": "Welltower",
@@ -8,8 +8,8 @@
       "price": 228.87,
       "prev_close": 232.26,
       "pct_change": -1.46,
-      "market_cap": 164917313536,
-      "dividend_yield": 1.46,
+      "market_cap": 167720337408,
+      "dividend_yield": 1.49,
       "fifty_two_week_high": 255.2,
       "fifty_two_week_low": 163.75,
       "next_earnings": "2026-10-26"
@@ -20,10 +20,10 @@
       "price": 86.69,
       "prev_close": 87.71,
       "pct_change": -1.16,
-      "market_cap": 44467322880,
-      "dividend_yield": 2.37,
+      "market_cap": 44641722368,
+      "dividend_yield": 2.4,
       "fifty_two_week_high": 101.6,
-      "fifty_two_week_low": 66.54,
+      "fifty_two_week_low": 66.63,
       "next_earnings": "2026-10-28"
     },
     "DOC": {
@@ -32,8 +32,8 @@
       "price": 20.33,
       "prev_close": 20.5,
       "pct_change": -0.83,
-      "market_cap": 14412898304,
-      "dividend_yield": 5.95,
+      "market_cap": 14689386496,
+      "dividend_yield": 6.0,
       "fifty_two_week_high": 22.95,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2026-10-22"
@@ -44,8 +44,8 @@
       "price": 52.15,
       "prev_close": 53.15,
       "pct_change": -1.88,
-      "market_cap": 11368636416,
-      "dividend_yield": 1.88,
+      "market_cap": 11401335808,
+      "dividend_yield": 1.92,
       "fifty_two_week_high": 58.7,
       "fifty_two_week_low": 40.0,
       "next_earnings": "2026-11-05"
@@ -56,9 +56,9 @@
       "price": 53.3,
       "prev_close": 56.34,
       "pct_change": -5.4,
-      "market_cap": 9172678656,
-      "dividend_yield": 5.11,
-      "fifty_two_week_high": 88.24,
+      "market_cap": 9179561984,
+      "dividend_yield": 5.4,
+      "fifty_two_week_high": 87.54,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-10-26"
     },
@@ -68,8 +68,8 @@
       "price": 37.54,
       "prev_close": 38.17,
       "pct_change": -1.65,
-      "market_cap": 8870447104,
-      "dividend_yield": 4.09,
+      "market_cap": 8903527424,
+      "dividend_yield": 4.16,
       "fifty_two_week_high": 43.62,
       "fifty_two_week_low": 32.79,
       "next_earnings": "2026-11-09"
@@ -80,8 +80,8 @@
       "price": 18.26,
       "prev_close": 18.4,
       "pct_change": -0.76,
-      "market_cap": 6336179712,
-      "dividend_yield": 5.22,
+      "market_cap": 6408239104,
+      "dividend_yield": 5.26,
       "fifty_two_week_high": 22.04,
       "fifty_two_week_low": 16.31,
       "next_earnings": "2026-10-29"
@@ -92,8 +92,8 @@
       "price": 19.74,
       "prev_close": 20.15,
       "pct_change": -2.03,
-      "market_cap": 5042834432,
-      "dividend_yield": 5.96,
+      "market_cap": 5076045312,
+      "dividend_yield": 6.08,
       "fifty_two_week_high": 22.77,
       "fifty_two_week_low": 17.17,
       "next_earnings": "2026-11-04"
@@ -104,8 +104,8 @@
       "price": 30.34,
       "prev_close": 30.23,
       "pct_change": 0.36,
-      "market_cap": 9426115584,
-      "dividend_yield": 1.89,
+      "market_cap": 9354658816,
+      "dividend_yield": 1.88,
       "fifty_two_week_high": 32.83,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-11-03"
@@ -116,8 +116,8 @@
       "price": 67.8,
       "prev_close": 69.23,
       "pct_change": -2.07,
-      "market_cap": 3329687552,
-      "dividend_yield": 5.43,
+      "market_cap": 3333125120,
+      "dividend_yield": 5.55,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 67.36,
       "next_earnings": "2026-11-05"
@@ -128,8 +128,8 @@
       "price": 46.66,
       "prev_close": 47.37,
       "pct_change": -1.5,
-      "market_cap": 14898411520,
-      "dividend_yield": 5.74,
+      "market_cap": 14769960960,
+      "dividend_yield": 5.83,
       "fifty_two_week_high": 52.39,
       "fifty_two_week_low": 39.26,
       "next_earnings": "2026-11-03"
@@ -140,8 +140,8 @@
       "price": 42.56,
       "prev_close": 43.5,
       "pct_change": -2.16,
-      "market_cap": 2294220800,
-      "dividend_yield": 5.24,
+      "market_cap": 2311470592,
+      "dividend_yield": 5.36,
       "fifty_two_week_high": 43.6,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2026-11-03"
@@ -152,7 +152,7 @@
       "price": 8.01,
       "prev_close": 8.13,
       "pct_change": -1.48,
-      "market_cap": 1939453312,
+      "market_cap": 1966087424,
       "dividend_yield": 30,
       "fifty_two_week_high": 9.66,
       "fifty_two_week_low": 3.92,
@@ -164,8 +164,8 @@
       "price": 14.17,
       "prev_close": 14.42,
       "pct_change": -1.73,
-      "market_cap": 406024928,
-      "dividend_yield": 12.22,
+      "market_cap": 410862368,
+      "dividend_yield": 12.44,
       "fifty_two_week_high": 19.165,
       "fifty_two_week_low": 13.23,
       "next_earnings": "2026-10-27"
@@ -176,8 +176,8 @@
       "price": 39.79,
       "prev_close": 40.6,
       "pct_change": -2.0,
-      "market_cap": 553028672,
-      "dividend_yield": 7.39,
+      "market_cap": 542465600,
+      "dividend_yield": 7.54,
       "fifty_two_week_high": 46.3,
       "fifty_two_week_low": 35.26,
       "next_earnings": "2026-10-26"
@@ -190,8 +190,8 @@
       "price": 30.34,
       "prev_close": 30.23,
       "pct_change": 0.36,
-      "market_cap": 9426115584,
-      "dividend_yield": 1.89,
+      "market_cap": 9354658816,
+      "dividend_yield": 1.88,
       "fifty_two_week_high": 32.83,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-11-03"
@@ -202,8 +202,8 @@
       "price": 18.26,
       "prev_close": 18.4,
       "pct_change": -0.76,
-      "market_cap": 6336179712,
-      "dividend_yield": 5.22,
+      "market_cap": 6408239104,
+      "dividend_yield": 5.26,
       "fifty_two_week_high": 22.04,
       "fifty_two_week_low": 16.31,
       "next_earnings": "2026-10-29"
@@ -214,8 +214,8 @@
       "price": 20.33,
       "prev_close": 20.5,
       "pct_change": -0.83,
-      "market_cap": 14412898304,
-      "dividend_yield": 5.95,
+      "market_cap": 14689386496,
+      "dividend_yield": 6.0,
       "fifty_two_week_high": 22.95,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2026-10-22"
@@ -228,8 +228,8 @@
       "price": 67.8,
       "prev_close": 69.23,
       "pct_change": -2.07,
-      "market_cap": 3329687552,
-      "dividend_yield": 5.43,
+      "market_cap": 3333125120,
+      "dividend_yield": 5.55,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 67.36,
       "next_earnings": "2026-11-05"
@@ -240,8 +240,8 @@
       "price": 42.56,
       "prev_close": 43.5,
       "pct_change": -2.16,
-      "market_cap": 2294220800,
-      "dividend_yield": 5.24,
+      "market_cap": 2311470592,
+      "dividend_yield": 5.36,
       "fifty_two_week_high": 43.6,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2026-11-03"
@@ -252,9 +252,9 @@
       "price": 53.3,
       "prev_close": 56.34,
       "pct_change": -5.4,
-      "market_cap": 9172678656,
-      "dividend_yield": 5.11,
-      "fifty_two_week_high": 88.24,
+      "market_cap": 9179561984,
+      "dividend_yield": 5.4,
+      "fifty_two_week_high": 87.54,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-10-26"
     }
@@ -309,6 +309,17 @@
       "company": "Ventas",
       "source": "VTR",
       "category": "reit",
+      "title": "Ventas (VTR) Stock May Trade At A Discount Following Its 124% Run",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ventas-vtr-stock-may-trade-221239963.html?.tsrc=rss",
+      "published": "Sat, 19 Sep 2026 22:12:39 +0000",
+      "summary": "Ventas has seen its share price move around in recent years, and the stock closed at US$86.69 most recently. With that backdrop, the open question is whether the current price is properly supported by the cash flows the business is expected to generate. Over the past 3 years the stock has gained 123\u2026",
+      "is_signal": false
+    },
+    {
+      "ticker": "VTR",
+      "company": "Ventas",
+      "source": "VTR",
+      "category": "reit",
       "title": "Why Ventas (VTR) is a Top Dividend Stock for Your Portfolio",
       "link": "https://finance.yahoo.com/markets/stocks/articles/why-ventas-vtr-top-dividend-154503291.html?.tsrc=rss",
       "published": "Fri, 18 Sep 2026 15:45:03 +0000",
@@ -335,17 +346,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/ventas-declares-quarterly-dividend-0-203200184.html?.tsrc=rss",
       "published": "Mon, 14 Sep 2026 20:32:00 +0000",
       "summary": "CHICAGO, September 14, 2026--Ventas, Inc. (NYSE: VTR) today announced that its Board of Directors has declared a quarterly dividend of $0.52 per common share. The dividend will be payable in cash on October 15, 2026, to stockholders of record as of the close of business on September 30, 2026.",
-      "is_signal": true
-    },
-    {
-      "ticker": "VTR",
-      "company": "Ventas",
-      "source": "VTR",
-      "category": "reit",
-      "title": "Ventas (VTR) Up 1.1% Since Last Earnings Report: Can It Continue?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ventas-vtr-1-1-since-153021483.html?.tsrc=rss",
-      "published": "Fri, 28 Aug 2026 15:30:21 +0000",
-      "summary": "Ventas (VTR) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
       "is_signal": true
     },
     {
@@ -529,6 +529,17 @@
       "company": "Healthcare Realty Trust",
       "source": "HR",
       "category": "reit",
+      "title": "Down 5.8% in 4 Weeks, Here's Why You Should You Buy the Dip in Healthcare Realty Trust (HR)",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/down-5-8-4-weeks-133502940.html?.tsrc=rss",
+      "published": "Mon, 21 Sep 2026 13:35:02 +0000",
+      "summary": "The heavy selling pressure might have exhausted for Healthcare Realty Trust (HR) as it is technically in oversold territory now. In addition to this technical measure, strong agreement among Wall Street analysts in revising earnings estimates higher indicates that the stock is ripe for a trend rever\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": "HR",
+      "company": "Healthcare Realty Trust",
+      "source": "HR",
+      "category": "reit",
       "title": "Healthcare Realty Trust (HR) Upgraded to Buy: What Does It Mean for the Stock?",
       "link": "https://finance.yahoo.com/markets/stocks/articles/healthcare-realty-trust-hr-upgraded-160002781.html?.tsrc=rss",
       "published": "Mon, 07 Sep 2026 16:00:02 +0000",
@@ -555,17 +566,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/plunging-7-0-4-weeks-133501651.html?.tsrc=rss",
       "published": "Thu, 13 Aug 2026 13:35:01 +0000",
       "summary": "Healthcare Realty Trust (HR) has become technically an oversold stock now, which implies exhaustion of the heavy selling pressure on it. This, combined with strong agreement among Wall Street analysts in revising earnings estimates higher, indicates a potential trend reversal for the stock in the ne\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "HR",
-      "company": "Healthcare Realty Trust",
-      "source": "HR",
-      "category": "reit",
-      "title": "Healthcare Realty Trust (HR) Q2 2026 Earnings Call Transcript",
-      "link": "https://www.fool.com/earnings/call-transcripts/2026/08/07/healthcare-realty-trust-hr-q2-2026-earnings-call-transcript/?.tsrc=rss",
-      "published": "Sat, 08 Aug 2026 02:13:25 +0000",
-      "summary": "FFO guidance raised as occupancy and leasing spreads drive outperformance.",
       "is_signal": true
     },
     {
@@ -881,6 +881,17 @@
       "company": "Universal Health Realty",
       "source": "UHT",
       "category": "reit",
+      "title": "Universal Health Realty Income Trust's Dividend Analysis",
+      "link": "https://finance.yahoo.com/healthcare/articles/universal-health-realty-income-trusts-110915437.html?.tsrc=rss",
+      "published": "Mon, 21 Sep 2026 11:09:15 +0000",
+      "summary": "Universal Health Realty Income Trust (NYSE:UHT) recently announced a total dividend of $0.75 per share, with the ex-dividend date set for 2026-09-21.  This includes a $0.75 per share cash dividend payable on 2026-09-30.  As investors look forward to this upcoming payment, the spotlight also shines o\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": "UHT",
+      "company": "Universal Health Realty",
+      "source": "UHT",
+      "category": "reit",
       "title": "Universal Health Realty Stock Gains Post Q2 Earnings, FFO Improves",
       "link": "https://finance.yahoo.com/healthcare/articles/universal-health-realty-stock-gains-161700599.html?.tsrc=rss",
       "published": "Thu, 30 Jul 2026 16:17:00 +0000",
@@ -910,15 +921,26 @@
       "is_signal": true
     },
     {
-      "ticker": "UHT",
-      "company": "Universal Health Realty",
-      "source": "UHT",
-      "category": "reit",
-      "title": "UNIVERSAL HEALTH REALTY INCOME TRUST REPORTS FINANCIAL RESULTS FOR THE THREE AND SIX-MONTH PERIODS ENDED JUNE 30, 2026",
-      "link": "https://finance.yahoo.com/healthcare/articles/universal-health-realty-income-trust-202000275.html?.tsrc=rss",
-      "published": "Mon, 27 Jul 2026 20:20:00 +0000",
-      "summary": "Universal Health Realty Income Trust (NYSE: UHT) announced today that for the three-month period ended June 30, 2026, net income was $5.9 million, or $.43 per diluted share, as compared to $4.5 million, or $.32 per diluted share, during the second quarter of 2025.",
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
+      "title": "In With the\u00a0Old: How Clinical\u00a0Dashboards and Existing\u00a0Tech\u00a0Is\u00a0Helping\u00a0SNFs Maximize Reimbursement,\u00a0Reduce Payer\u00a0Burden",
+      "link": "https://skillednursingnews.com/2026/09/in-with-the-old-how-clinical-dashboards-and-existing-tech-is-helping-snfs-maximize-reimbursement-reduce-payer-burden/",
+      "published": "Mon, 21 Sep 2026 22:00:00 +0000",
+      "summary": "<p>To maximize payments, nursing homes don\u2019t necessarily need to deploy more technology but instead make better use of existing software, especially clinical dashboards, which are currently underutilized. Data derived from clinical dashboards can prevent attrition of payment. And, more widespread us\u2026",
       "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
+      "title": "Nursing Home\u00a0Capacity Shrinks in NY as Demand for Long-Term Care Looms",
+      "link": "https://skillednursingnews.com/2026/09/nursing-home-capacity-shrinks-in-ny-as-demand-for-long-term-care-looms/",
+      "published": "Mon, 21 Sep 2026 21:42:36 +0000",
+      "summary": "<p>The number of licensed nursing home beds and facilities has steadily declined in New York, reflecting a broader trend across the country. There have been 24 nursing home closures in the state since 2020, or a loss of more than 3,000 licensed beds, according to a report in the New York Times. As f\u2026",
+      "is_signal": false
     },
     {
       "ticker": null,
@@ -956,34 +978,12 @@
     {
       "ticker": null,
       "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "Inside the Trilogy Playbook: AHR Execs Showcase Operating Partner\u2019s Revenue Management, Development Expertise, Staffing Strategies",
-      "link": "https://skillednursingnews.com/2026/09/inside-the-trilogy-playbook-ahr-execs-showcase-operating-partners-revenue-management-development-expertise-staffing-strategies/",
-      "published": "Wed, 16 Sep 2026 22:07:26 +0000",
-      "summary": "<p>American Healthcare REIT (NYSE: AHR) sees regional nursing home operator Trilogy Health Services as a gold standard for operational lessons to apply across its portfolio and across care settings, and an \u201coperational laboratory\u201d to test out best practices. That\u2019s according to AHR Chairman and CEO \u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "Skilled Nursing\u00a0Dealbook: $413M in\u00a0Financings Across 13\u00a0States; 2-Facility\u00a0Nursing Home Portfolio\u00a0Changes Hands",
-      "link": "https://skillednursingnews.com/2026/09/skilled-nursing-dealbook-413-million-in-financings-across-13-states-2-facility-nursing-home-portfolio-changes-hands/",
-      "published": "Wed, 16 Sep 2026 22:00:00 +0000",
-      "summary": "<p>CFG announced the closing of 24 transactions totaling more than $413 million from late June through late August. Meanwhile, a two-facility skilled nursing portfolio in Vermont, totaling 94 licensed beds, changed hands. $413M in financing across 13 states CFG announced the closing of 24 transactio\u2026",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Trump touts pharma deals to offer cheaper drugs to state Medicaid programs",
-      "link": "https://www.statnews.com/2026/09/18/trump-touts-state-participation-generous-medicaid-drug-discount-program/?utm_campaign=rss",
-      "published": "Fri, 18 Sep 2026 20:22:36 +0000",
-      "summary": "Every state will participate in the GENEROUS program, but many of the details are unknown.",
+      "title": "STAT+: Members of Congress push back on plan to create a commission of political appointees to review NIH grants",
+      "link": "https://www.statnews.com/2026/09/21/trump-plan-for-commission-to-review-nih-grants-push-back/?utm_campaign=rss",
+      "published": "Mon, 21 Sep 2026 22:17:21 +0000",
+      "summary": "Several members of Congress voiced strong opposition about a reported plan to create a panel of political appointees to sign off on NIH grants",
       "is_signal": true
     },
     {
@@ -991,10 +991,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: \u00a0In a fight over denied claims, HCA sues out-of-state Blue Cross Blue Shield plan",
-      "link": "https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/?utm_campaign=rss",
-      "published": "Fri, 18 Sep 2026 16:41:53 +0000",
-      "summary": "Several Texas hospitals are suing an out-of-state Blue Cross for unpaid medical claims, highlighting the varying standards for whether care is medically necessary.",
+      "title": "STAT+: What a vote on Grail\u2019s cancer detection test could mean for the company, patients, and regulators",
+      "link": "https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/?utm_campaign=rss",
+      "published": "Mon, 21 Sep 2026 17:58:51 +0000",
+      "summary": "Shares in Grail, the company developing a blood test for cancer, surged Monday after the FDA posted documents ahead of an advisory committee meeting.",
       "is_signal": false
     },
     {
@@ -1002,10 +1002,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Roche expands its Boston footprint with new research center",
-      "link": "https://www.statnews.com/2026/09/18/biotech-news-roche-expands-it-boston-footprint-with-research-center/?utm_campaign=rss",
-      "published": "Fri, 18 Sep 2026 13:42:29 +0000",
-      "summary": "A gene therapy approved for Sanfilippo syndrome, good and bad news for Xenon Pharma, and more biotech news",
+      "title": "STAT+: Lilly\u2019s breast cancer combo wins approval",
+      "link": "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss",
+      "published": "Mon, 21 Sep 2026 15:08:38 +0000",
+      "summary": "The FDA just approved a new combination drug treatment for patients with an advanced form of breast cancer.",
       "is_signal": false
     },
     {
@@ -1013,10 +1013,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "link": "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/?utm_campaign=rss",
-      "published": "Fri, 18 Sep 2026 13:38:24 +0000",
-      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "title": "STAT+: Pharmalittle: We\u2019re reading about Novo plans to expand its pipeline, early Alkermes ADHD data, and more",
+      "link": "https://www.statnews.com/pharmalot/2026/09/21/novo-to-expand-pipeline-alkermes-releases-adhd-data/?utm_campaign=rss",
+      "published": "Mon, 21 Sep 2026 13:31:07 +0000",
+      "summary": "Novo Nodisk outlined plans to expand its pipeline and find new products that it could sell more like consumer goods than traditional medicines",
       "is_signal": false
     },
     {
@@ -1024,10 +1024,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Pharmalittle: We\u2019re reading about licensing deals with China, making drugs in space, and more",
-      "link": "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/?utm_campaign=rss",
-      "published": "Fri, 18 Sep 2026 13:29:38 +0000",
-      "summary": "The U.S. is working on rules for investing in China that would likely preserve pharma's ability to strike most licensing deals for Chinese drugs",
+      "title": "President Trump\u2019s newest vaccine \u2018demands\u2019 repeat old misinformation",
+      "link": "https://www.statnews.com/2026/09/21/health-news-trump-newest-vaccine-demands-repeat-old-misinformation/?utm_campaign=rss",
+      "published": "Mon, 21 Sep 2026 12:03:49 +0000",
+      "summary": "A day after health secretary Robert F. Kennedy Jr. promised that parents concerned about vaccines had a \u201cfriend\u201d in the White House, President Trump said he\u2019ll be \u201cdemanding\u201d that drug&#8230;",
       "is_signal": false
     },
     {
@@ -1143,23 +1143,12 @@
     {
       "ticker": null,
       "company": null,
-      "source": "24/7 Wall St.",
+      "source": "Yahoo Entertainment",
       "category": "broad",
-      "title": "This Safe Monthly Dividend Income Portfolio Has Baby Boomers Retiring Early",
-      "link": "https://247wallst.com/investing/2026/08/20/this-safe-monthly-dividend-income-portfolio-may-have-baby-boomers-retiring-early/",
-      "published": "2026-08-20T12:16:00Z",
-      "summary": "Social Security alone leaves most retirees scrambling to cover basic expenses, but a carefully constructed portfolio of five monthly dividend payers could ch...",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "PRNewswire",
-      "category": "broad",
-      "title": "Greenberg Traurig Advises National Healthcare Properties on Senior Housing Acquisitions in Multiple States",
-      "link": "https://www.prnewswire.com/news-releases/greenberg-traurig-advises-national-healthcare-properties-on-senior-housing-acquisitions-in-multiple-states-302881050.html",
-      "published": "2026-09-16T21:30:00Z",
-      "summary": "NEW YORK, Sept. 16, 2026 /PRNewswire/ -- Global law firm Greenberg Traurig, LLP represented National Healthcare Properties, Inc. (Nasdaq: NHP), a self-managed real estate investment trust focused on acquiring, owning, and investing in a diversified portfolio \u2026",
+      "title": "Healthpeak (DOC) Turns Portfolio Sales Into Fatter 2026 Guidance",
+      "link": "https://finance.yahoo.com/real-estate/articles/healthpeak-doc-turns-portfolio-sales-055531576.html",
+      "published": "2026-09-18T05:55:31Z",
+      "summary": "On August 4, Healthpeak Properties (NYSE:DOC) reported second-quarter results and raised its full-year 2026 guidance for the second time this year. The healt...",
       "is_signal": true
     },
     {
