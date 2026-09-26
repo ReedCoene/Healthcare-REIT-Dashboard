@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-24T23:58:08.437948+00:00",
-  "market_date": "September 24, 2026",
+  "last_updated": "2026-09-26T00:03:58.863506+00:00",
+  "market_date": "September 26, 2026",
   "stocks": {
     "WELL": {
       "name": "Welltower",
@@ -8,8 +8,8 @@
       "price": 233.61,
       "prev_close": 229.87,
       "pct_change": 1.63,
-      "market_cap": 168332836864,
-      "dividend_yield": 1.48,
+      "market_cap": 166718750720,
+      "dividend_yield": 1.46,
       "fifty_two_week_high": 255.2,
       "fifty_two_week_low": 163.75,
       "next_earnings": "2026-10-26"
@@ -20,11 +20,11 @@
       "price": 86.83,
       "prev_close": 86.64,
       "pct_change": 0.22,
-      "market_cap": 44539133952,
+      "market_cap": 44416024576,
       "dividend_yield": 2.4,
       "fifty_two_week_high": 101.6,
       "fifty_two_week_low": 66.93,
-      "next_earnings": "2026-10-28"
+      "next_earnings": "2026-10-27"
     },
     "DOC": {
       "name": "Healthpeak Properties",
@@ -32,8 +32,8 @@
       "price": 20.27,
       "prev_close": 20.48,
       "pct_change": -1.03,
-      "market_cap": 14370361344,
-      "dividend_yield": 5.96,
+      "market_cap": 14398718976,
+      "dividend_yield": 6.02,
       "fifty_two_week_high": 22.95,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2026-10-22"
@@ -44,8 +44,8 @@
       "price": 52.31,
       "prev_close": 51.7,
       "pct_change": 1.18,
-      "market_cap": 11403515904,
-      "dividend_yield": 1.93,
+      "market_cap": 11340296192,
+      "dividend_yield": 1.91,
       "fifty_two_week_high": 58.7,
       "fifty_two_week_low": 40.0,
       "next_earnings": "2026-11-05"
@@ -56,9 +56,9 @@
       "price": 50.48,
       "prev_close": 51.86,
       "pct_change": -2.66,
-      "market_cap": 8687369216,
-      "dividend_yield": 5.55,
-      "fifty_two_week_high": 85.78,
+      "market_cap": 8592717824,
+      "dividend_yield": 5.71,
+      "fifty_two_week_high": 85.37,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-10-26"
     },
@@ -68,8 +68,8 @@
       "price": 37.32,
       "prev_close": 37.17,
       "pct_change": 0.4,
-      "market_cap": 8818461696,
-      "dividend_yield": 4.2,
+      "market_cap": 8839728128,
+      "dividend_yield": 4.18,
       "fifty_two_week_high": 43.62,
       "fifty_two_week_low": 32.79,
       "next_earnings": "2026-11-09"
@@ -80,8 +80,8 @@
       "price": 17.83,
       "prev_close": 17.96,
       "pct_change": -0.72,
-      "market_cap": 6253907968,
-      "dividend_yield": 5.35,
+      "market_cap": 6331073536,
+      "dividend_yield": 5.38,
       "fifty_two_week_high": 22.04,
       "fifty_two_week_low": 16.31,
       "next_earnings": "2026-10-29"
@@ -92,8 +92,8 @@
       "price": 19.77,
       "prev_close": 19.69,
       "pct_change": 0.41,
-      "market_cap": 5050498560,
-      "dividend_yield": 6.1,
+      "market_cap": 5070935552,
+      "dividend_yield": 6.07,
       "fifty_two_week_high": 22.77,
       "fifty_two_week_low": 17.17,
       "next_earnings": "2026-11-04"
@@ -104,8 +104,8 @@
       "price": 30.2,
       "prev_close": 29.56,
       "pct_change": 2.17,
-      "market_cap": 9382620160,
-      "dividend_yield": 1.93,
+      "market_cap": 9336017920,
+      "dividend_yield": 1.89,
       "fifty_two_week_high": 32.83,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-11-03"
@@ -116,10 +116,10 @@
       "price": 67.16,
       "prev_close": 67.2,
       "pct_change": -0.06,
-      "market_cap": 3298256896,
+      "market_cap": 3286470144,
       "dividend_yield": 5.6,
       "fifty_two_week_high": 91.38,
-      "fifty_two_week_low": 66.55,
+      "fifty_two_week_low": 66.5304,
       "next_earnings": "2026-11-05"
     },
     "OHI": {
@@ -128,8 +128,8 @@
       "price": 46.33,
       "prev_close": 46.17,
       "pct_change": 0.35,
-      "market_cap": 14612262912,
-      "dividend_yield": 5.89,
+      "market_cap": 14596492288,
+      "dividend_yield": 5.87,
       "fifty_two_week_high": 52.39,
       "fifty_two_week_low": 39.26,
       "next_earnings": "2026-11-03"
@@ -140,8 +140,8 @@
       "price": 43.36,
       "prev_close": 42.54,
       "pct_change": 1.93,
-      "market_cap": 2337345280,
-      "dividend_yield": 5.36,
+      "market_cap": 2314704896,
+      "dividend_yield": 5.26,
       "fifty_two_week_high": 43.6,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2026-11-03"
@@ -152,7 +152,7 @@
       "price": 8.12,
       "prev_close": 8.13,
       "pct_change": -0.12,
-      "market_cap": 1966087424,
+      "market_cap": 1968508672,
       "dividend_yield": 30,
       "fifty_two_week_high": 9.66,
       "fifty_two_week_low": 3.92,
@@ -164,8 +164,8 @@
       "price": 14.31,
       "prev_close": 14.27,
       "pct_change": 0.28,
-      "market_cap": 408862368,
-      "dividend_yield": 12.35,
+      "market_cap": 411719520,
+      "dividend_yield": 12.32,
       "fifty_two_week_high": 19.165,
       "fifty_two_week_low": 13.23,
       "next_earnings": "2026-10-27"
@@ -176,8 +176,8 @@
       "price": 38.68,
       "prev_close": 38.4,
       "pct_change": 0.73,
-      "market_cap": 537601088,
-      "dividend_yield": 7.81,
+      "market_cap": 537184128,
+      "dividend_yield": 7.76,
       "fifty_two_week_high": 46.3,
       "fifty_two_week_low": 35.26,
       "next_earnings": "2026-10-26"
@@ -190,8 +190,8 @@
       "price": 30.2,
       "prev_close": 29.56,
       "pct_change": 2.17,
-      "market_cap": 9382620160,
-      "dividend_yield": 1.93,
+      "market_cap": 9336017920,
+      "dividend_yield": 1.89,
       "fifty_two_week_high": 32.83,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-11-03"
@@ -202,8 +202,8 @@
       "price": 43.36,
       "prev_close": 42.54,
       "pct_change": 1.93,
-      "market_cap": 2337345280,
-      "dividend_yield": 5.36,
+      "market_cap": 2314704896,
+      "dividend_yield": 5.26,
       "fifty_two_week_high": 43.6,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2026-11-03"
@@ -214,8 +214,8 @@
       "price": 233.61,
       "prev_close": 229.87,
       "pct_change": 1.63,
-      "market_cap": 168332836864,
-      "dividend_yield": 1.48,
+      "market_cap": 166718750720,
+      "dividend_yield": 1.46,
       "fifty_two_week_high": 255.2,
       "fifty_two_week_low": 163.75,
       "next_earnings": "2026-10-26"
@@ -228,8 +228,8 @@
       "price": 17.83,
       "prev_close": 17.96,
       "pct_change": -0.72,
-      "market_cap": 6253907968,
-      "dividend_yield": 5.35,
+      "market_cap": 6331073536,
+      "dividend_yield": 5.38,
       "fifty_two_week_high": 22.04,
       "fifty_two_week_low": 16.31,
       "next_earnings": "2026-10-29"
@@ -240,8 +240,8 @@
       "price": 20.27,
       "prev_close": 20.48,
       "pct_change": -1.03,
-      "market_cap": 14370361344,
-      "dividend_yield": 5.96,
+      "market_cap": 14398718976,
+      "dividend_yield": 6.02,
       "fifty_two_week_high": 22.95,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2026-10-22"
@@ -252,14 +252,25 @@
       "price": 50.48,
       "prev_close": 51.86,
       "pct_change": -2.66,
-      "market_cap": 8687369216,
-      "dividend_yield": 5.55,
-      "fifty_two_week_high": 85.78,
+      "market_cap": 8592717824,
+      "dividend_yield": 5.71,
+      "fifty_two_week_high": 85.37,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-10-26"
     }
   ],
   "news": [
+    {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "source": "WELL",
+      "category": "reit",
+      "title": "Why Welltower Stock Topped the Market on Thursday",
+      "link": "https://www.fool.com/investing/2026/09/24/why-welltower-stock-topped-the-market-on-thursday/?.tsrc=rss",
+      "published": "Thu, 24 Sep 2026 23:52:47 +0000",
+      "summary": "An analyst upgraded his recommendation on the specialty REIT.",
+      "is_signal": true
+    },
     {
       "ticker": "WELL",
       "company": "Welltower",
@@ -291,17 +302,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/welltower-well-fully-priced-217-191359642.html?.tsrc=rss",
       "published": "Tue, 22 Sep 2026 19:13:59 +0000",
       "summary": "Welltower has delivered a powerful long run for shareholders, and the latest price around US$232.76 puts a lot of expectation onto what its properties can generate in cash. The question now is whether those cash flows are strong and durable enough to support where the stock trades today. Over the pa\u2026",
-      "is_signal": false
-    },
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "America Is Aging Faster Than Its Housing Supply Can Keep Up. 3 REITs Are Positioned for the Gap",
-      "link": "https://247wallst.com/investing/2026/09/16/america-is-aging-faster-than-its-housing-supply-can-keep-up-3-reits-are-positioned-for-the-gap/?.tsrc=rss",
-      "published": "Wed, 16 Sep 2026 15:00:02 +0000",
-      "summary": "Two million Americans turn 80 in 2026, and the senior housing industry is nowhere near ready for what comes next. Three REITs are quietly capitalizing on a supply gap that took decades to build.",
       "is_signal": false
     },
     {
@@ -749,6 +749,17 @@
       "company": "LTC Properties",
       "source": "LTC",
       "category": "reit",
+      "title": "LTC Elects Co-Presidents and Co-CEOs Pam Kessler and Clint Malin to Board of Directors",
+      "link": "https://finance.yahoo.com/real-estate/articles/ltc-elects-co-presidents-co-131500014.html?.tsrc=rss",
+      "published": "Fri, 25 Sep 2026 13:15:00 +0000",
+      "summary": "WESTLAKE VILLAGE, Calif., September 25, 2026--LTC Properties, Inc. (NYSE: LTC) (\"LTC\" or the \"Company\"), a real estate investment trust specializing in seniors housing and health care properties, today announced that Pam Kessler and Clint Malin, Co-Presidents and Co-CEOs, have been elected to its Bo\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": "LTC",
+      "company": "LTC Properties",
+      "source": "LTC",
+      "category": "reit",
       "title": "LTC Properties Inc's Dividend Analysis",
       "link": "https://finance.yahoo.com/markets/stocks/articles/ltc-properties-incs-dividend-analysis-110402799.html?.tsrc=rss",
       "published": "Tue, 22 Sep 2026 11:04:02 +0000",
@@ -775,17 +786,6 @@
       "link": "https://finance.yahoo.com/real-estate/articles/ltc-properties-ltc-doubles-down-100500890.html?.tsrc=rss",
       "published": "Thu, 03 Sep 2026 10:05:00 +0000",
       "summary": "On August 5, LTC Properties (NYSE:LTC) reported second-quarter results for the period ended June 30, 2026, and the numbers show a real estate investment trust leaning harder into a strategy it only started a year ago. Total revenue climbed to $98.9 million from $60.2 million a year earlier, and net \u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "LTC",
-      "company": "LTC Properties",
-      "source": "LTC",
-      "category": "reit",
-      "title": "LTC Properties (LTC) Q2 2026 Earnings Call Transcript",
-      "link": "https://www.fool.com/earnings/call-transcripts/2026/08/12/ltc-properties-ltc-q2-2026-earnings-call-transcript/?.tsrc=rss",
-      "published": "Thu, 13 Aug 2026 00:13:59 +0000",
-      "summary": "SHOP segment acquisition guidance raised 50% to $900M as transformation accelerates.",
       "is_signal": true
     },
     {
@@ -925,6 +925,39 @@
       "company": null,
       "source": "Skilled Nursing News",
       "category": "sector",
+      "title": "Nursing Home\u00a0and\u00a0Executives Agree to Pay $1M For Overbilling Allegations",
+      "link": "https://skillednursingnews.com/2026/09/nursing-home-and-executives-agree-to-pay-1m-for-overbilling-allegations/",
+      "published": "Fri, 25 Sep 2026 22:00:00 +0000",
+      "summary": "<p>Massachusetts nursing home operator RegalCare Management Group and two of its executives have agreed to pay $1 million to resolve allegations that the company submitted false claims to Medicare and Medicaid for medically unnecessary rehabilitation therapy, federal prosecutors said Wednesday. Rega\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
+      "title": "\u2018Prolific\u2019 Win for Nursing Homes on Latest MDS Coding, But Discharge Clarity Still Needed",
+      "link": "https://skillednursingnews.com/2026/09/prolific-win-for-nursing-homes-on-latest-mds-coding-but-discharge-clarity-still-needed/",
+      "published": "Fri, 25 Sep 2026 21:42:15 +0000",
+      "summary": "<p>The latest update to the Minimum Data Set addresses a major concern for providers facing state case-mid audits and medical reviews, which often demand additional or conflicting documentation. But these updates by the Centers for Medicare and Medicaid Services (CMS) to the MDS 3.0 Resident Assessm\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
+      "title": "The Early Bird Deadline for the Aspect Marketing & Advertising Awards Ends September 30",
+      "link": "https://skillednursingnews.com/2026/09/the-early-bird-deadline-for-the-aspect-marketing-advertising-awards-ends-september-30/",
+      "published": "Fri, 25 Sep 2026 15:16:44 +0000",
+      "summary": "<p>Save $100 on your entry fee when you submit your Aspect Marketing &#38; Advertising Awards entries by September 30 at 11:59pm CDT. The Aspect Marketing &#38; Advertising Awards recognize outstanding creativity, innovation, and impact in marketing and advertising campaigns across the healthcare, p\u2026",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
       "title": "Lessons for Nursing Homes as the TEAM Model Drives Changes in Hospital Referral Partnerships",
       "link": "https://skillednursingnews.com/2026/09/lessons-for-nursing-homes-as-the-team-model-drives-changes-in-hospital-referral-partnerships/",
       "published": "Wed, 23 Sep 2026 22:00:00 +0000",
@@ -945,34 +978,12 @@
     {
       "ticker": null,
       "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "Future Leader: Malee Barker, Director of Hospitality, Avondale Health and Rehab",
-      "link": "https://skillednursingnews.com/2026/09/future-leader-malee-barker-director-of-hospitality-avondale-health-and-rehab/",
-      "published": "Wed, 23 Sep 2026 16:32:20 +0000",
-      "summary": "<p>Malee Barker, Director of Hospitality at Avondale Health and Rehab, has been named to the Future Leaders Awards Class of 2026 by Skilled Nursing News. To become a Future Leader, an individual is nominated by their peers. The candidate must be a high-performing employee who is 40 years of age or y\u2026",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "Skilled Nursing\u00a0Dealbook:\u00a0$180M in Financing for a 7-Facility Portfolio in North Carolina and Virginia",
-      "link": "https://skillednursingnews.com/2026/09/skilled-nursing-dealbook-180m-in-financing-for-a-7-facility-portfolio-in-north-carolina-and-virginia/",
-      "published": "Tue, 22 Sep 2026 22:00:00 +0000",
-      "summary": "<p>August Healthcare Group and 980Investments received $180 million in financing for a portfolio of seven nursing homes across North Carolina and Virginia. Meanwhile, a healthcare organization operating 15 facilities across various post-acute care settings, including skilled nursing, received $10 mi\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "Scaling the CNA Apprenticeship Program for Nursing Homes and the New \u2018Geriatric Specialist\u2019 Role",
-      "link": "https://skillednursingnews.com/2026/09/scaling-the-cna-apprenticeship-program-for-nursing-homes-and-the-new-geriatric-specialist-role/",
-      "published": "Tue, 22 Sep 2026 21:51:32 +0000",
-      "summary": "<p>A new kind of role is emerging in nursing homes: the geriatric specialist, a certified nurse aide (CNA) who has completed an apprenticeship designed to deepen clinical knowledge, build specialized skills and take on greater responsibility in caring for older adults. These CNA apprenticeships, whi\u2026",
+      "source": "STAT News",
+      "category": "broad",
+      "title": "STAT+: Licensing deals on generic versions of Roche flu drug aimed at preparing for pandemic",
+      "link": "https://www.statnews.com/pharmalot/2026/09/25/roche-xofluza-influenza-treatment-agreements/?utm_campaign=rss",
+      "published": "Fri, 25 Sep 2026 17:50:04 +0000",
+      "summary": "With an eye toward pandemic preparedness, a U.N.-backed agency has signed sub-licensing deals related to generic versions of a Roche influenza treatment.",
       "is_signal": false
     },
     {
@@ -980,10 +991,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: FDA commissioner nominee Heidi Overton keeps opinions to herself in Senate hearing",
-      "link": "https://www.statnews.com/2026/09/24/fda-commissioner-nominee-heidi-overton-senate-hearing-dodges-questions/?utm_campaign=rss",
-      "published": "Thu, 24 Sep 2026 20:21:32 +0000",
-      "summary": "Senators focused on asking Overton about vaccines, abortion, and vapes.",
+      "title": "STAT+: Lilly wins approval for once-weekly insulin shot",
+      "link": "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/?utm_campaign=rss",
+      "published": "Fri, 25 Sep 2026 15:25:10 +0000",
+      "summary": "The FDA approved Eli Lilly\u2019s Onswik, a once-weekly basal insulin for adults with type 2 diabetes, offering patients an alternative to daily long-acting insulin injections.",
       "is_signal": true
     },
     {
@@ -991,10 +1002,21 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "The FDA\u2019s Overton era, and dispatches from Shanghai",
-      "link": "https://www.statnews.com/2026/09/24/chronicling-chinese-drug-development-from-shanghai-readout-loud/?utm_campaign=rss",
-      "published": "Thu, 24 Sep 2026 19:30:38 +0000",
-      "summary": "The Readout LOUD is going international this week with a dispatch from Shanghai, along with notes on the FDA's Overton era.",
+      "title": "Opinion: FDA commissioner nominee Heidi Overton is ignoring the science on abortion drug",
+      "link": "https://www.statnews.com/2026/09/25/heidi-overton-confirmation-hearing-mifepristone-abortion-evasive/?utm_campaign=rss",
+      "published": "Fri, 25 Sep 2026 14:39:38 +0000",
+      "summary": "\u201cWith this latest appointment, mifepristone has a new boss but an old problem,\u201d writes Julie F. Kay, founder and CEO of Reproductive Futures.",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "STAT News",
+      "category": "broad",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "link": "https://www.statnews.com/pharmalot/2026/09/25/up-and-down-the-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss",
+      "published": "Fri, 25 Sep 2026 13:38:18 +0000",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
       "is_signal": false
     },
     {
@@ -1002,32 +1024,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "Senate finance committee backs Chris Klomp, advancing him to full Senate vote",
-      "link": "https://www.statnews.com/2026/09/24/chris-klomp-vote-senate-finance-committee-hhs-deputy-secretary/?utm_campaign=rss",
-      "published": "Thu, 24 Sep 2026 16:38:12 +0000",
-      "summary": "Klomp, a behind-the-scenes HHS power player, is likely to be confirmed as second-in-command to RFK Jr.",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "STAT+: Indonesian ruling against \u2018patent evergreening\u2019 by pharma industry sends critical message, patient advocates say",
-      "link": "https://www.statnews.com/pharmalot/2026/09/24/indonesian-court-rules-against-patent-evergreening-boosting-access-medicines/?utm_campaign=rss",
-      "published": "Thu, 24 Sep 2026 14:57:54 +0000",
-      "summary": "A recent court decision in Indonesia sends an important message to other countries to challenge the pharma industry's use of \"patent evergreening,\" patient advocates say.",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "STAT+: Kyverna\u2019s cell therapy shows lasting autoimmune benefit",
-      "link": "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/?utm_campaign=rss",
-      "published": "Thu, 24 Sep 2026 13:52:10 +0000",
-      "summary": "Kyverna Therapeutics is one step closer to launching the first cell therapy for an autoimmune disease, with new data in hand showing many patients remained off of other therapies a&#8230;",
+      "title": "STAT+: Pharmalittle: We\u2019re reading about a reticent FDA commish nominee, a Novo deal, and more",
+      "link": "https://www.statnews.com/pharmalot/2026/09/25/reticent-fda-commish-nominee-novo-deal/?utm_campaign=rss",
+      "published": "Fri, 25 Sep 2026 13:32:10 +0000",
+      "summary": "President Trump\u2019s nominee to lead the FDA was grilled by senators on hot button topics like China, vaccines, and abortion access",
       "is_signal": false
     },
     {
@@ -1183,17 +1183,6 @@
       "published": "2026-09-21T17:45:25Z",
       "summary": "This November, California voters will choose whether to implement Proposition 40, a one-time 5% wealth tax on billionaires to fund a failing health care system. It\u2019s part of a disturbing trend toward socialism in the U.S., wherein people misunderstand basic i\u2026",
       "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "Yahoo Entertainment",
-      "category": "broad",
-      "title": "Should You be Bullish on American Healthcare REIT (AHR)?",
-      "link": "https://finance.yahoo.com/real-estate/articles/bullish-american-healthcare-reit-ahr-143612697.html",
-      "published": "2026-09-21T14:36:12Z",
-      "summary": "Baron Capital, an investment management company, released its Q2 2026 letter for the \u201cBaron Real Estate Income Fund.\u201d The Fund gained 12.18% (Institutional S...",
-      "is_signal": true
     },
     {
       "ticker": null,
@@ -3637,6 +3626,19 @@
       "link": "https://www.sec.gov/Archives/edgar/data/888491/000088849125000029/ohi-20250915x8k.htm",
       "published": "2025-09-15T12:00:00Z",
       "summary": "Omega Healthcare Investors filed a 8-K with the SEC on 2025-09-15.",
+      "is_signal": true,
+      "is_priority": false
+    },
+    {
+      "ticker": "LTC",
+      "company": "LTC Properties",
+      "source": "SEC EDGAR",
+      "category": "filing",
+      "form": "8-K",
+      "title": "LTC \u2014 8-K (2026-09-25)",
+      "link": "https://www.sec.gov/Archives/edgar/data/887905/000110465926110666/tm2626112d1_8k.htm",
+      "published": "2026-09-25T12:00:00Z",
+      "summary": "LTC Properties filed a 8-K with the SEC on 2026-09-25.",
       "is_signal": true,
       "is_priority": false
     },
