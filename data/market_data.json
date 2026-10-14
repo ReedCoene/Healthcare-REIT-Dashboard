@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-13T02:41:13.863167+00:00",
-  "market_date": "October 13, 2026",
+  "last_updated": "2026-10-14T00:31:00.141049+00:00",
+  "market_date": "October 14, 2026",
   "stocks": {
     "WELL": {
       "name": "Welltower",
@@ -8,8 +8,8 @@
       "price": 230.29,
       "prev_close": 225.47,
       "pct_change": 2.14,
-      "market_cap": 165940527104,
-      "dividend_yield": 1.51,
+      "market_cap": 165832441856,
+      "dividend_yield": 1.48,
       "fifty_two_week_high": 255.2,
       "fifty_two_week_low": 166.88,
       "next_earnings": "2026-10-26"
@@ -20,8 +20,8 @@
       "price": 83.54,
       "prev_close": 82.04,
       "pct_change": 1.83,
-      "market_cap": 42851540992,
-      "dividend_yield": 2.54,
+      "market_cap": 43010551808,
+      "dividend_yield": 2.49,
       "fifty_two_week_high": 101.6,
       "fifty_two_week_low": 67.36,
       "next_earnings": "2026-10-27"
@@ -32,8 +32,8 @@
       "price": 18.95,
       "prev_close": 18.8,
       "pct_change": 0.8,
-      "market_cap": 13434551296,
-      "dividend_yield": 6.49,
+      "market_cap": 13455818752,
+      "dividend_yield": 6.44,
       "fifty_two_week_high": 22.95,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2026-11-02"
@@ -44,8 +44,8 @@
       "price": 52.52,
       "prev_close": 50.8,
       "pct_change": 3.39,
-      "market_cap": 11449295872,
-      "dividend_yield": 1.97,
+      "market_cap": 11451474944,
+      "dividend_yield": 1.9,
       "fifty_two_week_high": 58.7,
       "fifty_two_week_low": 41.15,
       "next_earnings": "2026-11-05"
@@ -56,8 +56,8 @@
       "price": 44.12,
       "prev_close": 45.51,
       "pct_change": -3.05,
-      "market_cap": 7592843776,
-      "dividend_yield": 6.33,
+      "market_cap": 7541215232,
+      "dividend_yield": 6.53,
       "fifty_two_week_high": 78.54,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-10-26"
@@ -68,8 +68,8 @@
       "price": 36.64,
       "prev_close": 36.03,
       "pct_change": 1.69,
-      "market_cap": 8657782784,
-      "dividend_yield": 4.33,
+      "market_cap": 8638879744,
+      "dividend_yield": 4.26,
       "fifty_two_week_high": 43.62,
       "fifty_two_week_low": 32.79,
       "next_earnings": "2026-11-09"
@@ -80,8 +80,8 @@
       "price": 17.21,
       "prev_close": 17.15,
       "pct_change": 0.35,
-      "market_cap": 5971831808,
-      "dividend_yield": 5.6,
+      "market_cap": 5975301632,
+      "dividend_yield": 5.58,
       "fifty_two_week_high": 22.04,
       "fifty_two_week_low": 16.31,
       "next_earnings": "2026-10-29"
@@ -92,8 +92,8 @@
       "price": 19.2,
       "prev_close": 18.96,
       "pct_change": 1.27,
-      "market_cap": 4904885248,
-      "dividend_yield": 6.33,
+      "market_cap": 4932985856,
+      "dividend_yield": 6.25,
       "fifty_two_week_high": 22.77,
       "fifty_two_week_low": 17.17,
       "next_earnings": "2026-11-04"
@@ -104,8 +104,8 @@
       "price": 28.73,
       "prev_close": 28.15,
       "pct_change": 2.06,
-      "market_cap": 8925916160,
-      "dividend_yield": 2.02,
+      "market_cap": 8963197952,
+      "dividend_yield": 1.98,
       "fifty_two_week_high": 32.83,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-11-02"
@@ -116,8 +116,8 @@
       "price": 65.62,
       "prev_close": 64.85,
       "pct_change": 1.19,
-      "market_cap": 3222626560,
-      "dividend_yield": 5.8,
+      "market_cap": 3221644288,
+      "dividend_yield": 5.73,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 63.51,
       "next_earnings": "2026-11-09"
@@ -128,8 +128,8 @@
       "price": 45.17,
       "prev_close": 44.41,
       "pct_change": 1.71,
-      "market_cap": 14422658048,
-      "dividend_yield": 6.12,
+      "market_cap": 14438623232,
+      "dividend_yield": 6.02,
       "fifty_two_week_high": 52.39,
       "fifty_two_week_low": 39.26,
       "next_earnings": "2026-11-03"
@@ -140,8 +140,8 @@
       "price": 43.05,
       "prev_close": 42.46,
       "pct_change": 1.39,
-      "market_cap": 2320634368,
-      "dividend_yield": 5.37,
+      "market_cap": 2313087744,
+      "dividend_yield": 5.3,
       "fifty_two_week_high": 43.6,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2026-11-03"
@@ -164,8 +164,8 @@
       "price": 13.53,
       "prev_close": 13.61,
       "pct_change": -0.59,
-      "market_cap": 387686464,
-      "dividend_yield": 12.95,
+      "market_cap": 385967264,
+      "dividend_yield": 13.03,
       "fifty_two_week_high": 19.165,
       "fifty_two_week_low": 13.295,
       "next_earnings": "2026-10-27"
@@ -176,8 +176,8 @@
       "price": 37.91,
       "prev_close": 37.57,
       "pct_change": 0.9,
-      "market_cap": 526899104,
-      "dividend_yield": 7.99,
+      "market_cap": 525509248,
+      "dividend_yield": 7.91,
       "fifty_two_week_high": 46.3,
       "fifty_two_week_low": 35.37,
       "next_earnings": "2026-10-26"
@@ -190,8 +190,8 @@
       "price": 52.52,
       "prev_close": 50.8,
       "pct_change": 3.39,
-      "market_cap": 11449295872,
-      "dividend_yield": 1.97,
+      "market_cap": 11451474944,
+      "dividend_yield": 1.9,
       "fifty_two_week_high": 58.7,
       "fifty_two_week_low": 41.15,
       "next_earnings": "2026-11-05"
@@ -202,8 +202,8 @@
       "price": 230.29,
       "prev_close": 225.47,
       "pct_change": 2.14,
-      "market_cap": 165940527104,
-      "dividend_yield": 1.51,
+      "market_cap": 165832441856,
+      "dividend_yield": 1.48,
       "fifty_two_week_high": 255.2,
       "fifty_two_week_low": 166.88,
       "next_earnings": "2026-10-26"
@@ -214,8 +214,8 @@
       "price": 28.73,
       "prev_close": 28.15,
       "pct_change": 2.06,
-      "market_cap": 8925916160,
-      "dividend_yield": 2.02,
+      "market_cap": 8963197952,
+      "dividend_yield": 1.98,
       "fifty_two_week_high": 32.83,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-11-02"
@@ -228,8 +228,8 @@
       "price": 17.21,
       "prev_close": 17.15,
       "pct_change": 0.35,
-      "market_cap": 5971831808,
-      "dividend_yield": 5.6,
+      "market_cap": 5975301632,
+      "dividend_yield": 5.58,
       "fifty_two_week_high": 22.04,
       "fifty_two_week_low": 16.31,
       "next_earnings": "2026-10-29"
@@ -240,8 +240,8 @@
       "price": 13.53,
       "prev_close": 13.61,
       "pct_change": -0.59,
-      "market_cap": 387686464,
-      "dividend_yield": 12.95,
+      "market_cap": 385967264,
+      "dividend_yield": 13.03,
       "fifty_two_week_high": 19.165,
       "fifty_two_week_low": 13.295,
       "next_earnings": "2026-10-27"
@@ -252,14 +252,25 @@
       "price": 44.12,
       "prev_close": 45.51,
       "pct_change": -3.05,
-      "market_cap": 7592843776,
-      "dividend_yield": 6.33,
+      "market_cap": 7541215232,
+      "dividend_yield": 6.53,
       "fifty_two_week_high": 78.54,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-10-26"
     }
   ],
   "news": [
+    {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "source": "WELL",
+      "category": "reit",
+      "title": "Welltower (WELL) Raises 2026 Outlook as Senior Housing NOI Growth Nears 19%",
+      "link": "https://finance.yahoo.com/real-estate/articles/welltower-well-raises-2026-outlook-153440850.html?.tsrc=rss",
+      "published": "Tue, 13 Oct 2026 15:34:40 +0000",
+      "summary": "Guinness Global Investors recently released its \u201cGlobal Real Assets Fund\u201d August 2026 investor letter. A copy of the letter can be downloaded here. The fund returned 0.8% in July, underperforming the MSCI World Core Infrastructure Index\u2019s 1.8% gain by 1 percentage point, but remained ahead year to d\u2026",
+      "is_signal": true
+    },
     {
       "ticker": "WELL",
       "company": "Welltower",
@@ -294,14 +305,14 @@
       "is_signal": true
     },
     {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
+      "ticker": "VTR",
+      "company": "Ventas",
+      "source": "VTR",
       "category": "reit",
-      "title": "Welltower Announces Date of Third Quarter 2026 Earnings Release, Conference Call and Webcast",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/welltower-announces-date-third-quarter-120000335.html?.tsrc=rss",
-      "published": "Wed, 23 Sep 2026 12:00:00 +0000",
-      "summary": "Welltower\u00ae Inc. (NYSE: WELL) today announced it will release third quarter 2026 financial results after the close of trading on the New York Stock Exchange on Monday, October 26, 2026. The Company will host a conference call and webcast on Tuesday, October 27, 2026, at 9:00 a.m. ET to discuss these \u2026",
+      "title": "Ventas (VTR) Targets Up to 17% NOI Growth and Expands Acquisition Budget to $3 Billion",
+      "link": "https://finance.yahoo.com/real-estate/articles/ventas-vtr-targets-17-noi-153701964.html?.tsrc=rss",
+      "published": "Tue, 13 Oct 2026 15:37:01 +0000",
+      "summary": "Guinness Global Investors recently released its \u201cGlobal Real Assets Fund\u201d August 2026 investor letter. A copy of the letter can be downloaded here. The fund returned 0.8% in July, underperforming the MSCI World Core Infrastructure Index\u2019s 1.8% gain by 1 percentage point, but remained ahead year to d\u2026",
       "is_signal": true
     },
     {
@@ -338,14 +349,14 @@
       "is_signal": false
     },
     {
-      "ticker": "VTR",
-      "company": "Ventas",
-      "source": "VTR",
+      "ticker": "DOC",
+      "company": "Healthpeak Properties",
+      "source": "DOC",
       "category": "reit",
-      "title": "Why Ventas (VTR) is a Top Dividend Stock for Your Portfolio",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-ventas-vtr-top-dividend-154503291.html?.tsrc=rss",
-      "published": "Fri, 18 Sep 2026 15:45:03 +0000",
-      "summary": "Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does Ventas (VTR) have what it takes? Let's find out.",
+      "title": "Healthpeak Properties (DOC) Reaffirmed Its Dividend, Is It Still Below Fair Value?",
+      "link": "https://finance.yahoo.com/real-estate/articles/healthpeak-properties-doc-reaffirmed-dividend-061338239.html?.tsrc=rss",
+      "published": "Tue, 13 Oct 2026 06:13:38 +0000",
+      "summary": "Healthpeak Properties (DOC) affirmed its monthly common dividend, setting a US$0.10167 per share payout for each month of the fourth quarter of 2026, equal to US$1.22 on an annualized basis. Healthpeak Properties shares trade at US$18.95, with a 1-year total shareholder return of 12.7% that contrast\u2026",
       "is_signal": true
     },
     {
@@ -379,17 +390,6 @@
       "link": "https://www.tikr.com/blog/better-high-yield-dividend-stock-vici-properties-vs-healthpeak?ref=yahoofinance&.tsrc=rss",
       "published": "Mon, 12 Oct 2026 16:45:00 +0000",
       "summary": "Key TakeawaysVICI Properties yields 8. 0% and Healthpeak Properties yields 6.",
-      "is_signal": true
-    },
-    {
-      "ticker": "DOC",
-      "company": "Healthpeak Properties",
-      "source": "DOC",
-      "category": "reit",
-      "title": "Better High-Yield Dividend Stock: Omega Healthcare vs. Healthpeak",
-      "link": "https://www.tikr.com/blog/better-high-yield-dividend-stock-omega-healthcare-vs-healthpeak?ref=yahoofinance&.tsrc=rss",
-      "published": "Mon, 12 Oct 2026 09:47:14 +0000",
-      "summary": "Key TakeawaysOmega Healthcare Investors raised its quarterly dividend to $0. 68 in July, and its shares yield 6.",
       "is_signal": true
     },
     {
@@ -749,6 +749,17 @@
       "company": "LTC Properties",
       "source": "LTC",
       "category": "reit",
+      "title": "LTC\u2019s SHOP Momentum Continues with $95 Million in New Acquisitions",
+      "link": "https://finance.yahoo.com/real-estate/articles/ltc-shop-momentum-continues-95-131500483.html?.tsrc=rss",
+      "published": "Tue, 13 Oct 2026 13:15:00 +0000",
+      "summary": "WESTLAKE VILLAGE, Calif., October 13, 2026--LTC Properties, Inc. (NYSE: LTC) (\"LTC\" or the \"Company\"), a real estate investment trust specializing in seniors housing and health care properties, today announced the acquisition of two communities in its seniors housing operating portfolio (\"SHOP\") for\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": "LTC",
+      "company": "LTC Properties",
+      "source": "LTC",
+      "category": "reit",
       "title": "3 Monthly Dividend Payers That Could Replace an October Paycheck",
       "link": "https://247wallst.com/investing/2026/10/07/3-monthly-dividend-payers-that-could-replace-an-october-paycheck/?.tsrc=rss",
       "published": "Wed, 07 Oct 2026 12:15:28 +0000",
@@ -775,17 +786,6 @@
       "link": "https://finance.yahoo.com/real-estate/articles/ltc-elects-co-presidents-co-131500014.html?.tsrc=rss",
       "published": "Fri, 25 Sep 2026 13:15:00 +0000",
       "summary": "WESTLAKE VILLAGE, Calif., September 25, 2026--LTC Properties, Inc. (NYSE: LTC) (\"LTC\" or the \"Company\"), a real estate investment trust specializing in seniors housing and health care properties, today announced that Pam Kessler and Clint Malin, Co-Presidents and Co-CEOs, have been elected to its Bo\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "LTC",
-      "company": "LTC Properties",
-      "source": "LTC",
-      "category": "reit",
-      "title": "LTC Properties Inc's Dividend Analysis",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ltc-properties-incs-dividend-analysis-110402799.html?.tsrc=rss",
-      "published": "Tue, 22 Sep 2026 11:04:02 +0000",
-      "summary": "This article first appeared on GuruFocus.  LTC Properties Inc (NYSE:LTC) recently announced a total dividend of $0.19 per share with the ex-dividend date set for 2026-09-22, including $0.19 per share cash dividend payable on 2026-09-30.  As investors look forward to this upcoming payment, the spotli\u2026",
       "is_signal": true
     },
     {
@@ -925,6 +925,28 @@
       "company": null,
       "source": "Skilled Nursing News",
       "category": "sector",
+      "title": "Nursing Home Fines Fall Across 49 States Despite More Deficiencies, Report Finds",
+      "link": "https://skillednursingnews.com/2026/10/nursing-home-fines-fall-across-49-states-despite-more-cited-deficiencies-report-finds/",
+      "published": "Tue, 13 Oct 2026 21:57:00 +0000",
+      "summary": "<p>Nursing home fines declined even as the number of deficiencies increased, according to a\u00a0new report released last week by the Long Term Care Community Coalition (LTCCC), a New York-based nonprofit.\u00a0 LTCCC\u2019s report, which analyzes deficiencies and fines on a per-resident basis rather than solely p\u2026",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
+      "title": "\u2018Pressure Release Valve\u2019: Inside the AI Roadmap of Nursing Homes Run by Cascadia, CarDon and FellowshipLIFE",
+      "link": "https://skillednursingnews.com/2026/10/pressure-release-valve-inside-the-ai-roadmap-of-nursing-homes-run-by-cascadia-cardon-and-fellowshiplife/",
+      "published": "Tue, 13 Oct 2026 21:24:09 +0000",
+      "summary": "<p>The roadmap for AI use in the nursing home is set to pack a one-two punch, with deployment of tools for administrative efficiencies first on the list, as providers also plan to explore clinical applications for future long-term use. But significant roadblocks remain, including limited interoperab\u2026",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
       "title": "As Nursing Home Occupancy Growth Slows, Quality Emerges as an \u2018Economic Flywheel\u2019 Amid Managed Care Shift \u2013 CLA Report",
       "link": "https://skillednursingnews.com/2026/10/as-nursing-home-occupancy-growth-slows-quality-emerges-as-an-economic-flywheel-amid-managed-care-shift-cla-report/",
       "published": "Fri, 09 Oct 2026 21:50:00 +0000",
@@ -956,34 +978,12 @@
     {
       "ticker": null,
       "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "Nursing Homes Are Meeting Practical Needs, But Need To Do Better on Promoting Independence and Privacy, Survey Shows",
-      "link": "https://skillednursingnews.com/2026/10/nursing-homes-are-meeting-practical-needs-but-need-to-do-better-on-promoting-independence-and-privacy-survey-shows/",
-      "published": "Wed, 07 Oct 2026 21:05:16 +0000",
-      "summary": "<p>While many older adults believe senior living care, including nursing homes, meets safety, care and meals well, operators can do a better job of promoting resident independence, privacy and respect to the same degree. According to a report based on a survey conducted by A Place for Mom and publis\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "State Increases Penalties for Nursing Homes With Staffing Levels Below Minimum",
-      "link": "https://skillednursingnews.com/2026/10/state-increases-penalties-for-nursing-homes-with-staffing-levels-below-minimum/",
-      "published": "Tue, 06 Oct 2026 22:00:00 +0000",
-      "summary": "<p>Massachusetts health officials have increased financial penalties for nursing homes with the state\u2019s lowest staffing levels, implementing a new Medicaid payment policy that took effect Thursday. Under the new MassHealth rules, nursing homes that fall below the state\u2019s minimum staffing standard of\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "Americans trust science more than peers around the world, survey shows",
-      "link": "https://www.statnews.com/2026/10/10/u-s-trust-science-higher-than-other-nations-wellcome-survey/?utm_campaign=rss",
-      "published": "Sat, 10 Oct 2026 23:01:00 +0000",
-      "summary": "Just 40 percent of Americans reported a lot of confidence in U.S.\u00a0hospitals and health clinics, the same proportion\u00a0as in Portugal and Uruguay.",
+      "title": "STAT+: BlackRock to buy majority stake in Humana\u2019s CenterWell clinics for $2.8 billion",
+      "link": "https://www.statnews.com/2026/10/13/blackrock-humana-centerwell-deal-senior-care-medicare-clinics/?utm_campaign=rss",
+      "published": "Tue, 13 Oct 2026 20:25:40 +0000",
+      "summary": "Humana is swapping out private equity sponsors for its CenterWell Senior Primary Care clinics. Good bye, Welsh, Carson, Anderson &#038; Stowe. Hello, BlackRock.",
       "is_signal": false
     },
     {
@@ -991,10 +991,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Biotech leader, leading lab leak theorist no longer in consideration for top infectious disease role",
-      "link": "https://www.statnews.com/2026/10/09/steven-quay-no-longer-in-consideration-for-top-infectious-disease-role/?utm_campaign=rss",
-      "published": "Fri, 09 Oct 2026 21:03:52 +0000",
-      "summary": "Steven Quay, a biopharmaceutical executive with no background in infectious diseases, is no longer being considered for director of the National Institute for Allergy and Infectious Diseases.",
+      "title": "Helen Branswell, whose reporting on infectious diseases and public health drew acclaim, dies at 69",
+      "link": "https://www.statnews.com/2026/10/13/helen-branswell-stat-reporter-obituary/?utm_campaign=rss",
+      "published": "Tue, 13 Oct 2026 18:11:36 +0000",
+      "summary": "Helen Branswell, STAT's infectious disease reporter who earned the respect of experts and public health officials with her accessible, prescient dispatches, has died at age 69.",
       "is_signal": false
     },
     {
@@ -1002,10 +1002,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Hospitals sue \u2013 again \u2013 to halt Trump administration\u2019s 340B rebate pilot",
-      "link": "https://www.statnews.com/2026/10/09/hospitals-sue-to-halt-340b-rebate-pilot-trump/?utm_campaign=rss",
-      "published": "Fri, 09 Oct 2026 20:27:27 +0000",
-      "summary": "The AHA is once again suing the Trump administration over its plan to revamp a federal drug discount program into one that provides after-the-fact rebates instead of upfront discounts.",
+      "title": "STAT+: Many patient, consumer reps on FDA advisory panels have ties to groups funded by pharma, analysis finds",
+      "link": "https://www.statnews.com/pharmalot/2026/10/13/many-patient-and-consumer-reps-on-fda-advisory-committees-ties-to-groups-funded-by-pharma/?utm_campaign=rss",
+      "published": "Tue, 13 Oct 2026 18:00:13 +0000",
+      "summary": "Nearly 40% of FDA advisory committee meetings over a 20-year period included either a patient or consumer rep with active ties to an advocacy group funded by pharma companies.",
       "is_signal": false
     },
     {
@@ -1013,10 +1013,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Pharma\u2019s free lunches for doctors boost inappropriate prescribing, analysis finds",
-      "link": "https://www.statnews.com/pharmalot/2026/10/09/pharma-free-lunches-to-doctors-boost-inappropriate-prescribing/?utm_campaign=rss",
-      "published": "Fri, 09 Oct 2026 16:33:55 +0000",
-      "summary": "The gifts and payments that doctors receive from drugmakers increased inappropriate prescribing, likely leading to rising health care costs, according to a new review.",
+      "title": "STAT+: Animosity in North Carolina, and MA shooting stars",
+      "link": "https://www.statnews.com/2026/10/13/animosity-in-north-carolina-and-ma-shooting-stars-health-care-inc/?utm_campaign=rss",
+      "published": "Tue, 13 Oct 2026 16:07:06 +0000",
+      "summary": "In this edition of Health Care Inc., we examine the controversy around the health plan covering North Carolina's public workers and retirees, and more.",
       "is_signal": false
     },
     {
@@ -1024,11 +1024,11 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Medicare Advantage star ratings trigger new bonuses, and uncertainty",
-      "link": "https://www.statnews.com/2026/10/09/medicare-advantage-insurers-star-ratings-2027-humana-alignment/?utm_campaign=rss",
-      "published": "Fri, 09 Oct 2026 15:55:47 +0000",
-      "summary": "The federal government has released new quality ratings for Medicare Advantage insurers for 2027, with Humana emerging as the biggest winner.",
-      "is_signal": true
+      "title": "STAT+: Doctors are giving generously to doctors running for office",
+      "link": "https://www.statnews.com/2026/10/13/health-policy-news-doctor-donations-maha-midterms/?utm_campaign=rss",
+      "published": "Tue, 13 Oct 2026 15:43:56 +0000",
+      "summary": "Doctors have a lot on the line in the next couple years, and they are donating big to doctors running for political office.",
+      "is_signal": false
     },
     {
       "ticker": null,
@@ -1150,17 +1150,6 @@
       "published": "2026-10-08T06:09:00Z",
       "summary": "The complex of 805 rental homes is located in Campus Flemingsberg, a growing medical, educational and research district linked to multiple universities and colleges in Greater Stockholm EQT Real Estate invested in the development from 2024, leading the develo\u2026",
       "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "Financial Post",
-      "category": "broad",
-      "title": "CAPREIT Announces Timing of Third Quarter 2026 Results & Conference Call",
-      "link": "https://financialpost.com/pmn/business-wire-news-releases-pmn/capreit-announces-timing-of-third-quarter-2026-results-conference-call",
-      "published": "2026-10-07T21:06:58Z",
-      "summary": "Not for distribution to U.S. newswire services or for dissemination in the United States. TORONTO \u2014 Canadian Apartment Properties Real Estate Investment Trust (\u201cCAPREIT\u201d) (TSX: CAR.UN) announced today it will issue its financial results for the three and nine\u2026",
-      "is_signal": true
     },
     {
       "ticker": null,
