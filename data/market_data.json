@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-16T23:47:25.352586+00:00",
-  "market_date": "October 16, 2026",
+  "last_updated": "2026-10-20T00:33:09.390089+00:00",
+  "market_date": "October 20, 2026",
   "stocks": {
     "WELL": {
       "name": "Welltower",
@@ -8,10 +8,10 @@
       "price": 234.85,
       "prev_close": 234.63,
       "pct_change": 0.09,
-      "market_cap": 169226338304,
+      "market_cap": 168260763648,
       "dividend_yield": 1.45,
       "fifty_two_week_high": 255.2,
-      "fifty_two_week_low": 172.5,
+      "fifty_two_week_low": 173.13,
       "next_earnings": "2026-10-26"
     },
     "VTR": {
@@ -20,8 +20,8 @@
       "price": 85.86,
       "prev_close": 84.86,
       "pct_change": 1.18,
-      "market_cap": 44041576448,
-      "dividend_yield": 2.45,
+      "market_cap": 43349098496,
+      "dividend_yield": 2.42,
       "fifty_two_week_high": 101.6,
       "fifty_two_week_low": 68.15,
       "next_earnings": "2026-10-27"
@@ -32,7 +32,7 @@
       "price": 18.98,
       "prev_close": 18.96,
       "pct_change": 0.11,
-      "market_cap": 13455818752,
+      "market_cap": 13044629504,
       "dividend_yield": 6.43,
       "fifty_two_week_high": 22.95,
       "fifty_two_week_low": 15.7,
@@ -44,8 +44,8 @@
       "price": 53.23,
       "prev_close": 53.01,
       "pct_change": 0.42,
-      "market_cap": 11604074496,
-      "dividend_yield": 1.89,
+      "market_cap": 11434035200,
+      "dividend_yield": 1.88,
       "fifty_two_week_high": 58.7,
       "fifty_two_week_low": 41.67,
       "next_earnings": "2026-11-05"
@@ -56,8 +56,8 @@
       "price": 41.62,
       "prev_close": 42.34,
       "pct_change": -1.7,
-      "market_cap": 7162605568,
-      "dividend_yield": 6.8,
+      "market_cap": 6992231424,
+      "dividend_yield": 6.92,
       "fifty_two_week_high": 78.51,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-10-26"
@@ -68,8 +68,8 @@
       "price": 36.55,
       "prev_close": 36.59,
       "pct_change": -0.11,
-      "market_cap": 8636516352,
-      "dividend_yield": 4.26,
+      "market_cap": 8468748288,
+      "dividend_yield": 4.27,
       "fifty_two_week_high": 43.62,
       "fifty_two_week_low": 33.72,
       "next_earnings": "2026-11-09"
@@ -80,8 +80,8 @@
       "price": 17.48,
       "prev_close": 17.36,
       "pct_change": 0.69,
-      "market_cap": 6065521152,
-      "dividend_yield": 5.53,
+      "market_cap": 5982241792,
+      "dividend_yield": 5.49,
       "fifty_two_week_high": 22.04,
       "fifty_two_week_low": 16.31,
       "next_earnings": "2026-10-29"
@@ -92,8 +92,8 @@
       "price": 19.34,
       "prev_close": 19.29,
       "pct_change": 0.26,
-      "market_cap": 4940649472,
-      "dividend_yield": 6.22,
+      "market_cap": 4874229248,
+      "dividend_yield": 6.2,
       "fifty_two_week_high": 22.77,
       "fifty_two_week_low": 17.17,
       "next_earnings": "2026-11-04"
@@ -102,10 +102,10 @@
       "name": "Janus Living",
       "ticker": "JAN",
       "price": 29.05,
-      "prev_close": 29.29,
-      "pct_change": -0.82,
-      "market_cap": 9025334272,
-      "dividend_yield": 1.95,
+      "prev_close": 29.24,
+      "pct_change": -0.66,
+      "market_cap": 8897954816,
+      "dividend_yield": 1.96,
       "fifty_two_week_high": 32.83,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-11-02"
@@ -116,8 +116,8 @@
       "price": 66.28,
       "prev_close": 65.67,
       "pct_change": 0.93,
-      "market_cap": 3255039488,
-      "dividend_yield": 5.73,
+      "market_cap": 3177444864,
+      "dividend_yield": 5.67,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 63.51,
       "next_earnings": "2026-11-09"
@@ -128,8 +128,8 @@
       "price": 45.64,
       "prev_close": 45.53,
       "pct_change": 0.24,
-      "market_cap": 14572727296,
-      "dividend_yield": 5.97,
+      "market_cap": 14333254656,
+      "dividend_yield": 5.96,
       "fifty_two_week_high": 52.39,
       "fifty_two_week_low": 39.26,
       "next_earnings": "2026-11-03"
@@ -140,8 +140,8 @@
       "price": 43.68,
       "prev_close": 43.34,
       "pct_change": 0.78,
-      "market_cap": 2354595072,
-      "dividend_yield": 5.26,
+      "market_cap": 2281283328,
+      "dividend_yield": 5.22,
       "fifty_two_week_high": 44.3,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2026-11-03"
@@ -152,7 +152,7 @@
       "price": 7.59,
       "prev_close": 7.61,
       "pct_change": -0.26,
-      "market_cap": 1837759104,
+      "market_cap": 1784490624,
       "dividend_yield": 30,
       "fifty_two_week_high": 9.66,
       "fifty_two_week_low": 3.92,
@@ -164,10 +164,10 @@
       "price": 13.24,
       "prev_close": 13.26,
       "pct_change": -0.15,
-      "market_cap": 379376864,
-      "dividend_yield": 13.29,
+      "market_cap": 366196096,
+      "dividend_yield": 13.31,
       "fifty_two_week_high": 19.165,
-      "fifty_two_week_low": 13.14,
+      "fifty_two_week_low": 12.59,
       "next_earnings": "2026-11-03"
     },
     "UHT": {
@@ -176,7 +176,7 @@
       "price": 38.15,
       "prev_close": 38.19,
       "pct_change": -0.1,
-      "market_cap": 530234816,
+      "market_cap": 510081728,
       "dividend_yield": 7.86,
       "fifty_two_week_high": 46.3,
       "fifty_two_week_low": 35.69,
@@ -190,8 +190,8 @@
       "price": 85.86,
       "prev_close": 84.86,
       "pct_change": 1.18,
-      "market_cap": 44041576448,
-      "dividend_yield": 2.45,
+      "market_cap": 43349098496,
+      "dividend_yield": 2.42,
       "fifty_two_week_high": 101.6,
       "fifty_two_week_low": 68.15,
       "next_earnings": "2026-10-27"
@@ -202,8 +202,8 @@
       "price": 66.28,
       "prev_close": 65.67,
       "pct_change": 0.93,
-      "market_cap": 3255039488,
-      "dividend_yield": 5.73,
+      "market_cap": 3177444864,
+      "dividend_yield": 5.67,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 63.51,
       "next_earnings": "2026-11-09"
@@ -214,8 +214,8 @@
       "price": 43.68,
       "prev_close": 43.34,
       "pct_change": 0.78,
-      "market_cap": 2354595072,
-      "dividend_yield": 5.26,
+      "market_cap": 2281283328,
+      "dividend_yield": 5.22,
       "fifty_two_week_high": 44.3,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2026-11-03"
@@ -228,7 +228,7 @@
       "price": 7.59,
       "prev_close": 7.61,
       "pct_change": -0.26,
-      "market_cap": 1837759104,
+      "market_cap": 1784490624,
       "dividend_yield": 30,
       "fifty_two_week_high": 9.66,
       "fifty_two_week_low": 3.92,
@@ -238,10 +238,10 @@
       "name": "Janus Living",
       "ticker": "JAN",
       "price": 29.05,
-      "prev_close": 29.29,
-      "pct_change": -0.82,
-      "market_cap": 9025334272,
-      "dividend_yield": 1.95,
+      "prev_close": 29.24,
+      "pct_change": -0.66,
+      "market_cap": 8897954816,
+      "dividend_yield": 1.96,
       "fifty_two_week_high": 32.83,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-11-02"
@@ -252,14 +252,25 @@
       "price": 41.62,
       "prev_close": 42.34,
       "pct_change": -1.7,
-      "market_cap": 7162605568,
-      "dividend_yield": 6.8,
+      "market_cap": 6992231424,
+      "dividend_yield": 6.92,
       "fifty_two_week_high": 78.51,
       "fifty_two_week_low": 39.41,
       "next_earnings": "2026-10-26"
     }
   ],
   "news": [
+    {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "source": "WELL",
+      "category": "reit",
+      "title": "Ventas vs. Welltower: Which Senior Housing REIT Pays Retirees Better?",
+      "link": "https://247wallst.com/investing/2026/10/17/ventas-vs-welltower-which-senior-housing-reit-pays-retirees-better/?.tsrc=rss",
+      "published": "Sat, 17 Oct 2026 13:00:46 +0000",
+      "summary": "Both senior housing giants raised dividends and beat expectations this quarter, but retirees choosing between them face a real tradeoff that comes down to how soon you need the money and how much risk you can stomach on the balance sheet.",
+      "is_signal": true
+    },
     {
       "ticker": "WELL",
       "company": "Welltower",
@@ -291,17 +302,6 @@
       "link": "https://www.barchart.com/story/news/5004000/welltowers-quarterly-earnings-preview-what-you-need-to-know?.tsrc=rss",
       "published": "Wed, 07 Oct 2026 12:16:39 +0000",
       "summary": "Welltower is gearing up to release its third-quarter earnings later this month, with analysts forecasting double-digit FFO growth.",
-      "is_signal": true
-    },
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "Why Welltower Stock Topped the Market on Thursday",
-      "link": "https://www.fool.com/investing/2026/09/24/why-welltower-stock-topped-the-market-on-thursday/?.tsrc=rss",
-      "published": "Thu, 24 Sep 2026 23:52:47 +0000",
-      "summary": "An analyst upgraded his recommendation on the specialty REIT.",
       "is_signal": true
     },
     {
@@ -573,6 +573,17 @@
       "company": "Sabra Health Care REIT",
       "source": "SBRA",
       "category": "reit",
+      "title": "Sabra Health Care REIT, Inc. Announces Third Quarter 2026 Earnings Release Date and Conference Call",
+      "link": "https://finance.yahoo.com/real-estate/articles/sabra-health-care-reit-inc-200500836.html?.tsrc=rss",
+      "published": "Mon, 19 Oct 2026 20:05:00 +0000",
+      "summary": "TUSTIN, Calif., October 19, 2026--Sabra Health Care REIT, Inc. (Nasdaq: SBRA) announced today that it will issue its 2026 third quarter earnings release on November 2, 2026, after the close of trading.",
+      "is_signal": true
+    },
+    {
+      "ticker": "SBRA",
+      "company": "Sabra Health Care REIT",
+      "source": "SBRA",
+      "category": "reit",
       "title": "Sabra Health Care REIT (SBRA) Q2 2026 Earnings Call Transcript",
       "link": "https://www.fool.com/earnings/call-transcripts/2026/08/10/sabra-health-care-reit-sbra-q2-2026-earnings-call-transcript/?.tsrc=rss",
       "published": "Tue, 11 Aug 2026 01:29:41 +0000",
@@ -599,17 +610,6 @@
       "link": "https://finance.yahoo.com/real-estate/articles/sabra-health-care-reit-inc-010038163.html?.tsrc=rss",
       "published": "Wed, 05 Aug 2026 01:00:38 +0000",
       "summary": "Sabra Health Care REIT Inc (SBRA) reports robust Q2 2026 results with normalized AFFO per share up 5% year-over-year, significant leverage reduction, and a $1 billion investment pipeline.",
-      "is_signal": true
-    },
-    {
-      "ticker": "SBRA",
-      "company": "Sabra Health Care REIT",
-      "source": "SBRA",
-      "category": "reit",
-      "title": "Sabra Healthcare (SBRA) Tops Q2 FFO and Revenue Estimates",
-      "link": "https://finance.yahoo.com/healthcare/articles/sabra-healthcare-sbra-tops-q2-214505862.html?.tsrc=rss",
-      "published": "Mon, 03 Aug 2026 21:45:05 +0000",
-      "summary": "Sabra (SBRA) delivered FFO and revenue surprises of +2.56% and +3.87%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
       "is_signal": true
     },
     {
@@ -925,6 +925,28 @@
       "company": null,
       "source": "Skilled Nursing News",
       "category": "sector",
+      "title": "\u2018Real Common Ground\u2019: Nursing Homes Support Key LTC Reform Proposals While Seeking Adjustments",
+      "link": "https://skillednursingnews.com/2026/10/real-common-ground-nursing-homes-support-key-ltc-reform-proposals-while-seeking-adjustments/",
+      "published": "Mon, 19 Oct 2026 22:46:00 +0000",
+      "summary": "<p>As lawmakers aim to overhaul the nation\u2019s long-term care (LTC) system, with proposals addressing nursing home ownership transparency and staffing standards, providers are seeking adjustments while expressing support for many of the proposed changes. Senate Finance Committee Democrats, led by Rank\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
+      "title": "Skilled Nursing\u00a0Dealbook: CFG Finances $806M for 36-SNF Acquisition; Dwight Closed $624M in September",
+      "link": "https://skillednursingnews.com/2026/10/skilled-nursing-dealbook-cfg-finances-806m-for-36-snf-acquisition-dwight-closed-624m-in-september/",
+      "published": "Mon, 19 Oct 2026 22:30:00 +0000",
+      "summary": "<p>A 36-SNF acquisition received $806 million in financing from CFG, while Dwight Capital and its affiliate closed $624 million in real estate financings in September. CFG Finances $806M for 36-SNF Acquisition CFG closed on an $806 million unitranche bridge-to-HUD loan on behalf of unnamed nationall\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
       "title": "Genesis Bankruptcy Plan Limits Compensation for Affected Nursing Home Residents",
       "link": "https://skillednursingnews.com/2026/10/genesis-bankruptcy-plan-limits-compensation-for-affected-nursing-home-residents/",
       "published": "Fri, 16 Oct 2026 22:20:00 +0000",
@@ -956,23 +978,12 @@
     {
       "ticker": null,
       "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "Genesis HealthCare Wins Court Approval for Nearly $1B Sale of 175 Nursing Homes to New Generation Affiliate",
-      "link": "https://skillednursingnews.com/2026/10/genesis-healthcare-wins-court-approval-for-nearly-1b-sale-of-175-nursing-homes-to-new-generation-affiliate/",
-      "published": "Wed, 14 Oct 2026 20:20:19 +0000",
-      "summary": "<p>Genesis HealthCare secured court approval Wednesday for the sale of its nationwide nursing home business to an affiliate of New Generation Health LLC for nearly $1 billion as part of its bankruptcy proceedings. Buyer 101 West State Street LLC will take over Genesis HealthCare\u2019s operations and emp\u2026",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "Nursing Home Fines Fall Across 49 States Despite More Deficiencies, Report Finds",
-      "link": "https://skillednursingnews.com/2026/10/nursing-home-fines-fall-across-49-states-despite-more-cited-deficiencies-report-finds/",
-      "published": "Tue, 13 Oct 2026 21:57:00 +0000",
-      "summary": "<p>Nursing home fines declined even as the number of deficiencies increased, according to a\u00a0new report released last week by the Long Term Care Community Coalition (LTCCC), a New York-based nonprofit.\u00a0 LTCCC\u2019s report, which analyzes deficiencies and fines on a per-resident basis rather than solely p\u2026",
+      "source": "STAT News",
+      "category": "broad",
+      "title": "Trump orders creation of NIH division, task force on women\u2019s health",
+      "link": "https://www.statnews.com/2026/10/19/executive-order-melania-trump-nih-division-on-womens-health/?utm_campaign=rss",
+      "published": "Mon, 19 Oct 2026 17:42:45 +0000",
+      "summary": "Melania Trump said a new research and policy initiative will set \u201ca new standard for women\u2019s health.\u201d",
       "is_signal": false
     },
     {
@@ -980,10 +991,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "Hospitals\u2019 next lucrative bet \u2014 longevity clinics",
-      "link": "https://www.statnews.com/2026/10/16/readout-loud-podcast-hospitals-longevity-clinics-northwestern/?utm_campaign=rss",
-      "published": "Fri, 16 Oct 2026 15:34:31 +0000",
-      "summary": "On this week's \u201cThe Readout LOUD,\u201d STAT's biotech podcast, we discuss the booming industry of longevity health.",
+      "title": "Opinion: I was a Theranos whistleblower. In \u2018You Can See Everything,\u2019 Elizabeth Holmes is still lying",
+      "link": "https://www.statnews.com/2026/10/19/elizabeth-holmes-theranos-whistleblower-tyler-shultz-insider-review/?utm_campaign=rss",
+      "published": "Mon, 19 Oct 2026 17:27:04 +0000",
+      "summary": "A more accurate name would be \u201cYou Can See Everything That We Chose To Point The Camera At,\u201dTheranos whistleblower Tyler Shultz writes.",
       "is_signal": false
     },
     {
@@ -991,10 +1002,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "link": "https://www.statnews.com/pharmalot/2026/10/16/up-down-ladder-jobs-pharma-biotech-gilead-bausch-sanofi/?utm_campaign=rss",
-      "published": "Fri, 16 Oct 2026 14:00:13 +0000",
-      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "title": "STAT+: The umpires getting rich off surprise medical bills, and MLB job lock",
+      "link": "https://www.statnews.com/2026/10/19/no-surprises-act-arbitrators-getting-rich-jake-bauers-health-insurance/?utm_campaign=rss",
+      "published": "Mon, 19 Oct 2026 15:43:35 +0000",
+      "summary": "We dig into trust, prices, and a bit of baseball in this week's Health Care Inc. newsletter.",
       "is_signal": false
     },
     {
@@ -1002,32 +1013,21 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Pharmalittle: We\u2019re reading about an HHS peptide push, Trump\u2019s pharma stock holdings, and more",
-      "link": "https://www.statnews.com/pharmalot/2026/10/16/hhs-peptide-push-trump-pharma-stock-holdings/?utm_campaign=rss",
-      "published": "Fri, 16 Oct 2026 13:49:21 +0000",
-      "summary": "The Trump administration is proceeding with a plan to allow compounding pharmacies to produce certain\u00a0peptides",
-      "is_signal": false
+      "title": "STAT+: China moves to restrict foreign biotech acquisitions",
+      "link": "https://www.statnews.com/2026/10/19/biotech-news-china-moves-to-restrict-foreign-biotech-acquisitons/?utm_campaign=rss",
+      "published": "Mon, 19 Oct 2026 14:58:31 +0000",
+      "summary": "China is proposing new restrictions on foreign acquisitions of critical biopharma technologies,\u00a0as the country seeks to retain control over its burgeoning drug development industry.",
+      "is_signal": true
     },
     {
       "ticker": null,
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: RevMed\u2019s pancreatic cancer drug nears European approval",
-      "link": "https://www.statnews.com/2026/10/16/biotech-news-revmed-pancreatic-cancer-drug-nears-european-approval/?utm_campaign=rss",
-      "published": "Fri, 16 Oct 2026 13:38:22 +0000",
-      "summary": "Following a green light from the FDA, European regulators have now recommended the approval of Revolution Medicines' Rasonque for pancreatic cancer.",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "What to read before you go see that new documentary on Elizabeth Holmes",
-      "link": "https://www.statnews.com/2026/10/16/health-news-what-to-read-before-elizabeth-holmes-you-can-see-everything/?utm_campaign=rss",
-      "published": "Fri, 16 Oct 2026 12:34:03 +0000",
-      "summary": "Ahead of \"You Can See Everything\" hitting theaters, let's rewind the last decade and review some of the most significant news tied to Elizabeth Holmes, who was convicted in 2022&#8230;",
+      "title": "Two former Republican lawmakers say the GOP\u2019s vaccine position is a liability",
+      "link": "https://www.statnews.com/2026/10/19/health-news-two-former-republican-congressmen-against-gop-vaccine-liability/?utm_campaign=rss",
+      "published": "Mon, 19 Oct 2026 13:39:28 +0000",
+      "summary": "The Republican party\u2019s confusing messaging on vaccines is going to hurt candidates in the midterms, two former GOP congressmen argue.",
       "is_signal": false
     },
     {
@@ -1088,34 +1088,12 @@
     {
       "ticker": null,
       "company": null,
-      "source": "Yahoo Entertainment",
+      "source": "Livemint",
       "category": "broad",
-      "title": "CareTrust REIT\u2019s (CTRE) $400M Bet Extends A Record Year",
-      "link": "https://finance.yahoo.com/real-estate/articles/caretrust-reit-ctre-400m-bet-160209188.html",
-      "published": "2026-09-16T16:02:09Z",
-      "summary": "On September 15, CareTrust REIT (NYSE:CTRE) announced it had closed on a $400 million skilled nursing portfolio in the Southwest, effective September 1, and...",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "24/7 Wall St.",
-      "category": "broad",
-      "title": "America Is Aging Faster Than Its Housing Supply Can Keep Up. 3 REITs Are Positioned for the Gap",
-      "link": "https://247wallst.com/investing/2026/09/16/america-is-aging-faster-than-its-housing-supply-can-keep-up-3-reits-are-positioned-for-the-gap/",
-      "published": "2026-09-16T15:00:02Z",
-      "summary": "Two million Americans turn 80 in 2026, and the senior housing industry is nowhere near ready for what comes next. Three REITs are quietly capitalizing on a s...",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "24/7 Wall St.",
-      "category": "broad",
-      "title": "The Baby Boomer Aging Wave Has Arrived. These 4 REITs Could Benefit for a Decade",
-      "link": "https://247wallst.com/investing/2026/09/16/the-baby-boomer-aging-wave-has-arrived-these-4-reits-could-benefit-for-a-decade/",
-      "published": "2026-09-16T13:47:03Z",
-      "summary": "Two million Americans will turn 80 this year alone, and a handful of REITs are already cashing in on a demographic wave that has barely begun. The four names...",
+      "title": "Senior citizen home hunt: Seeking house for aged parent? Below \u20b970 lakh, healthcare bring Kochi, Nashik, Haridwar on top",
+      "link": "https://www.livemint.com/money/senior-citizen-home-hunt-seek-house-aged-parents-price-below-70-lakh-healthcare-popular-kochi-nashik-haridwar-top-report-11792300192111.html",
+      "published": "2026-10-18T07:01:15Z",
+      "summary": "Senior citizen home hunt: Seeking house for aged parents? Home prices below \u20b970 lakh and improving healthcare options have made tier 2 cities and spiritual hubs such as Kochi, Nashik, Varanasi and Haridwar popular.&nbsp;",
       "is_signal": false
     },
     {
@@ -1154,13 +1132,13 @@
     {
       "ticker": null,
       "company": null,
-      "source": "Biztoc.com",
+      "source": "PRNewswire",
       "category": "broad",
-      "title": "CareTrust REIT\u2019s (CTRE) $400M Bet Extends A Record Year",
-      "link": "https://biztoc.com/x/f38c408753a31988",
-      "published": "2026-09-16T16:17:09Z",
-      "summary": "On September 15, CareTrust REIT (NYSE:CTRE) announced it had closed on a $400 million skilled nursing portfolio in the Southwest, effective September 1, and unveiled a reloaded $600 million investment pipeline behind it. The deal covers 2,622 licensed beds tr\u2026",
-      "is_signal": true
+      "title": "Two Summit Care Facilities Named to Newsweek's 2027 List of America's Best Nursing Homes",
+      "link": "https://www.prnewswire.com/news-releases/two-summit-care-facilities-named-to-newsweeks-2027-list-of-americas-best-nursing-homes-302911354.html",
+      "published": "2026-10-16T14:36:00Z",
+      "summary": "LUTZ, Fla., Oct. 16, 2026 /PRNewswire/ -- Newsweek's list of America's Best Nursing Homes for 2027 ranked Tampa Lakes Health and Rehabilitation, operated by Summit Care in Lutz, Florida, #40 in the category of facilities with more than 150 beds. Including jus\u2026",
+      "is_signal": false
     },
     {
       "ticker": "WELL",
@@ -2097,19 +2075,6 @@
       "summary": "Alexandria Real Estate Equities filed a 10-Q with the SEC on 2026-04-27.",
       "is_signal": true,
       "is_priority": true
-    },
-    {
-      "ticker": "ARE",
-      "company": "Alexandria Real Estate Equities",
-      "source": "SEC EDGAR",
-      "category": "filing",
-      "form": "8-K",
-      "title": "ARE \u2014 8-K (2026-03-31)",
-      "link": "https://www.sec.gov/Archives/edgar/data/1035443/000110465926037703/tm269829d1_8k.htm",
-      "published": "2026-03-31T12:00:00Z",
-      "summary": "Alexandria Real Estate Equities filed a 8-K with the SEC on 2026-03-31.",
-      "is_signal": true,
-      "is_priority": false
     },
     {
       "ticker": "CTRE",
