@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-10T03:44:38.165383+00:00",
-  "market_date": "November 10, 2026",
+  "last_updated": "2026-11-11T01:24:41.137983+00:00",
+  "market_date": "November 11, 2026",
   "stocks": {
     "WELL": {
       "name": "Welltower",
@@ -8,8 +8,8 @@
       "price": 247.35,
       "prev_close": 245.01,
       "pct_change": 0.96,
-      "market_cap": 181458403328,
-      "dividend_yield": 1.39,
+      "market_cap": 181685813248,
+      "dividend_yield": 1.37,
       "fifty_two_week_high": 255.2,
       "fifty_two_week_low": 181.47,
       "next_earnings": "2026-10-26"
@@ -20,8 +20,8 @@
       "price": 89.49,
       "prev_close": 88.75,
       "pct_change": 0.83,
-      "market_cap": 47324102656,
-      "dividend_yield": 2.34,
+      "market_cap": 47773597696,
+      "dividend_yield": 2.32,
       "fifty_two_week_high": 101.6,
       "fifty_two_week_low": 73.82,
       "next_earnings": "2026-10-27"
@@ -32,8 +32,8 @@
       "price": 20.62,
       "prev_close": 20.26,
       "pct_change": 1.78,
-      "market_cap": 14970507264,
-      "dividend_yield": 6.02,
+      "market_cap": 14818042880,
+      "dividend_yield": 5.92,
       "fifty_two_week_high": 22.95,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2027-02-01"
@@ -44,9 +44,9 @@
       "price": 58.96,
       "prev_close": 57.91,
       "pct_change": 1.81,
-      "market_cap": 13648016384,
-      "dividend_yield": 1.73,
-      "fifty_two_week_high": 59.21,
+      "market_cap": 13782544384,
+      "dividend_yield": 1.7,
+      "fifty_two_week_high": 59.53,
       "fifty_two_week_low": 44.81,
       "next_earnings": "2026-11-05"
     },
@@ -56,8 +56,8 @@
       "price": 45.88,
       "prev_close": 44.8,
       "pct_change": 2.41,
-      "market_cap": 7990490112,
-      "dividend_yield": 6.43,
+      "market_cap": 7784980992,
+      "dividend_yield": 6.28,
       "fifty_two_week_high": 59.76,
       "fifty_two_week_low": 38.34,
       "next_earnings": "2027-01-25"
@@ -68,8 +68,8 @@
       "price": 38.86,
       "prev_close": 38.21,
       "pct_change": 1.7,
-      "market_cap": 10012588032,
-      "dividend_yield": 4.08,
+      "market_cap": 10007435264,
+      "dividend_yield": 4.01,
       "fifty_two_week_high": 43.62,
       "fifty_two_week_low": 34.74,
       "next_earnings": "2026-11-05"
@@ -80,8 +80,8 @@
       "price": 19.36,
       "prev_close": 19.2,
       "pct_change": 0.83,
-      "market_cap": 6719478784,
-      "dividend_yield": 5.0,
+      "market_cap": 6716007936,
+      "dividend_yield": 4.96,
       "fifty_two_week_high": 22.04,
       "fifty_two_week_low": 16.31,
       "next_earnings": "2026-10-29"
@@ -92,8 +92,8 @@
       "price": 21.47,
       "prev_close": 21.02,
       "pct_change": 2.14,
-      "market_cap": 5624312320,
-      "dividend_yield": 5.71,
+      "market_cap": 5585018368,
+      "dividend_yield": 5.59,
       "fifty_two_week_high": 22.77,
       "fifty_two_week_low": 17.54,
       "next_earnings": "2026-11-02"
@@ -104,9 +104,9 @@
       "price": 32.02,
       "prev_close": 31.99,
       "pct_change": 0.09,
-      "market_cap": 9948062720,
+      "market_cap": 11207815168,
       "dividend_yield": 1.78,
-      "fifty_two_week_high": 32.83,
+      "fifty_two_week_high": 32.99,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-11-02"
     },
@@ -116,7 +116,7 @@
       "price": 71.23,
       "prev_close": 71.24,
       "pct_change": -0.01,
-      "market_cap": 3498136320,
+      "market_cap": 3329196288,
       "dividend_yield": 5.28,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 63.51,
@@ -128,8 +128,8 @@
       "price": 48.83,
       "prev_close": 48.19,
       "pct_change": 1.33,
-      "market_cap": 15539252224,
-      "dividend_yield": 5.64,
+      "market_cap": 15497881600,
+      "dividend_yield": 5.57,
       "fifty_two_week_high": 52.39,
       "fifty_two_week_low": 42.18,
       "next_earnings": "2027-02-03"
@@ -140,8 +140,8 @@
       "price": 44.98,
       "prev_close": 44.77,
       "pct_change": 0.47,
-      "market_cap": 2527501312,
-      "dividend_yield": 5.09,
+      "market_cap": 2498843648,
+      "dividend_yield": 5.07,
       "fifty_two_week_high": 46.92,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2026-11-03"
@@ -152,7 +152,7 @@
       "price": 7.32,
       "prev_close": 7.02,
       "pct_change": 4.27,
-      "market_cap": 1775313408,
+      "market_cap": 1794715776,
       "dividend_yield": 30,
       "fifty_two_week_high": 9.66,
       "fifty_two_week_low": 4.34,
@@ -164,8 +164,8 @@
       "price": 14.84,
       "prev_close": 14.71,
       "pct_change": 0.88,
-      "market_cap": 426492448,
-      "dividend_yield": 11.98,
+      "market_cap": 438850400,
+      "dividend_yield": 11.88,
       "fifty_two_week_high": 19.165,
       "fifty_two_week_low": 12.58,
       "next_earnings": "2026-11-03"
@@ -176,8 +176,8 @@
       "price": 39.23,
       "prev_close": 39.11,
       "pct_change": 0.31,
-      "market_cap": 545284544,
-      "dividend_yield": 7.67,
+      "market_cap": 538751936,
+      "dividend_yield": 7.65,
       "fifty_two_week_high": 46.3,
       "fifty_two_week_low": 36.07,
       "next_earnings": "2026-10-27"
@@ -190,7 +190,7 @@
       "price": 7.32,
       "prev_close": 7.02,
       "pct_change": 4.27,
-      "market_cap": 1775313408,
+      "market_cap": 1794715776,
       "dividend_yield": 30,
       "fifty_two_week_high": 9.66,
       "fifty_two_week_low": 4.34,
@@ -202,8 +202,8 @@
       "price": 45.88,
       "prev_close": 44.8,
       "pct_change": 2.41,
-      "market_cap": 7990490112,
-      "dividend_yield": 6.43,
+      "market_cap": 7784980992,
+      "dividend_yield": 6.28,
       "fifty_two_week_high": 59.76,
       "fifty_two_week_low": 38.34,
       "next_earnings": "2027-01-25"
@@ -214,8 +214,8 @@
       "price": 21.47,
       "prev_close": 21.02,
       "pct_change": 2.14,
-      "market_cap": 5624312320,
-      "dividend_yield": 5.71,
+      "market_cap": 5585018368,
+      "dividend_yield": 5.59,
       "fifty_two_week_high": 22.77,
       "fifty_two_week_low": 17.54,
       "next_earnings": "2026-11-02"
@@ -228,8 +228,8 @@
       "price": 39.23,
       "prev_close": 39.11,
       "pct_change": 0.31,
-      "market_cap": 545284544,
-      "dividend_yield": 7.67,
+      "market_cap": 538751936,
+      "dividend_yield": 7.65,
       "fifty_two_week_high": 46.3,
       "fifty_two_week_low": 36.07,
       "next_earnings": "2026-10-27"
@@ -240,9 +240,9 @@
       "price": 32.02,
       "prev_close": 31.99,
       "pct_change": 0.09,
-      "market_cap": 9948062720,
+      "market_cap": 11207815168,
       "dividend_yield": 1.78,
-      "fifty_two_week_high": 32.83,
+      "fifty_two_week_high": 32.99,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-11-02"
     },
@@ -252,7 +252,7 @@
       "price": 71.23,
       "prev_close": 71.24,
       "pct_change": -0.01,
-      "market_cap": 3498136320,
+      "market_cap": 3329196288,
       "dividend_yield": 5.28,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 63.51,
@@ -260,6 +260,17 @@
     }
   ],
   "news": [
+    {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "source": "WELL",
+      "category": "reit",
+      "title": "Welltower's Senior Housing Portfolio Should Help Deliver FFO Growth in 2027, 2028, RBC Says",
+      "link": "https://finance.yahoo.com/healthcare/articles/welltower-apos-senior-housing-portfolio-172900900.html?.tsrc=rss",
+      "published": "Tue, 10 Nov 2026 17:29:00 +0000",
+      "summary": "Welltower's (WELL) senior housing operating portfolio, or SHOP, should help deliver at least mid-tee",
+      "is_signal": true
+    },
     {
       "ticker": "WELL",
       "company": "Welltower",
@@ -291,17 +302,6 @@
       "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-welltower-093200818.html?.tsrc=rss",
       "published": "Mon, 02 Nov 2026 09:32:00 +0000",
       "summary": "WELL, TMUS and SBUX stand out for strong operating trends, but financing pressures, competition and execution risks shape their outlooks.",
-      "is_signal": true
-    },
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "Social Security Reform Could Reshape Welltower Stock And Senior Housing Demand",
-      "link": "https://finance.yahoo.com/healthcare/articles/social-security-reform-could-reshape-211558884.html?.tsrc=rss",
-      "published": "Fri, 30 Oct 2026 21:15:58 +0000",
-      "summary": "Social Security reform has moved from background noise to front-page risk, and that shift hits retirees and the companies serving them directly. Policy choices around benefit cuts, tax changes, and retirement ages could reshape how older Americans spend, save, and invest. This article looks at three\u2026",
       "is_signal": true
     },
     {
@@ -441,6 +441,17 @@
       "company": "Alexandria Real Estate Equities",
       "source": "ARE",
       "category": "reit",
+      "title": "Alexandria Real Estate: 3 Key Takeaways for Long-Term Investors",
+      "link": "https://www.fool.com/earnings/takeaways/2026/11/10/alexandria-real-estate-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+      "published": "Tue, 10 Nov 2026 17:50:02 +0000",
+      "summary": "Tech demand is reshaping the tenant mix at Alexandria's research properties, widening its customer base beyond biotech.",
+      "is_signal": true
+    },
+    {
+      "ticker": "ARE",
+      "company": "Alexandria Real Estate Equities",
+      "source": "ARE",
+      "category": "reit",
       "title": "Why Alexandria Real Estate Equities (ARE) Is Back In The Spotlight",
       "link": "https://finance.yahoo.com/real-estate/articles/why-alexandria-real-estate-equities-021657273.html?.tsrc=rss",
       "published": "Sun, 08 Nov 2026 02:16:57 +0000",
@@ -468,17 +479,6 @@
       "published": "Thu, 29 Oct 2026 13:11:26 +0000",
       "summary": "Alexandria Real Estate Equities has seen its share price retreat sharply in recent years. This puts fresh focus on a simple question for investors: Is the current valuation still in line with the cash flows that the business can realistically generate? Over the past 5 years the stock has fallen 75.8\u2026",
       "is_signal": false
-    },
-    {
-      "ticker": "ARE",
-      "company": "Alexandria Real Estate Equities",
-      "source": "ARE",
-      "category": "reit",
-      "title": "Alexandria Real Estate Equities, Inc. Celebrates 20 Years of Prix Galien USA and More than Two Decades of Investing in and Catalyzing Life Science Innovation in New York City",
-      "link": "https://finance.yahoo.com/healthcare/articles/alexandria-real-estate-equities-inc-123000788.html?.tsrc=rss",
-      "published": "Thu, 29 Oct 2026 12:30:00 +0000",
-      "summary": "Alexandria Real Estate Equities, Inc. (NYSE: ARE), the first, longest-tenured and pioneering owner, operator and developer of collaborative Megacampus\u2122 ecosystems in AAA life science and advanced technology innovation clusters, today celebrates the 20th anniversary of the Prix Galien USA in New York\u2026",
-      "is_signal": true
     },
     {
       "ticker": "CTRE",
@@ -661,6 +661,17 @@
       "company": "National Health Investors",
       "source": "NHI",
       "category": "reit",
+      "title": "National Health Investors Q3 Earnings Call Highlights",
+      "link": "https://www.marketbeat.com/instant-alerts/transcript-national-health-investors-q3-earnings-call-highlights-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "published": "Tue, 10 Nov 2026 22:14:45 +0000",
+      "summary": "National Health Investors (NYSE:NHI) reduced its full-year distribution guidance after its senior housing operating portfolio fell short of third-quarter expectations, even as the company continued shifting capital from skilled nursing into senior housing. Chief Executive Officer Eric Mendelsohn sa",
+      "is_signal": true
+    },
+    {
+      "ticker": "NHI",
+      "company": "National Health Investors",
+      "source": "NHI",
+      "category": "reit",
       "title": "National Health Investors (NHI) Misses Q3 FFO and Revenue Estimates",
       "link": "https://finance.yahoo.com/healthcare/articles/national-health-investors-nhi-misses-213503165.html?.tsrc=rss",
       "published": "Mon, 09 Nov 2026 21:35:03 +0000",
@@ -688,17 +699,6 @@
       "published": "Mon, 09 Nov 2026 21:10:00 +0000",
       "summary": "National Health Investors, Inc. (NYSE: NHI) has issued the following investor update which can be found at:",
       "is_signal": false
-    },
-    {
-      "ticker": "NHI",
-      "company": "National Health Investors",
-      "source": "NHI",
-      "category": "reit",
-      "title": "NHI Announces Third Quarter 2026 Results",
-      "link": "https://finance.yahoo.com/healthcare/articles/nhi-announces-third-quarter-2026-210500765.html?.tsrc=rss",
-      "published": "Mon, 09 Nov 2026 21:05:00 +0000",
-      "summary": "National Health Investors, Inc. (NYSE: NHI) announced today its results for the quarter ended September 30, 2026.",
-      "is_signal": true
     },
     {
       "ticker": "OHI",
@@ -969,6 +969,39 @@
       "company": null,
       "source": "Skilled Nursing News",
       "category": "sector",
+      "title": "OIG: County Hospitals Recouped $205M in Medicaid Supplemental Funds Intended for Nursing Homes, Raising Transparency Concerns",
+      "link": "https://skillednursingnews.com/2026/11/oig-county-hospitals-recouped-205m-in-medicaid-supplemental-funds-intended-for-nursing-homes-raising-transparency-concerns/",
+      "published": "Tue, 10 Nov 2026 23:00:00 +0000",
+      "summary": "<p>Indiana nursing homes missed out on $205.2 million in Medicaid supplemental payments \u2013 funds that were intended to increase Medicaid reimbursement to participating nursing facilities. Instead, the money was recouped by county hospitals in the state, which operate a vast majority of these faciliti\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
+      "title": "\u2018A Low-Margin Game\u2019: Nursing Home Operators Cascadia, CarDon Turn to Internal AI Systems for M&A, Clinical Efficiencies",
+      "link": "https://skillednursingnews.com/2026/11/a-low-margin-game-nursing-home-operators-cascadia-cardon-turn-to-internal-ai-systems-for-ma-clinical-efficiencies/",
+      "published": "Tue, 10 Nov 2026 22:46:45 +0000",
+      "summary": "<p>Nursing home operators are building their own internal AI systems in addition to partnering with vendors and integrating tech to assist with not only clinical needs but financial decisions, including how exactly to grow their footprints. Internally built basic learning models and other systems ar\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
+      "title": "U.S. News Nursing Home Report: \u2018Encouraging\u2019 Staffing Gains, Troubling Depressive Symptoms on the Rise",
+      "link": "https://skillednursingnews.com/2026/11/u-s-news-nursing-home-report-encouraging-staffing-gains-troubling-depressive-symptoms-on-the-rise/",
+      "published": "Tue, 10 Nov 2026 06:03:00 +0000",
+      "summary": "<p>Top performers among the U.S. News and World Report\u2019s nursing home ratings for 2027 \u2013 released Tuesday \u2013 are defined by a significant reduction in emergency room visits compared to the national average. The report also highlights moderate staffing gains as a win for the nursing home sector. The b\u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "Skilled Nursing News",
+      "category": "sector",
       "title": "Nearly Half of Nursing Home Residents Face Visual Impairment, With Cataracts the Leading Preventable Cause of Vision Loss",
       "link": "https://skillednursingnews.com/2026/11/nearly-half-of-nursing-home-residents-face-visual-impairment-with-cataracts-the-leading-preventable-cause-of-vision-loss/",
       "published": "Mon, 09 Nov 2026 23:00:00 +0000",
@@ -989,45 +1022,12 @@
     {
       "ticker": null,
       "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "Amid $1.69B in New 3Q Investments, AHR Execs Laud Trilogy\u2019s Nursing Home Occupancy and Expense Controls",
-      "link": "https://skillednursingnews.com/2026/11/amid-1-69b-in-new-3q-investments-ahr-execs-laud-trilogys-nursing-home-occupancy-and-expense-controls/",
-      "published": "Fri, 06 Nov 2026 22:45:00 +0000",
-      "summary": "<p>Skilled nursing occupancy at American Healthcare REIT\u2019s (NYSE: AHR) Trilogy portfolio was particularly strong despite the typical seasonal slowdown in the third quarter, with executives noting Trilogy\u2019s strong relationships with Medicare Advantage plans, successful expense controls and election r\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "CareTrust CEO On $740M in 3Q Investments, Nursing Home Rent Coverage and Growth Across Settings",
-      "link": "https://skillednursingnews.com/2026/11/caretrust-ceo-on-740m-in-3q-investments-nursing-home-rent-coverage-and-growth-across-settings/",
-      "published": "Fri, 06 Nov 2026 22:39:09 +0000",
-      "summary": "<p>CareTrust REIT (NYSE: CTRE) CEO David Sedgwick said he doesn\u2019t want the REIT to box itself in with one particular asset class and would like to continue growing in all care settings, including skilled nursing.\u00a0 CareTrust has holdings in seniors housing, U.K.-based care homes and, most recently, a\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "Skilled Nursing News",
-      "category": "sector",
-      "title": "[UPDATED] CMS Proposes Rule to Reduce Nursing Home and Health Care Burdens, Save $320M",
-      "link": "https://skillednursingnews.com/2026/11/cms-proposes-rule-to-reduce-nursing-home-and-health-care-burdens-save-320m/",
-      "published": "Fri, 06 Nov 2026 15:53:08 +0000",
-      "summary": "<p>The Centers for Medicare and Medicaid Services (CMS) issued on Thursday a long-awaited proposed rule aimed at reducing regulatory and administrative burdens across the health care industry, including nursing homes and other long-term care facilities. \u201cThe agency identified obsolete, outdated, and\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Ionis Pharmaceuticals shares plummet after slow rollout of biotech\u2019s triglyceride-lowering drug",
-      "link": "https://www.statnews.com/2026/11/09/ionis-pharmaceuticals-shares-plummet-after-tryngolza-slow-rollout/?utm_campaign=rss",
-      "published": "Tue, 10 Nov 2026 00:50:50 +0000",
-      "summary": "Ionis Pharmaceuticals lost more than $1 billion in market value on Monday after the company slashed sales projections for a triglyceride-lowering drug.",
+      "title": "STAT+: Democrats take new step toward investigating Trump\u2019s drug pricing deals",
+      "link": "https://www.statnews.com/2026/11/10/democrats-investigate-most-favored-nation-deals-letters-drugmakers/?utm_campaign=rss",
+      "published": "Tue, 10 Nov 2026 23:55:00 +0000",
+      "summary": "Incoming Democratic chairs of key committees have taken a step toward investigating MFN drug pricing agreements between drugmakers and the Trump administration.",
       "is_signal": false
     },
     {
@@ -1035,21 +1035,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: FDA approves novel Bayer drug to reduce recurrence of stroke",
-      "link": "https://www.statnews.com/2026/11/09/cardiovascular-stroke-recurrence-bayer-drug-fda-approval/?utm_campaign=rss",
-      "published": "Mon, 09 Nov 2026 22:28:43 +0000",
-      "summary": "Bayer's drug is the first in a novel class of medications designed to prevent blood clots without increasing risk of bleeding.",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "STAT+: Trump administration removes WuXi AppTec from its Chinese military list",
-      "link": "https://www.statnews.com/pharmalot/2026/11/09/trump-administration-removes-wuxi-apptec-from-its-chinese-military-list/?utm_campaign=rss",
-      "published": "Mon, 09 Nov 2026 20:51:50 +0000",
-      "summary": "The Trump administration has removed WuXi AppTec, a key partner for the pharma industry, from its list of \u201cChinese military companies\u201d operating in the U.S.",
+      "title": "STAT+: Wyden, Sanders hand-in-hand on \u2018Medicare for All\u2019 initiative",
+      "link": "https://www.statnews.com/2026/11/10/dc-diagnosis-wyden-sanders-aligned-on-medicare-for-all/?utm_campaign=rss",
+      "published": "Tue, 10 Nov 2026 20:05:20 +0000",
+      "summary": "Sen. Bernie Sanders said that he wants to lower the Medicare eligibility age by 10 years, among other initiatives.",
       "is_signal": true
     },
     {
@@ -1057,10 +1046,10 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Bill Ackman\u2019s bold plan to transform brain research",
-      "link": "https://www.statnews.com/2026/11/09/bill-ackman-launches-new-brain-research-institute/?utm_campaign=rss",
-      "published": "Mon, 09 Nov 2026 19:21:55 +0000",
-      "summary": "Billionaire Bill Ackman as a bold plan to transform brain research, spurred by a tragic backstory.",
+      "title": "STAT+: Former Eli Lilly rep claims she was fired for complaining about marketing of Mounjaro diabetes drug",
+      "link": "https://www.statnews.com/pharmalot/2026/11/10/former-lilly-rep-claims-she-was-fired-for-complaining-about-marketing-of-mounjaro-diabetes-drug/?utm_campaign=rss",
+      "published": "Tue, 10 Nov 2026 18:04:30 +0000",
+      "summary": "A former Eli Lilly sales rep filed a lawsuit alleging she was fired after claiming the company was inappropriately promoting its Mounjaro diabetes drug to combat weight loss.",
       "is_signal": false
     },
     {
@@ -1068,10 +1057,21 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
-      "title": "STAT+: Hospitals win the midterms, and Chopping Very Strategically",
-      "link": "https://www.statnews.com/2026/11/09/midterm-elections-good-news-for-hospitals-cvs-breakup-explained/?utm_campaign=rss",
-      "published": "Mon, 09 Nov 2026 17:54:13 +0000",
-      "summary": "We explain the CVS breakup, and why Democrats' election victories are good news for hospitals.",
+      "title": "STAT+: Men\u2019s use of chatbots for therapy, and earnings season highlights",
+      "link": "https://www.statnews.com/2026/11/10/chatbots-for-men-and-earnings-highlights-health-tech/?utm_campaign=rss",
+      "published": "Tue, 10 Nov 2026 17:18:42 +0000",
+      "summary": "In this edition of STAT Health Tech: Growing optimism around chatbots and men who avoid therapy, and highlights from the earnings season.",
+      "is_signal": true
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "STAT News",
+      "category": "broad",
+      "title": "STAT+: Oura to acquire Counsel Health for $625 million, placing a big bet on AI care",
+      "link": "https://www.statnews.com/2026/11/10/oura-acquires-counsel-health-big-bet-ai-care/?utm_campaign=rss",
+      "published": "Tue, 10 Nov 2026 17:14:42 +0000",
+      "summary": "Oura, the smart ring maker that recently delayed plans to go public, said it will pay $625 million to acquire Counsel Health, a clinical AI startup.",
       "is_signal": false
     },
     {
@@ -1161,17 +1161,6 @@
       "published": "2026-11-05T03:34:06Z",
       "summary": "DENVER, November 05, 2026--(BUSINESS WIRE)--Janus Living, Inc. (NYSE: JAN) (\"Janus Living\"), a pure-play senior housing real estate investment trust (REIT), announced today the pricing of its public offering of 26,250,000 shares of its Class A-1 common stock \u2026",
       "is_signal": true
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "BusinessLine",
-      "category": "broad",
-      "title": "Q2 Results Today Highlights: BSE, Sundaram Finance, Dabur, Nykaa, Lenskart, Alembic Pharma, Aurobindo Pharma, HUDCO, Apollo Hospitals, NHPC Q2 profit rises, Biocon, Zydus Life profit declines",
-      "link": "https://www.thehindubusinessline.com/markets/q2-results-today-highights-bse-cummins-zydus-apollo-lenskart-nykaa-aurobindo-nhpc-dabur-torrent-power-biocon-sundaram-premier-energies-physicswallah-nse-sbi-results-04-november-2026/article71660621.ece",
-      "published": "2026-11-04T16:13:38Z",
-      "summary": "Q2 Results Today, 04th November 2026 Updates: Find all the latest Q2 results 2026 updates of 63 Moons Technologies, Aarvi Encon, Aayush Art And Bullion, Abans Enterprises, Abhinav Capital Services, Accedere, Adroit Infotech, Advance Agrolife, Advance Petroche\u2026",
-      "is_signal": false
     },
     {
       "ticker": null,
@@ -1448,6 +1437,19 @@
       "link": "https://www.sec.gov/Archives/edgar/data/766704/000119312525251787/d69789d8k.htm",
       "published": "2025-10-27T12:00:00Z",
       "summary": "Welltower filed a 8-K with the SEC on 2025-10-27.",
+      "is_signal": true,
+      "is_priority": false
+    },
+    {
+      "ticker": "VTR",
+      "company": "Ventas",
+      "source": "SEC EDGAR",
+      "category": "filing",
+      "form": "8-K",
+      "title": "VTR \u2014 8-K (2026-11-10)",
+      "link": "https://www.sec.gov/Archives/edgar/data/740260/000110465926125187/tm2629457d1_8k.htm",
+      "published": "2026-11-10T12:00:00Z",
+      "summary": "Ventas filed a 8-K with the SEC on 2026-11-10.",
       "is_signal": true,
       "is_priority": false
     },
