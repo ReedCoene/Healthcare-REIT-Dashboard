@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-26T03:43:06.694189+00:00",
-  "market_date": "November 26, 2026",
+  "last_updated": "2026-11-27T03:44:05.626608+00:00",
+  "market_date": "November 27, 2026",
   "stocks": {
     "WELL": {
       "name": "Welltower",
@@ -9,7 +9,7 @@
       "prev_close": 245.14,
       "pct_change": 0.42,
       "market_cap": 180600061952,
-      "dividend_yield": 1.39,
+      "dividend_yield": 1.38,
       "fifty_two_week_high": 255.2,
       "fifty_two_week_low": 181.47,
       "next_earnings": "2027-02-09"
@@ -21,7 +21,7 @@
       "prev_close": 87.17,
       "pct_change": 0.22,
       "market_cap": 46197714944,
-      "dividend_yield": 2.39,
+      "dividend_yield": 2.38,
       "fifty_two_week_high": 101.6,
       "fifty_two_week_low": 73.82,
       "next_earnings": "2027-02-03"
@@ -33,7 +33,7 @@
       "prev_close": 20.37,
       "pct_change": 1.67,
       "market_cap": 15035847680,
-      "dividend_yield": 5.99,
+      "dividend_yield": 5.89,
       "fifty_two_week_high": 22.95,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2027-02-01"
@@ -45,7 +45,7 @@
       "prev_close": 59.75,
       "pct_change": 0.82,
       "market_cap": 13979802624,
-      "dividend_yield": 1.67,
+      "dividend_yield": 1.66,
       "fifty_two_week_high": 60.69,
       "fifty_two_week_low": 44.81,
       "next_earnings": "2026-11-05"
@@ -57,7 +57,7 @@
       "prev_close": 42.0,
       "pct_change": 2.6,
       "market_cap": 7504582144,
-      "dividend_yield": 6.86,
+      "dividend_yield": 6.68,
       "fifty_two_week_high": 59.76,
       "fifty_two_week_low": 38.34,
       "next_earnings": "2027-01-25"
@@ -69,7 +69,7 @@
       "prev_close": 38.35,
       "pct_change": 0.5,
       "market_cap": 9930137600,
-      "dividend_yield": 4.07,
+      "dividend_yield": 4.05,
       "fifty_two_week_high": 43.62,
       "fifty_two_week_low": 34.74,
       "next_earnings": "2027-02-18"
@@ -81,7 +81,7 @@
       "prev_close": 20.17,
       "pct_change": 1.39,
       "market_cap": 7097796608,
-      "dividend_yield": 4.76,
+      "dividend_yield": 4.69,
       "fifty_two_week_high": 22.04,
       "fifty_two_week_low": 16.31,
       "next_earnings": "2027-02-11"
@@ -93,7 +93,7 @@
       "prev_close": 21.03,
       "pct_change": 0.62,
       "market_cap": 5543104512,
-      "dividend_yield": 5.71,
+      "dividend_yield": 5.67,
       "fifty_two_week_high": 22.77,
       "fifty_two_week_low": 17.54,
       "next_earnings": "2027-02-11"
@@ -105,7 +105,7 @@
       "prev_close": 33.11,
       "pct_change": 2.17,
       "market_cap": 11531641856,
-      "dividend_yield": 1.72,
+      "dividend_yield": 1.68,
       "fifty_two_week_high": 34.1,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-11-02"
@@ -117,7 +117,7 @@
       "prev_close": 62.9,
       "pct_change": 0.89,
       "market_cap": 3116548096,
-      "dividend_yield": 5.98,
+      "dividend_yield": 5.93,
       "fifty_two_week_high": 91.38,
       "fifty_two_week_low": 59.05,
       "next_earnings": "2026-11-09"
@@ -129,7 +129,7 @@
       "prev_close": 47.06,
       "pct_change": 0.62,
       "market_cap": 15068268544,
-      "dividend_yield": 5.78,
+      "dividend_yield": 5.74,
       "fifty_two_week_high": 52.39,
       "fifty_two_week_low": 42.18,
       "next_earnings": "2027-02-03"
@@ -141,7 +141,7 @@
       "prev_close": 43.66,
       "pct_change": -0.76,
       "market_cap": 2434785024,
-      "dividend_yield": 5.22,
+      "dividend_yield": 5.26,
       "fifty_two_week_high": 46.92,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2027-02-23"
@@ -165,7 +165,7 @@
       "prev_close": 14.61,
       "pct_change": 0.14,
       "market_cap": 420457184,
-      "dividend_yield": 11.07,
+      "dividend_yield": 11.06,
       "fifty_two_week_high": 19.165,
       "fifty_two_week_low": 12.58,
       "next_earnings": "2027-02-16"
@@ -177,7 +177,7 @@
       "prev_close": 38.6,
       "pct_change": 0.16,
       "market_cap": 537361984,
-      "dividend_yield": 7.77,
+      "dividend_yield": 7.76,
       "fifty_two_week_high": 46.3,
       "fifty_two_week_low": 36.07,
       "next_earnings": "2026-10-27"
@@ -191,7 +191,7 @@
       "prev_close": 42.0,
       "pct_change": 2.6,
       "market_cap": 7504582144,
-      "dividend_yield": 6.86,
+      "dividend_yield": 6.68,
       "fifty_two_week_high": 59.76,
       "fifty_two_week_low": 38.34,
       "next_earnings": "2027-01-25"
@@ -203,7 +203,7 @@
       "prev_close": 33.11,
       "pct_change": 2.17,
       "market_cap": 11531641856,
-      "dividend_yield": 1.72,
+      "dividend_yield": 1.68,
       "fifty_two_week_high": 34.1,
       "fifty_two_week_low": 22.76,
       "next_earnings": "2026-11-02"
@@ -215,7 +215,7 @@
       "prev_close": 20.37,
       "pct_change": 1.67,
       "market_cap": 15035847680,
-      "dividend_yield": 5.99,
+      "dividend_yield": 5.89,
       "fifty_two_week_high": 22.95,
       "fifty_two_week_low": 15.7,
       "next_earnings": "2027-02-01"
@@ -229,7 +229,7 @@
       "prev_close": 38.6,
       "pct_change": 0.16,
       "market_cap": 537361984,
-      "dividend_yield": 7.77,
+      "dividend_yield": 7.76,
       "fifty_two_week_high": 46.3,
       "fifty_two_week_low": 36.07,
       "next_earnings": "2026-10-27"
@@ -241,7 +241,7 @@
       "prev_close": 14.61,
       "pct_change": 0.14,
       "market_cap": 420457184,
-      "dividend_yield": 11.07,
+      "dividend_yield": 11.06,
       "fifty_two_week_high": 19.165,
       "fifty_two_week_low": 12.58,
       "next_earnings": "2027-02-16"
@@ -253,13 +253,46 @@
       "prev_close": 43.66,
       "pct_change": -0.76,
       "market_cap": 2434785024,
-      "dividend_yield": 5.22,
+      "dividend_yield": 5.26,
       "fifty_two_week_high": 46.92,
       "fifty_two_week_low": 33.64,
       "next_earnings": "2027-02-23"
     }
   ],
   "news": [
+    {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "source": "WELL",
+      "category": "reit",
+      "title": "Welltower (WELL) Stock May Be 8% Overvalued On Nursing Home Deal",
+      "link": "https://finance.yahoo.com/real-estate/articles/welltower-well-stock-may-8-181452776.html?.tsrc=rss",
+      "published": "Thu, 26 Nov 2026 18:14:52 +0000",
+      "summary": "Welltower has been a powerful real estate play in recent years, which naturally raises a sharper question for you today. Is the current share price supported by the cash flows that the company is expected to generate, or has sentiment moved ahead of the underlying money coming in the door? Over the \u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "source": "WELL",
+      "category": "reit",
+      "title": "How Earnings Beat At Welltower (WELL) Has Changed Its Investment Story",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-welltower-well-changed-081313444.html?.tsrc=rss",
+      "published": "Thu, 26 Nov 2026 08:13:13 +0000",
+      "summary": "Welltower reported third quarter 2026 normalized FFO of $1.67 per share, ahead of estimates. The company raised its full year normalized FFO guidance and highlighted seniors housing operations and recent acquisitions as key contributors. The update underscored how seniors housing occupancy, revenue \u2026",
+      "is_signal": true
+    },
+    {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "source": "WELL",
+      "category": "reit",
+      "title": "Welltower (WELL), What Is Behind The Fresh Attention?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/welltower-well-behind-fresh-attention-071058448.html?.tsrc=rss",
+      "published": "Thu, 26 Nov 2026 07:10:58 +0000",
+      "summary": "Welltower (WELL) moved back into focus after reporting third quarter 2026 normalized FFO of $1.67 per share, beating estimates and prompting management to lift full year guidance for this key cash flow metric. The guidance lift has arrived alongside strong share price momentum, with Welltower\u2019s stoc\u2026",
+      "is_signal": true
+    },
     {
       "ticker": "WELL",
       "company": "Welltower",
@@ -272,37 +305,15 @@
       "is_signal": true
     },
     {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
+      "ticker": "VTR",
+      "company": "Ventas",
+      "source": "VTR",
       "category": "reit",
-      "title": "Welltower, Stock Of The Day, Flashes A Bullish Signal, Offers Defensive Growth",
-      "link": "https://finance.yahoo.com/m/548ee0bb-be37-3fb3-93d9-c4498dde87c0/welltower%2C-stock-of-the-day%2C.html?.tsrc=rss",
-      "published": "Fri, 20 Nov 2026 21:20:05 +0000",
-      "summary": "The S&amp;P 500 healthcare REIT Welltower targets a major demographic trend.",
-      "is_signal": false
-    },
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "3 Healthcare REITs Raised Their 2026 Outlooks as Senior Housing Demand Grows",
-      "link": "https://247wallst.com/investing/2026/11/20/3-healthcare-reits-raised-their-2026-outlooks-as-senior-housing-demand-grows/?.tsrc=rss",
-      "published": "Fri, 20 Nov 2026 16:47:01 +0000",
-      "summary": "Baby boomers are turning 80, and three healthcare REITs just raised their 2026 guidance to capture the demand. Yet each dividend carries a cut in its past and a different risk, so which payout can retirees actually trust?",
+      "title": "Why Is Ventas (VTR) Up 7.8% Since Last Earnings Report?",
+      "link": "https://finance.yahoo.com/real-estate/articles/why-ventas-vtr-7-8-153019581.html?.tsrc=rss",
+      "published": "Thu, 26 Nov 2026 15:30:19 +0000",
+      "summary": "Ventas (VTR) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
       "is_signal": true
-    },
-    {
-      "ticker": "WELL",
-      "company": "Welltower",
-      "source": "WELL",
-      "category": "reit",
-      "title": "Welltower Stock: Is Wall Street Bullish or Bearish?",
-      "link": "https://www.barchart.com/story/news/8817789/welltower-stock-is-wall-street-bullish-or-bearish?.tsrc=rss",
-      "published": "Fri, 13 Nov 2026 11:01:16 +0000",
-      "summary": "As Welltower has outperformed relative to the broader market over the past year, Wall Street analysts remain strongly optimistic about the stock\u2019s prospects.",
-      "is_signal": false
     },
     {
       "ticker": "VTR",
@@ -338,14 +349,14 @@
       "is_signal": true
     },
     {
-      "ticker": "VTR",
-      "company": "Ventas",
-      "source": "VTR",
+      "ticker": "DOC",
+      "company": "Healthpeak Properties",
+      "source": "DOC",
       "category": "reit",
-      "title": "Senior Housing Demand Is Rising. Can These 4 REITs Turn It Into Bigger Dividends?",
-      "link": "https://247wallst.com/investing/2026/10/31/senior-housing-demand-is-rising-can-these-4-reits-turn-it-into-bigger-dividends/?.tsrc=rss",
-      "published": "Sat, 31 Oct 2026 12:17:50 +0000",
-      "summary": "Baby boomers are turning 80 while builders put up almost no new senior housing, a setup that pushes rents and occupancy higher. But operator costs and government reimbursement decide how much profit actually reaches shareholders, and these four REITs handle that risk very differently.",
+      "title": "An $850,000 Portfolio in Park Hotels & Resorts, Healthpeak and Verizon Pays $51,477 a Year in Dividends. Here\u2019s What Happens if One Cuts",
+      "link": "https://www.tikr.com/blog/an-850000-portfolio-in-park-hotels-resorts-healthpeak-and-verizon-pays-52056-a-year-in-dividends-heres-what-happens-if-one-cuts?ref=yahoofinancedividend&tlnk=yf-261126-rg7ghxjj&.tsrc=rss",
+      "published": "Thu, 26 Nov 2026 18:20:24 +0000",
+      "summary": "Key TakeawaysA $850,000 portfolio split evenly across Park Hotels & Resorts, Healthpeak Properties and Verizon pays about $4,290 a month in dividends at today\u2019s prices. Each dividend is covered on its own measure: 51% of AFFO at Park, 72% of AFFO at Healthpeak, and 52% of free cash flow at Verizon.",
       "is_signal": true
     },
     {
@@ -380,17 +391,6 @@
       "published": "Thu, 12 Nov 2026 13:55:08 +0000",
       "summary": "Healthpeak Properties has outperformed the broader market over the past year, and analysts are moderately optimistic about the stock\u2019s prospects.",
       "is_signal": false
-    },
-    {
-      "ticker": "DOC",
-      "company": "Healthpeak Properties",
-      "source": "DOC",
-      "category": "reit",
-      "title": "Healthpeak: 3 Key Takeaways for Long-Term Investors",
-      "link": "https://www.fool.com/earnings/takeaways/2026/11/04/healthpeak-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
-      "published": "Wed, 04 Nov 2026 11:42:54 +0000",
-      "summary": "Lab buildings bought near existing campuses are targeted to climb from 41% occupancy toward a 9% to 10% stabilized yield, a plan that hinges on local scale.",
-      "is_signal": true
     },
     {
       "ticker": "AHR",
@@ -485,6 +485,17 @@
       "company": "CareTrust REIT",
       "source": "CTRE",
       "category": "reit",
+      "title": "Kimco Realty vs. CareTrust REIT: Which Dividend Stock Pays You More in 10 Years?",
+      "link": "https://www.tikr.com/blog/kimco-realty-vs-caretrust-reit-which-dividend-stock-pays-you-more-in-10-years?ref=yahoofinancedividend&tlnk=yf-261126-g74frpx6&.tsrc=rss",
+      "published": "Mon, 23 Nov 2026 22:26:36 +0000",
+      "summary": "Key TakeawaysKimco Realty and CareTrust REIT both yield 4. 5%, and both raised their 2026 guidance with their third-quarter results.",
+      "is_signal": true
+    },
+    {
+      "ticker": "CTRE",
+      "company": "CareTrust REIT",
+      "source": "CTRE",
+      "category": "reit",
       "title": "A $1,200,000 Portfolio in CareTrust REIT, Weyerhaeuser and HP Pays $50,247 a Year in Dividends. Here\u2019s What Happens if One Cuts",
       "link": "https://www.tikr.com/blog/a-1200000-portfolio-in-caretrust-reit-weyerhaeuser-and-hp-pays-50247-a-year-in-dividends-heres-what-happens-if-one-cuts?ref=yahoofinancedividend&tlnk=yf-261118-27hx6pq6&.tsrc=rss",
       "published": "Wed, 18 Nov 2026 15:48:52 +0000",
@@ -511,17 +522,6 @@
       "link": "https://finance.yahoo.com/real-estate/articles/caretrust-reit-inc-announces-pricing-053000984.html?.tsrc=rss",
       "published": "Thu, 12 Nov 2026 05:30:00 +0000",
       "summary": "DANA POINT, Calif., November 12, 2026--CareTrust REIT, Inc. (NYSE: CTRE) (\"CareTrust REIT\" or the \"Company\") announced the pricing of an underwritten public offering of an aggregate of 17,000,000 shares of its common stock sold on a forward basis in connection with the forward sale agreements descri\u2026",
-      "is_signal": true
-    },
-    {
-      "ticker": "CTRE",
-      "company": "CareTrust REIT",
-      "source": "CTRE",
-      "category": "reit",
-      "title": "CareTrust REIT stock falls on 17 million share offering",
-      "link": "https://finance.yahoo.com/real-estate/articles/caretrust-reit-stock-falls-17-222920277.html?.tsrc=rss",
-      "published": "Wed, 11 Nov 2026 22:29:20 +0000",
-      "summary": "Investing.com -- CareTrust REIT, Inc (NYSE:CTRE) shares fell 2.1% in after-hours trading Wednesday following the announcement of an underwritten public offering of 17 million shares of common stock.",
       "is_signal": true
     },
     {
@@ -1024,6 +1024,28 @@
       "company": null,
       "source": "STAT News",
       "category": "broad",
+      "title": "In a fertility advance, engineered molecular glue stabilizes chromosomes in aging eggs",
+      "link": "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/?utm_campaign=rss",
+      "published": "Thu, 26 Nov 2026 19:00:00 +0000",
+      "summary": "Researchers engineered a protein system capable of restoring normal chromosome connections in aging mouse eggs, raising hopes of one day improving IVF outcomes",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "STAT News",
+      "category": "broad",
+      "title": "STAT+: The grueling struggle to find a primary care doctor in the \u2018medical capital\u2019 of America",
+      "link": "https://www.statnews.com/2026/11/26/primary-care-appointment-times-doctor-shortage/?utm_campaign=rss",
+      "published": "Thu, 26 Nov 2026 12:00:00 +0000",
+      "summary": "Boston is supposed to be the medical capital of America. Yet many don\u2019t have primary care access, hurting their ability to get treatments, screenings, and medical advice.",
+      "is_signal": false
+    },
+    {
+      "ticker": null,
+      "company": null,
+      "source": "STAT News",
+      "category": "broad",
       "title": "Why Medicare\u2019s 2027 physician pay changes worry some specialists",
       "link": "https://www.statnews.com/2026/11/25/medicare-physician-fee-schedule-change-worry-some-specialists/?utm_campaign=rss",
       "published": "Wed, 25 Nov 2026 21:28:53 +0000",
@@ -1050,28 +1072,6 @@
       "link": "https://www.statnews.com/pharmalot/2026/11/25/biontech-founders-oncology-startup-gsk-egpa-drug-exdensur/?utm_campaign=rss",
       "published": "Wed, 25 Nov 2026 13:55:58 +0000",
       "summary": "The cofounders of BioNTech are in talks to raise about $1 billion for a new oncology company",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "RFK Jr. weighs in on plan to detonate toxic material in Iowa",
-      "link": "https://www.statnews.com/2026/11/25/health-news-rfk-jr-weighs-in-on-plan-to-detonate-toxic-material-in-iowa/?utm_campaign=rss",
-      "published": "Wed, 25 Nov 2026 13:03:56 +0000",
-      "summary": "This morning, the Army plans to detonate a cache of \u201cdangerously degraded\u201d toxic material in Iowa, with experts warning of dangerous health consequences:",
-      "is_signal": false
-    },
-    {
-      "ticker": null,
-      "company": null,
-      "source": "STAT News",
-      "category": "broad",
-      "title": "Opinion: Washington and Beijing are building walls around biotechnology. That\u2019s the wrong approach",
-      "link": "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss",
-      "published": "Wed, 25 Nov 2026 09:30:00 +0000",
-      "summary": "\u201cData show that the U.S.-China contest in biotechnology is not one race but several,\u201d writes Michael S. Kinch.",
       "is_signal": false
     },
     {
